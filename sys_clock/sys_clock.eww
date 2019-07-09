@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\auto_mode_LSE\auto_mode_LSE.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\manual_mode_HSI\No_Interrupt\manual_mode_no_interrupt_HSI.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>auto_mode_LSE/Debug</Project><Project>manual_mode_no_interrupt_HSI/Debug</Project></CurrentConfigs><CurrentProj>auto_mode_LSE</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>177</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+    <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>963</ColumnWidth1><ColumnWidth2>257</ColumnWidth2><ColumnWidth3>64</ColumnWidth3></Build><TerminalIO/><Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1285</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-9370-1036</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>auto_mode_LSE</ExpandedNode><ExpandedNode>auto_mode_LSE/Library</ExpandedNode><ExpandedNode>auto_mode_LSE/Library/clk.c</ExpandedNode><ExpandedNode>auto_mode_LSE/User</ExpandedNode><ExpandedNode>manual_mode_no_interrupt_HSI</ExpandedNode><ExpandedNode>manual_mode_no_interrupt_HSI/Library</ExpandedNode><ExpandedNode>manual_mode_no_interrupt_HSI/User</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-32713-7540</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-10601-14805</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane/><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-010F04B0><key>iaridepm.enu1</key></Toolbar-010F04B0></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>493</Bottom><Right>251</Right><x>-2</x><y>-2</y><xscreen>197</xscreen><yscreen>221</yscreen><sizeHorzCX>146577</sizeHorzCX><sizeHorzCY>291942</sizeHorzCY><sizeVertCX>188244</sizeVertCX><sizeVertCY>653897</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>219</Bottom><Right>1346</Right><x>-2</x><y>-2</y><xscreen>1348</xscreen><yscreen>221</yscreen><sizeHorzCX>1002976</sizeHorzCX><sizeHorzCY>291942</sizeHorzCY><sizeVertCX>146577</sizeVertCX><sizeVertCY>291942</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

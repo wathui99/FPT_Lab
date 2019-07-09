@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\macro_v\macro_v.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\struct_fb_v\struct_fb_v.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\struct_v\struct_v.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

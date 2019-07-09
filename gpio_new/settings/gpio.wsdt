@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>struct_v/Debug</Project><Project>struct_fb_v/Debug</Project><Project>macro_v/Debug</Project></CurrentConfigs><CurrentProj>struct_fb_v</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>263</Column0><Column1>3</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+    <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>584</ColumnWidth1><ColumnWidth2>556</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build><Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1307</ColumnWidth1></Debug-Log><TerminalIO/></Static>
+    <Windows>
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-18071-9350</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>macro_v</ExpandedNode><ExpandedNode>macro_v/Library</ExpandedNode><ExpandedNode>macro_v/User</ExpandedNode><ExpandedNode>struct_fb_v</ExpandedNode><ExpandedNode>struct_fb_v/Library</ExpandedNode><ExpandedNode>struct_v</ExpandedNode><ExpandedNode>struct_v/Library</ExpandedNode><ExpandedNode>struct_v/Library/tim4.c</ExpandedNode><ExpandedNode>struct_v/User</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-26374-13902</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-22779-24613</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\struct_fb_v\User\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>101</YPos2><SelStart2>2933</SelStart2><SelEnd2>2933</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\struct_fb_v\Library\src\tim4.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1</YPos2><SelStart2>544</SelStart2><SelEnd2>544</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\struct_fb_v\Library\inc\tim4.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>2</YPos2><SelStart2>890</SelStart2><SelEnd2>890</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\struct_fb_v\Library\src\clk.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>347</SelStart2><SelEnd2>403</SelEnd2></Tab><ActiveTab>3</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-053504B0><key>iaridepm.enu1</key></Toolbar-053504B0></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>493</Bottom><Right>313</Right><x>-2</x><y>-2</y><xscreen>197</xscreen><yscreen>221</yscreen><sizeHorzCX>146577</sizeHorzCX><sizeHorzCY>291942</sizeHorzCY><sizeVertCX>234375</sizeVertCX><sizeVertCY>653897</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>219</Bottom><Right>1346</Right><x>-2</x><y>-2</y><xscreen>1348</xscreen><yscreen>221</yscreen><sizeHorzCX>1002976</sizeHorzCX><sizeHorzCY>291942</sizeHorzCY><sizeVertCX>146577</sizeVertCX><sizeVertCY>291942</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

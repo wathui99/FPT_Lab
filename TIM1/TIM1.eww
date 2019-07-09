@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\TIMING\TIMING.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\TIMING_Bai2\TIMING_Bai2.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+
