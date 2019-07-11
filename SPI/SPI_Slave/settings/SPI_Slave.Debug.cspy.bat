@@ -19,6 +19,22 @@
 @REM 
 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\common\bin\cspybat" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\stm8\bin\stm8proc.dll" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\stm8\bin\stm8stlink.dll"  %1 --plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\stm8\bin\stm8bat.dll" --backend -B "-p" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\stm8\config\ddf\iostm8l152c6.ddf" "-d" "stlink" "--mcuname" "STM8L152C6" 
+@echo off 
 
+if not "%~1" == "" goto debugFile 
 
+@echo on 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\ThucLT\project\FPT_Lab\SPI\SPI_Slave\settings\SPI_Slave.Debug.general.xcl" --backend -f "D:\ThucLT\project\FPT_Lab\SPI\SPI_Slave\settings\SPI_Slave.Debug.driver.xcl" 
+
+@echo off 
+goto end 
+
+:debugFile 
+
+@echo on 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\ThucLT\project\FPT_Lab\SPI\SPI_Slave\settings\SPI_Slave.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\ThucLT\project\FPT_Lab\SPI\SPI_Slave\settings\SPI_Slave.Debug.driver.xcl" 
+
+@echo off 
+:end

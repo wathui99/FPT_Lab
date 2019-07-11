@@ -43,8 +43,11 @@ void SPI_Cmd(uint8_t NewState)
   }
 }
 
-uint8_t SPI_Transfer(uint8_t value) {
+void SPI_Transfer(uint8_t value) {
   SPI->DR = value;
-  while(!bit_is_set(SPI->SR, 1)) {} //wait until transmit complete (TX Buffer empty)
+  while(!bit_is_set(SPI->SR, 1)) {} //wait trans completed
+}
+
+uint8_t SPI_Get_DR(void) {
   return SPI->DR;
 }

@@ -3,6 +3,7 @@
 
 #include <stdint.h>
 #include "mymacro.h"
+#include <ctype.h> //xu ly ki tu
 
 typedef struct LCD_struct
 {
@@ -21,11 +22,11 @@ LCD_TypeDef;
 #define LCD_BASE                    (uint16_t)0x5400
 #define LCD                         ((LCD_TypeDef *) LCD_BASE)
 
-#define LCD_Sb(index, bit) (sbi(LCD->RAM[index],bit))
-
 void LCD_Init(void);
 void Start_Write_Ram(void);
-void LCD_Clear_Digits();
-void LCD_Print_Digits(uint8_t col, uint8_t value);
+void Lcd_Clear_Col(uint8_t pos);
+void Lcd_Clear_All(void);
+void Lcd_Print_Char(char charPrint, uint8_t pos);
+void Lcd_Print_String(char* str, uint8_t pos);
 
 #endif /* __LCD_H */

@@ -112,6 +112,7 @@ void SPI_Init(SPI_FirstBit_TypeDef SPI_FirstBit,
               SPI_CPHA_TypeDef SPI_CPHA, SPI_DirectionMode_TypeDef SPI_Data_Direction,
               SPI_NSS_TypeDef SPI_Slave_Management, uint8_t CRCPolynomial);
 void SPI_Cmd(uint8_t NewState);
-uint8_t SPI_Transfer(uint8_t value);
+void SPI_Transfer(uint8_t value);
+uint8_t SPI_Get_DR(void);
 
 #endif /* __SPI_H */

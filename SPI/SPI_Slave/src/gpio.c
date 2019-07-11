@@ -23,28 +23,22 @@ void GPIO_Init() {
   cbi(GPIOC->CR1, 1); //floating(0), pull-up(1)
   sbi(GPIOC->CR2, 1); //interrupt en(1), interrupt dis(0)
   /* SPI Init GPIO */
-  cbi(GPIOB->DDR, 6);   // PA6 - MOSI - OUTPUT
-  sbi(GPIOB->CR1, 6);   // push-pull
-  cbi(GPIOB->CR2, 6);   // fast
+  cbi(GPIOB->DDR, 6);   // PB6 - MOSI - INPUT
+  sbi(GPIOB->CR1, 6);   // pull-up
+  cbi(GPIOB->CR2, 6);   // no interrupt
   
-  sbi(GPIOB->DDR, 7);   // PA2 - MISO - INPUT
-  sbi(GPIOB->CR1, 7);   // pull-up
-  sbi(GPIOB->CR2, 7);   // disable interrupt
+  sbi(GPIOB->DDR, 7);   // PB7 - MISO - OUTPUT
+  sbi(GPIOB->CR1, 7);   // push-pull
+  sbi(GPIOB->CR2, 7);   // fast
   
-  cbi(GPIOB->DDR, 5);   // PC6 - SCK - OUTPUT
-  sbi(GPIOB->CR1, 5);   // push-pull
-  cbi(GPIOB->CR2, 5);   // fast mode
-  //cbi(GPIOB->ODR, 5);   // pull low SCK
-  
+  cbi(GPIOB->DDR, 5);   // PB5 - SCK - INPUT
+  sbi(GPIOB->CR1, 5);   // pull-up
+  cbi(GPIOB->CR2, 5);   // no interrupt
+  /*
   cbi(GPIOB->DDR, 4);   // PE7 - NSS - OUTPUT
   sbi(GPIOB->CR1, 4);   // push-pull
   cbi(GPIOB->CR2, 4);   // high
-  //sbi(GPIOB->ODR, 4);   // pull high
-  
-  sbi(GPIOE->DDR, 7);
-  sbi(GPIOE->CR1, 7);
-  sbi(GPIOE->CR1, 7);
-  cbi(GPIOE->ODR, 7);
+  */
 }
 void GPIO_Write_Bit(GPIO_TypeDef *GPIO, uint8_t bit, uint8_t state) {
 	if(state == ON) {

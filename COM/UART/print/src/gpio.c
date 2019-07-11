@@ -32,6 +32,19 @@ void GPIO_Init() {
   cbi(GPIOC->DDR, 1); //input mode
   cbi(GPIOC->CR1, 1); //floating(0), pull-up(1)
   sbi(GPIOC->CR2, 1); //interrupt en(1), interrupt dis(0)
+  /* TX */
+  
+  sbi(GPIOC->DDR, 2); //output mode
+  sbi(GPIOC->CR1, 2); //push-pull(1), open-drain(0)
+  sbi(GPIOC->CR2, 2); //high speed output(10Mhz)(1), low speed(0)(2Mhz)
+  sbi(GPIOC->ODR, 2); //reset state
+  
+  /* RX */
+  
+  cbi(GPIOC->DDR, 3); //input mode
+  sbi(GPIOC->CR1, 3); //floating(0), pull-up(1)
+  cbi(GPIOC->CR2, 3); //interrupt en(1), interrupt dis(0)
+  
 }
 void GPIO_Write_Bit(GPIO_TypeDef *GPIO, uint8_t bit, uint8_t state) {
 	if(state == ON) {
