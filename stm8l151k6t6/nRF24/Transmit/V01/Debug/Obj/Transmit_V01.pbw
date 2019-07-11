@@ -5724,1207 +5724,229 @@
     "scope": null
   },
   {
-    "ID": "c:spi.h@25@macro@__SPI_H",
+    "ID": "c:itc.h@25@macro@__ITC_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__SPI_H",
+    "display": "__ITC_H",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
     },
-    "name": "__SPI_H",
+    "name": "__ITC_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@EA@SPI_DirectionMode_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@SPI_DirectionMode_TypeDef@SPI_Direction_2Lines_FullDuplex",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_Direction_2Lines_FullDuplex",
-        "location": {
-          "column": "3",
-          "line": "8",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_Direction_2Lines_FullDuplex",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_DirectionMode_TypeDef@SPI_Direction_2Lines_RxOnly",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_Direction_2Lines_RxOnly",
-        "location": {
-          "column": "3",
-          "line": "9",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_Direction_2Lines_RxOnly",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_DirectionMode_TypeDef@SPI_Direction_1Line_Rx",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_Direction_1Line_Rx",
-        "location": {
-          "column": "3",
-          "line": "10",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_Direction_1Line_Rx",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_DirectionMode_TypeDef@SPI_Direction_1Line_Tx",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_Direction_1Line_Tx",
-        "location": {
-          "column": "3",
-          "line": "11",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_Direction_1Line_Tx",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "7",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@SPI_NSS_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@SPI_NSS_TypeDef@SPI_NSS_Soft",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_NSS_Soft",
-        "location": {
-          "column": "3",
-          "line": "16",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_NSS_Soft",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_NSS_TypeDef@SPI_NSS_Hard",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_NSS_Hard",
-        "location": {
-          "column": "3",
-          "line": "17",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_NSS_Hard",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "14",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@SPI_Direction_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@SPI_Direction_TypeDef@SPI_Direction_Rx",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_Direction_Rx",
-        "location": {
-          "column": "3",
-          "line": "22",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_Direction_Rx",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_Direction_TypeDef@SPI_Direction_Tx",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_Direction_Tx",
-        "location": {
-          "column": "3",
-          "line": "23",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_Direction_Tx",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@SPI_Mode_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@SPI_Mode_TypeDef@SPI_Mode_Master",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_Mode_Master",
-        "location": {
-          "column": "3",
-          "line": "28",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_Mode_Master",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_Mode_TypeDef@SPI_Mode_Slave",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_Mode_Slave",
-        "location": {
-          "column": "3",
-          "line": "29",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_Mode_Slave",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "26",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_2",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_BaudRatePrescaler_2",
-        "location": {
-          "column": "3",
-          "line": "33",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_BaudRatePrescaler_2",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_4",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_BaudRatePrescaler_4",
-        "location": {
-          "column": "3",
-          "line": "34",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_BaudRatePrescaler_4",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_8",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_BaudRatePrescaler_8",
-        "location": {
-          "column": "3",
-          "line": "35",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_BaudRatePrescaler_8",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_16",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_BaudRatePrescaler_16",
-        "location": {
-          "column": "3",
-          "line": "36",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_BaudRatePrescaler_16",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_32",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_BaudRatePrescaler_32",
-        "location": {
-          "column": "3",
-          "line": "37",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_BaudRatePrescaler_32",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_64",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_BaudRatePrescaler_64",
-        "location": {
-          "column": "3",
-          "line": "38",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_BaudRatePrescaler_64",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_128",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_BaudRatePrescaler_128",
-        "location": {
-          "column": "3",
-          "line": "39",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_BaudRatePrescaler_128",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_256",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_BaudRatePrescaler_256",
-        "location": {
-          "column": "3",
-          "line": "40",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_BaudRatePrescaler_256",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "32",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@SPI_CPOL_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@SPI_CPOL_TypeDef@SPI_CPOL_Low",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_CPOL_Low",
-        "location": {
-          "column": "3",
-          "line": "45",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_CPOL_Low",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_CPOL_TypeDef@SPI_CPOL_High",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_CPOL_High",
-        "location": {
-          "column": "3",
-          "line": "46",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_CPOL_High",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "43",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@SPI_CPHA_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@SPI_CPHA_TypeDef@SPI_CPHA_1Edge",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_CPHA_1Edge",
-        "location": {
-          "column": "3",
-          "line": "51",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_CPHA_1Edge",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_CPHA_TypeDef@SPI_CPHA_2Edge",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_CPHA_2Edge",
-        "location": {
-          "column": "3",
-          "line": "52",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_CPHA_2Edge",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "49",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@SPI_FirstBit_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@SPI_FirstBit_TypeDef@SPI_FirstBit_MSB",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_FirstBit_MSB",
-        "location": {
-          "column": "3",
-          "line": "57",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_FirstBit_MSB",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_FirstBit_TypeDef@SPI_FirstBit_LSB",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_FirstBit_LSB",
-        "location": {
-          "column": "3",
-          "line": "58",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_FirstBit_LSB",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "55",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@SPI_DMAReq_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@SPI_DMAReq_TypeDef@SPI_DMAReq_RX",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_DMAReq_RX",
-        "location": {
-          "column": "3",
-          "line": "62",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_DMAReq_RX",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_DMAReq_TypeDef@SPI_DMAReq_TX",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_DMAReq_TX",
-        "location": {
-          "column": "3",
-          "line": "63",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_DMAReq_TX",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "61",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@SPI_CRC_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@SPI_CRC_TypeDef@SPI_CRC_RX",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_CRC_RX",
-        "location": {
-          "column": "3",
-          "line": "67",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_CRC_RX",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_CRC_TypeDef@SPI_CRC_TX",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_CRC_TX",
-        "location": {
-          "column": "3",
-          "line": "68",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_CRC_TX",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "66",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@SPI_FLAG_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_BSY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_FLAG_BSY",
-        "location": {
-          "column": "3",
-          "line": "72",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_FLAG_BSY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_OVR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_FLAG_OVR",
-        "location": {
-          "column": "3",
-          "line": "73",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_FLAG_OVR",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_MODF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_FLAG_MODF",
-        "location": {
-          "column": "3",
-          "line": "74",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_FLAG_MODF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_CRCERR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_FLAG_CRCERR",
-        "location": {
-          "column": "3",
-          "line": "75",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_FLAG_CRCERR",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_WKUP",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_FLAG_WKUP",
-        "location": {
-          "column": "3",
-          "line": "76",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_FLAG_WKUP",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_TXE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_FLAG_TXE",
-        "location": {
-          "column": "3",
-          "line": "77",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_FLAG_TXE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_RXNE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_FLAG_RXNE",
-        "location": {
-          "column": "3",
-          "line": "78",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_FLAG_RXNE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "71",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@SPI_IT_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_WKUP",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_IT_WKUP",
-        "location": {
-          "column": "3",
-          "line": "83",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_IT_WKUP",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_OVR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_IT_OVR",
-        "location": {
-          "column": "3",
-          "line": "84",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_IT_OVR",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_MODF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_IT_MODF",
-        "location": {
-          "column": "3",
-          "line": "85",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_IT_MODF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_CRCERR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_IT_CRCERR",
-        "location": {
-          "column": "3",
-          "line": "86",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_IT_CRCERR",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_TXE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_IT_TXE",
-        "location": {
-          "column": "3",
-          "line": "87",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_IT_TXE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_RXNE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_IT_RXNE",
-        "location": {
-          "column": "3",
-          "line": "88",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_IT_RXNE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_ERR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_IT_ERR",
-        "location": {
-          "column": "3",
-          "line": "89",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_IT_ERR",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "81",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@SPI_FirstByte_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@SPI_FirstByte_TypeDef@SPI_FirstByte_MSB",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_FirstByte_MSB",
-        "location": {
-          "column": "3",
-          "line": "94",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_FirstByte_MSB",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@SPI_FirstByte_TypeDef@SPI_FirstByte_LSB",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SPI_FirstByte_LSB",
-        "location": {
-          "column": "3",
-          "line": "95",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-        },
-        "name": "SPI_FirstByte_LSB",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "92",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@S@SPI_struct",
+    "ID": "c:@S@ITC_struct",
     "What": "Struct",
     "defdec": "Def",
-    "display": "SPI_struct",
+    "display": "ITC_struct",
     "location": {
       "column": "16",
-      "line": "98",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+      "line": "7",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
     },
     "members": [
       {
-        "ID": "c:@S@SPI_struct@FI@CR1",
+        "ID": "c:@S@ITC_struct@FI@ISPR1",
         "What": "FieldDecl",
         "defdec": "Def",
-        "display": "CR1",
+        "display": "ISPR1",
         "location": {
           "column": "20",
-          "line": "100",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+          "line": "9",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
         },
-        "name": "CR1",
+        "name": "ISPR1",
         "origin": "user_include",
-        "scope": "SPI_struct"
+        "scope": "ITC_struct"
       },
       {
-        "ID": "c:@S@SPI_struct@FI@CR2",
+        "ID": "c:@S@ITC_struct@FI@ISPR2",
         "What": "FieldDecl",
         "defdec": "Def",
-        "display": "CR2",
+        "display": "ISPR2",
         "location": {
           "column": "20",
-          "line": "101",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+          "line": "10",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
         },
-        "name": "CR2",
+        "name": "ISPR2",
         "origin": "user_include",
-        "scope": "SPI_struct"
+        "scope": "ITC_struct"
       },
       {
-        "ID": "c:@S@SPI_struct@FI@CR3",
+        "ID": "c:@S@ITC_struct@FI@ISPR3",
         "What": "FieldDecl",
         "defdec": "Def",
-        "display": "CR3",
+        "display": "ISPR3",
         "location": {
           "column": "20",
-          "line": "102",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+          "line": "11",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
         },
-        "name": "CR3",
+        "name": "ISPR3",
         "origin": "user_include",
-        "scope": "SPI_struct"
+        "scope": "ITC_struct"
       },
       {
-        "ID": "c:@S@SPI_struct@FI@SR",
+        "ID": "c:@S@ITC_struct@FI@ISPR4",
         "What": "FieldDecl",
         "defdec": "Def",
-        "display": "SR",
+        "display": "ISPR4",
         "location": {
           "column": "20",
-          "line": "103",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+          "line": "12",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
         },
-        "name": "SR",
+        "name": "ISPR4",
         "origin": "user_include",
-        "scope": "SPI_struct"
+        "scope": "ITC_struct"
       },
       {
-        "ID": "c:@S@SPI_struct@FI@DR",
+        "ID": "c:@S@ITC_struct@FI@ISPR5",
         "What": "FieldDecl",
         "defdec": "Def",
-        "display": "DR",
+        "display": "ISPR5",
         "location": {
           "column": "20",
-          "line": "104",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+          "line": "13",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
         },
-        "name": "DR",
+        "name": "ISPR5",
         "origin": "user_include",
-        "scope": "SPI_struct"
+        "scope": "ITC_struct"
       },
       {
-        "ID": "c:@S@SPI_struct@FI@CRCPR",
+        "ID": "c:@S@ITC_struct@FI@ISPR6",
         "What": "FieldDecl",
         "defdec": "Def",
-        "display": "CRCPR",
+        "display": "ISPR6",
         "location": {
           "column": "20",
-          "line": "105",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+          "line": "14",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
         },
-        "name": "CRCPR",
+        "name": "ISPR6",
         "origin": "user_include",
-        "scope": "SPI_struct"
+        "scope": "ITC_struct"
       },
       {
-        "ID": "c:@S@SPI_struct@FI@RXCRCR",
+        "ID": "c:@S@ITC_struct@FI@ISPR7",
         "What": "FieldDecl",
         "defdec": "Def",
-        "display": "RXCRCR",
+        "display": "ISPR7",
         "location": {
           "column": "20",
-          "line": "106",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+          "line": "15",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
         },
-        "name": "RXCRCR",
+        "name": "ISPR7",
         "origin": "user_include",
-        "scope": "SPI_struct"
+        "scope": "ITC_struct"
       },
       {
-        "ID": "c:@S@SPI_struct@FI@TXCRCR",
+        "ID": "c:@S@ITC_struct@FI@ISPR8",
         "What": "FieldDecl",
         "defdec": "Def",
-        "display": "TXCRCR",
+        "display": "ISPR8",
         "location": {
           "column": "20",
-          "line": "107",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+          "line": "16",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
         },
-        "name": "TXCRCR",
+        "name": "ISPR8",
         "origin": "user_include",
-        "scope": "SPI_struct"
+        "scope": "ITC_struct"
       }
     ],
-    "name": "SPI_struct",
+    "name": "ITC_struct",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:spi.h@T@SPI_TypeDef",
+    "ID": "c:itc.h@T@ITC_TypeDef",
     "What": "Typedef",
     "defdec": "Def",
-    "display": "struct SPI_struct",
+    "display": "struct ITC_struct",
     "location": {
       "column": "1",
-      "line": "109",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+      "line": "18",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
     },
-    "name": "SPI_TypeDef",
+    "name": "ITC_TypeDef",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:spi.h@4456@macro@SPI_BASE",
+    "ID": "c:itc.h@738@macro@ITC_BASE",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "SPI_BASE",
+    "display": "ITC_BASE",
     "location": {
       "column": "9",
-      "line": "111",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+      "line": "20",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
     },
-    "name": "SPI_BASE",
+    "name": "ITC_BASE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:spi.h@4509@macro@SPI",
+    "ID": "c:itc.h@792@macro@ITC",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "SPI",
+    "display": "ITC",
     "location": {
       "column": "9",
-      "line": "112",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+      "line": "21",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
     },
-    "name": "SPI",
+    "name": "ITC",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SPI_Init",
+    "ID": "c:@F@Itc_Init",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void SPI_Init(SPI_FirstBit_TypeDef, SPI_BaudRatePrescaler_TypeDef, SPI_Mode_TypeDef, SPI_CPOL_TypeDef, SPI_CPHA_TypeDef, SPI_DirectionMode_TypeDef, SPI_NSS_TypeDef, uint8_t)",
+    "display": "void Itc_Init(void)",
     "location": {
       "column": "6",
-      "line": "114",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+      "line": "23",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
     },
-    "name": "SPI_Init",
+    "name": "Itc_Init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SPI_Init",
+    "ID": "c:@F@Itc_Init",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void SPI_Init(SPI_FirstBit_TypeDef, SPI_BaudRatePrescaler_TypeDef, SPI_Mode_TypeDef, SPI_CPOL_TypeDef, SPI_CPHA_TypeDef, SPI_DirectionMode_TypeDef, SPI_NSS_TypeDef, uint8_t)",
+    "display": "void Itc_Init(void)",
     "location": {
       "column": "6",
-      "line": "114",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+      "line": "23",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
     },
-    "name": "SPI_Init",
+    "name": "Itc_Init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SPI_Cmd",
+    "ID": "c:@F@Itc_Init",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "void SPI_Cmd(uint8_t)",
+    "defdec": "Def",
+    "display": "void Itc_Init(void)",
     "location": {
       "column": "6",
-      "line": "119",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+      "line": "3",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\itc.c"
     },
-    "name": "SPI_Cmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_Cmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SPI_Cmd(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "119",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "SPI_Cmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_Write_One_Byte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SPI_Write_One_Byte(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "120",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "SPI_Write_One_Byte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_Write_One_Byte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SPI_Write_One_Byte(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "120",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "SPI_Write_One_Byte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_Write_Multi_Bytes",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SPI_Write_Multi_Bytes(uint8_t *, uint8_t, SPI_FirstByte_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "121",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "SPI_Write_Multi_Bytes",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_Write_Multi_Bytes",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SPI_Write_Multi_Bytes(uint8_t *, uint8_t, SPI_FirstByte_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "121",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "SPI_Write_Multi_Bytes",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_Get_DR",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t SPI_Get_DR(void)",
-    "location": {
-      "column": "9",
-      "line": "122",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "SPI_Get_DR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_Get_DR",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t SPI_Get_DR(void)",
-    "location": {
-      "column": "9",
-      "line": "122",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "SPI_Get_DR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_Send_Sync_One",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t SPI_Send_Sync_One(uint8_t)",
-    "location": {
-      "column": "9",
-      "line": "123",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "SPI_Send_Sync_One",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_Send_Sync_One",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t SPI_Send_Sync_One(uint8_t)",
-    "location": {
-      "column": "9",
-      "line": "123",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "SPI_Send_Sync_One",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_Send_Sync_Multi",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t * SPI_Send_Sync_Multi(uint8_t *, uint8_t *, uint8_t, SPI_FirstByte_TypeDef)",
-    "location": {
-      "column": "10",
-      "line": "124",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "SPI_Send_Sync_Multi",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_Send_Sync_Multi",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t * SPI_Send_Sync_Multi(uint8_t *, uint8_t *, uint8_t, SPI_FirstByte_TypeDef)",
-    "location": {
-      "column": "10",
-      "line": "124",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
-    },
-    "name": "SPI_Send_Sync_Multi",
-    "origin": "user_include",
+    "name": "Itc_Init",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -8188,90 +7210,6 @@
     "scope": null
   },
   {
-    "ID": "c:nRF24.h@nRF_payloadLength",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "nRF_payloadLength",
-    "location": {
-      "column": "9",
-      "line": "8",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
-    },
-    "name": "nRF_payloadLength",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@nRF_Set_Payload_Leng",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void nRF_Set_Payload_Leng(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "10",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
-    },
-    "name": "nRF_Set_Payload_Leng",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@nRF_Get_Status_Reg",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t nRF_Get_Status_Reg(void)",
-    "location": {
-      "column": "9",
-      "line": "14",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
-    },
-    "name": "nRF_Get_Status_Reg",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:nRF24.c@237@F@nRF_Get_Status_Reg@ret",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "ret",
-    "location": {
-      "column": "11",
-      "line": "15",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
-    },
-    "name": "ret",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@nRF_Write_One_Reg",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void nRF_Write_One_Reg(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "21",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
-    },
-    "name": "nRF_Write_One_Reg",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@nRF_Read_One_Reg",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t nRF_Read_One_Reg(uint8_t)",
-    "location": {
-      "column": "9",
-      "line": "27",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
-    },
-    "name": "nRF_Read_One_Reg",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:nRF24.h@27@macro@__nRF24_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -8286,13 +7224,473 @@
     "scope": null
   },
   {
-    "ID": "c:nRF24.h@157@macro@CSS_GPIO",
+    "ID": "c:@EA@nRF_MaskInterrupt_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@nRF_MaskInterrupt_TypeDef@nRF_MaskInterrupt_Disable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_MaskInterrupt_Disable",
+        "location": {
+          "column": "3",
+          "line": "11",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_MaskInterrupt_Disable",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_MaskInterrupt_TypeDef@nRF_MaskInterrupt_MaxTries",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_MaskInterrupt_MaxTries",
+        "location": {
+          "column": "3",
+          "line": "12",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_MaskInterrupt_MaxTries",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_MaskInterrupt_TypeDef@nRF_MaskInterrupt_TX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_MaskInterrupt_TX",
+        "location": {
+          "column": "3",
+          "line": "13",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_MaskInterrupt_TX",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_MaskInterrupt_TypeDef@nRF_MaskInterrupt_RX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_MaskInterrupt_RX",
+        "location": {
+          "column": "3",
+          "line": "14",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_MaskInterrupt_RX",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@nRF_Mode_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@nRF_Mode_TypeDef@nRF_Mode_TX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_Mode_TX",
+        "location": {
+          "column": "3",
+          "line": "17",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_Mode_TX",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_Mode_TypeDef@nRF_Mode_RX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_Mode_RX",
+        "location": {
+          "column": "3",
+          "line": "18",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_Mode_RX",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@nRF_CRC_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@nRF_CRC_TypeDef@nRF_CRC_Disable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_CRC_Disable",
+        "location": {
+          "column": "3",
+          "line": "21",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_CRC_Disable",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_CRC_TypeDef@nRF_CRC_1Byte",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_CRC_1Byte",
+        "location": {
+          "column": "3",
+          "line": "22",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_CRC_1Byte",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_CRC_TypeDef@nRF_CRC_2Bytes",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_CRC_2Bytes",
+        "location": {
+          "column": "3",
+          "line": "23",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_CRC_2Bytes",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@nRF_AA_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@nRF_AA_TypeDef@nRF_AA_Disable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_AA_Disable",
+        "location": {
+          "column": "3",
+          "line": "26",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_AA_Disable",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_AA_TypeDef@nRF_AA_Pipe_0",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_AA_Pipe_0",
+        "location": {
+          "column": "3",
+          "line": "27",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_AA_Pipe_0",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_AA_TypeDef@nRF_AA_Pipe_1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_AA_Pipe_1",
+        "location": {
+          "column": "3",
+          "line": "28",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_AA_Pipe_1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_AA_TypeDef@nRF_AA_Pipe_2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_AA_Pipe_2",
+        "location": {
+          "column": "3",
+          "line": "29",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_AA_Pipe_2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_AA_TypeDef@nRF_AA_Pipe_3",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_AA_Pipe_3",
+        "location": {
+          "column": "3",
+          "line": "30",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_AA_Pipe_3",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_AA_TypeDef@nRF_AA_Pipe_4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_AA_Pipe_4",
+        "location": {
+          "column": "3",
+          "line": "31",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_AA_Pipe_4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_AA_TypeDef@nRF_AA_Pipe_5",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_AA_Pipe_5",
+        "location": {
+          "column": "3",
+          "line": "32",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_AA_Pipe_5",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@nRF_EN_Pipe_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@nRF_EN_Pipe_TypeDef@nRF_Pipe_Disable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_Pipe_Disable",
+        "location": {
+          "column": "3",
+          "line": "35",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_Pipe_Disable",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_EN_Pipe_TypeDef@nRF_EN_Pipe_0",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_EN_Pipe_0",
+        "location": {
+          "column": "3",
+          "line": "36",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_EN_Pipe_0",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_EN_Pipe_TypeDef@nRF_EN_Pipe_1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_EN_Pipe_1",
+        "location": {
+          "column": "3",
+          "line": "37",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_EN_Pipe_1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_EN_Pipe_TypeDef@nRF_EN_Pipe_2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_EN_Pipe_2",
+        "location": {
+          "column": "3",
+          "line": "38",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_EN_Pipe_2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_EN_Pipe_TypeDef@nRF_EN_Pipe_3",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_EN_Pipe_3",
+        "location": {
+          "column": "3",
+          "line": "39",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_EN_Pipe_3",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_EN_Pipe_TypeDef@nRF_EN_Pipe_4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_EN_Pipe_4",
+        "location": {
+          "column": "3",
+          "line": "40",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_EN_Pipe_4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_EN_Pipe_TypeDef@nRF_EN_Pipe_5",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_EN_Pipe_5",
+        "location": {
+          "column": "3",
+          "line": "41",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_EN_Pipe_5",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@nRF_Add_Width_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@nRF_Add_Width_TypeDef@nRF_Add_Width_3Bytes",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_Add_Width_3Bytes",
+        "location": {
+          "column": "3",
+          "line": "45",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_Add_Width_3Bytes",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_Add_Width_TypeDef@nRF_Add_Width_4Bytes",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_Add_Width_4Bytes",
+        "location": {
+          "column": "3",
+          "line": "46",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_Add_Width_4Bytes",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@nRF_Add_Width_TypeDef@nRF_Add_Width_5Bytes",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "nRF_Add_Width_5Bytes",
+        "location": {
+          "column": "3",
+          "line": "47",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+        },
+        "name": "nRF_Add_Width_5Bytes",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nRF24.h@1351@macro@CSS_GPIO",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CSS_GPIO",
     "location": {
       "column": "9",
-      "line": "10",
+      "line": "50",
       "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
     },
     "name": "CSS_GPIO",
@@ -8300,13 +7698,13 @@
     "scope": null
   },
   {
-    "ID": "c:nRF24.h@181@macro@CSS_PIN",
+    "ID": "c:nRF24.h@1375@macro@CSS_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CSS_PIN",
     "location": {
       "column": "9",
-      "line": "11",
+      "line": "51",
       "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
     },
     "name": "CSS_PIN",
@@ -8314,13 +7712,13 @@
     "scope": null
   },
   {
-    "ID": "c:nRF24.h@200@macro@CE_GPIO",
+    "ID": "c:nRF24.h@1394@macro@CE_GPIO",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CE_GPIO",
     "location": {
       "column": "9",
-      "line": "12",
+      "line": "52",
       "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
     },
     "name": "CE_GPIO",
@@ -8328,13 +7726,13 @@
     "scope": null
   },
   {
-    "ID": "c:nRF24.h@223@macro@CE_PIN",
+    "ID": "c:nRF24.h@1417@macro@CE_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CE_PIN",
     "location": {
       "column": "9",
-      "line": "13",
+      "line": "53",
       "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
     },
     "name": "CE_PIN",
@@ -8342,55 +7740,13 @@
     "scope": null
   },
   {
-    "ID": "c:nRF24.h@243@macro@CSS_HIGH",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CSS_HIGH",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
-    },
-    "name": "CSS_HIGH",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:nRF24.h@279@macro@CSS_LOW",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CSS_LOW",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
-    },
-    "name": "CSS_LOW",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:nRF24.h@nRF_payloadLength",
     "What": "Variable",
     "defdec": "Dec",
     "display": "nRF_payloadLength",
     "location": {
       "column": "16",
-      "line": "18",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
-    },
-    "name": "nRF_payloadLength",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:nRF24.h@nRF_payloadLength",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "nRF_payloadLength",
-    "location": {
-      "column": "16",
-      "line": "18",
+      "line": "55",
       "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
     },
     "name": "nRF_payloadLength",
@@ -8404,7 +7760,7 @@
     "display": "void nRF_Set_Payload_Leng(uint8_t)",
     "location": {
       "column": "6",
-      "line": "20",
+      "line": "57",
       "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
     },
     "name": "nRF_Set_Payload_Leng",
@@ -8418,7 +7774,7 @@
     "display": "void nRF_Set_Payload_Leng(uint8_t)",
     "location": {
       "column": "6",
-      "line": "20",
+      "line": "57",
       "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
     },
     "name": "nRF_Set_Payload_Leng",
@@ -8432,7 +7788,7 @@
     "display": "uint8_t nRF_Get_Status_Reg(void)",
     "location": {
       "column": "9",
-      "line": "21",
+      "line": "58",
       "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
     },
     "name": "nRF_Get_Status_Reg",
@@ -8446,7 +7802,7 @@
     "display": "uint8_t nRF_Get_Status_Reg(void)",
     "location": {
       "column": "9",
-      "line": "21",
+      "line": "58",
       "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
     },
     "name": "nRF_Get_Status_Reg",
@@ -8460,7 +7816,7 @@
     "display": "void nRF_Write_One_Reg(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "22",
+      "line": "59",
       "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
     },
     "name": "nRF_Write_One_Reg",
@@ -8474,7 +7830,7 @@
     "display": "void nRF_Write_One_Reg(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "22",
+      "line": "59",
       "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
     },
     "name": "nRF_Write_One_Reg",
@@ -8488,7 +7844,7 @@
     "display": "uint8_t nRF_Read_One_Reg(uint8_t)",
     "location": {
       "column": "9",
-      "line": "23",
+      "line": "60",
       "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
     },
     "name": "nRF_Read_One_Reg",
@@ -8502,7 +7858,7 @@
     "display": "uint8_t nRF_Read_One_Reg(uint8_t)",
     "location": {
       "column": "9",
-      "line": "23",
+      "line": "60",
       "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
     },
     "name": "nRF_Read_One_Reg",
@@ -8510,228 +7866,1416 @@
     "scope": null
   },
   {
-    "ID": "c:itc.h@25@macro@__ITC_H",
+    "ID": "c:@F@nRF_Write_Multi_Regs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void nRF_Write_Multi_Regs(uint8_t, uint8_t *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "61",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+    },
+    "name": "nRF_Write_Multi_Regs",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@nRF_Write_Multi_Regs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void nRF_Write_Multi_Regs(uint8_t, uint8_t *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "61",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+    },
+    "name": "nRF_Write_Multi_Regs",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@nRF_Read_Multi_Regs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t * nRF_Read_Multi_Regs(uint8_t, uint8_t *, uint8_t)",
+    "location": {
+      "column": "10",
+      "line": "62",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+    },
+    "name": "nRF_Read_Multi_Regs",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@nRF_Read_Multi_Regs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t * nRF_Read_Multi_Regs(uint8_t, uint8_t *, uint8_t)",
+    "location": {
+      "column": "10",
+      "line": "62",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+    },
+    "name": "nRF_Read_Multi_Regs",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@nRF_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void nRF_Config(nRF_MaskInterrupt_TypeDef, nRF_CRC_TypeDef, nRF_Mode_TypeDef, nRF_AA_TypeDef, nRF_EN_Pipe_TypeDef, nRF_Add_Width_TypeDef, void (*)(unsigned long))",
+    "location": {
+      "column": "6",
+      "line": "64",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+    },
+    "name": "nRF_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@nRF_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void nRF_Config(nRF_MaskInterrupt_TypeDef, nRF_CRC_TypeDef, nRF_Mode_TypeDef, nRF_AA_TypeDef, nRF_EN_Pipe_TypeDef, nRF_Add_Width_TypeDef, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "64",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\nRF24.h"
+    },
+    "name": "nRF_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:spi.h@25@macro@__SPI_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__ITC_H",
+    "display": "__SPI_H",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
     },
-    "name": "__ITC_H",
+    "name": "__SPI_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@S@ITC_struct",
-    "What": "Struct",
+    "ID": "c:@EA@SPI_DirectionMode_TypeDef",
+    "What": "Enum",
     "defdec": "Def",
-    "display": "ITC_struct",
-    "location": {
-      "column": "16",
-      "line": "7",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
-    },
-    "members": [
+    "display": "",
+    "fields": [
       {
-        "ID": "c:@S@ITC_struct@FI@ISPR1",
-        "What": "FieldDecl",
+        "ID": "c:@EA@SPI_DirectionMode_TypeDef@SPI_Direction_2Lines_FullDuplex",
+        "What": "Enumerator",
         "defdec": "Def",
-        "display": "ISPR1",
+        "display": "SPI_Direction_2Lines_FullDuplex",
         "location": {
-          "column": "20",
+          "column": "3",
+          "line": "8",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_Direction_2Lines_FullDuplex",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_DirectionMode_TypeDef@SPI_Direction_2Lines_RxOnly",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_Direction_2Lines_RxOnly",
+        "location": {
+          "column": "3",
           "line": "9",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
         },
-        "name": "ISPR1",
+        "name": "SPI_Direction_2Lines_RxOnly",
         "origin": "user_include",
-        "scope": "ITC_struct"
+        "scope": null
       },
       {
-        "ID": "c:@S@ITC_struct@FI@ISPR2",
-        "What": "FieldDecl",
+        "ID": "c:@EA@SPI_DirectionMode_TypeDef@SPI_Direction_1Line_Rx",
+        "What": "Enumerator",
         "defdec": "Def",
-        "display": "ISPR2",
+        "display": "SPI_Direction_1Line_Rx",
         "location": {
-          "column": "20",
+          "column": "3",
           "line": "10",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
         },
-        "name": "ISPR2",
+        "name": "SPI_Direction_1Line_Rx",
         "origin": "user_include",
-        "scope": "ITC_struct"
+        "scope": null
       },
       {
-        "ID": "c:@S@ITC_struct@FI@ISPR3",
-        "What": "FieldDecl",
+        "ID": "c:@EA@SPI_DirectionMode_TypeDef@SPI_Direction_1Line_Tx",
+        "What": "Enumerator",
         "defdec": "Def",
-        "display": "ISPR3",
+        "display": "SPI_Direction_1Line_Tx",
         "location": {
-          "column": "20",
+          "column": "3",
           "line": "11",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
         },
-        "name": "ISPR3",
+        "name": "SPI_Direction_1Line_Tx",
         "origin": "user_include",
-        "scope": "ITC_struct"
-      },
-      {
-        "ID": "c:@S@ITC_struct@FI@ISPR4",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "ISPR4",
-        "location": {
-          "column": "20",
-          "line": "12",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
-        },
-        "name": "ISPR4",
-        "origin": "user_include",
-        "scope": "ITC_struct"
-      },
-      {
-        "ID": "c:@S@ITC_struct@FI@ISPR5",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "ISPR5",
-        "location": {
-          "column": "20",
-          "line": "13",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
-        },
-        "name": "ISPR5",
-        "origin": "user_include",
-        "scope": "ITC_struct"
-      },
-      {
-        "ID": "c:@S@ITC_struct@FI@ISPR6",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "ISPR6",
-        "location": {
-          "column": "20",
-          "line": "14",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
-        },
-        "name": "ISPR6",
-        "origin": "user_include",
-        "scope": "ITC_struct"
-      },
-      {
-        "ID": "c:@S@ITC_struct@FI@ISPR7",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "ISPR7",
-        "location": {
-          "column": "20",
-          "line": "15",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
-        },
-        "name": "ISPR7",
-        "origin": "user_include",
-        "scope": "ITC_struct"
-      },
-      {
-        "ID": "c:@S@ITC_struct@FI@ISPR8",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "ISPR8",
-        "location": {
-          "column": "20",
-          "line": "16",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
-        },
-        "name": "ISPR8",
-        "origin": "user_include",
-        "scope": "ITC_struct"
+        "scope": null
       }
     ],
-    "name": "ITC_struct",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:itc.h@T@ITC_TypeDef",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "struct ITC_struct",
     "location": {
-      "column": "1",
-      "line": "18",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
+      "column": "9",
+      "line": "7",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
     },
-    "name": "ITC_TypeDef",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:itc.h@738@macro@ITC_BASE",
-    "What": "MacroDef",
+    "ID": "c:@EA@SPI_NSS_TypeDef",
+    "What": "Enum",
     "defdec": "Def",
-    "display": "ITC_BASE",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SPI_NSS_TypeDef@SPI_NSS_Soft",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_NSS_Soft",
+        "location": {
+          "column": "3",
+          "line": "16",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_NSS_Soft",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_NSS_TypeDef@SPI_NSS_Hard",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_NSS_Hard",
+        "location": {
+          "column": "3",
+          "line": "17",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_NSS_Hard",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@SPI_Direction_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SPI_Direction_TypeDef@SPI_Direction_Rx",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_Direction_Rx",
+        "location": {
+          "column": "3",
+          "line": "22",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_Direction_Rx",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_Direction_TypeDef@SPI_Direction_Tx",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_Direction_Tx",
+        "location": {
+          "column": "3",
+          "line": "23",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_Direction_Tx",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
       "column": "9",
       "line": "20",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
     },
-    "name": "ITC_BASE",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:itc.h@792@macro@ITC",
-    "What": "MacroDef",
+    "ID": "c:@EA@SPI_Mode_TypeDef",
+    "What": "Enum",
     "defdec": "Def",
-    "display": "ITC",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SPI_Mode_TypeDef@SPI_Mode_Master",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_Mode_Master",
+        "location": {
+          "column": "3",
+          "line": "28",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_Mode_Master",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_Mode_TypeDef@SPI_Mode_Slave",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_Mode_Slave",
+        "location": {
+          "column": "3",
+          "line": "29",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_Mode_Slave",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
       "column": "9",
-      "line": "21",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
+      "line": "26",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
     },
-    "name": "ITC",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@Itc_Init",
+    "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_BaudRatePrescaler_2",
+        "location": {
+          "column": "3",
+          "line": "33",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_BaudRatePrescaler_2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_BaudRatePrescaler_4",
+        "location": {
+          "column": "3",
+          "line": "34",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_BaudRatePrescaler_4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_8",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_BaudRatePrescaler_8",
+        "location": {
+          "column": "3",
+          "line": "35",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_BaudRatePrescaler_8",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_16",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_BaudRatePrescaler_16",
+        "location": {
+          "column": "3",
+          "line": "36",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_BaudRatePrescaler_16",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_32",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_BaudRatePrescaler_32",
+        "location": {
+          "column": "3",
+          "line": "37",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_BaudRatePrescaler_32",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_64",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_BaudRatePrescaler_64",
+        "location": {
+          "column": "3",
+          "line": "38",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_BaudRatePrescaler_64",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_128",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_BaudRatePrescaler_128",
+        "location": {
+          "column": "3",
+          "line": "39",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_BaudRatePrescaler_128",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_BaudRatePrescaler_TypeDef@SPI_BaudRatePrescaler_256",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_BaudRatePrescaler_256",
+        "location": {
+          "column": "3",
+          "line": "40",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_BaudRatePrescaler_256",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@SPI_CPOL_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SPI_CPOL_TypeDef@SPI_CPOL_Low",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_CPOL_Low",
+        "location": {
+          "column": "3",
+          "line": "45",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_CPOL_Low",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_CPOL_TypeDef@SPI_CPOL_High",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_CPOL_High",
+        "location": {
+          "column": "3",
+          "line": "46",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_CPOL_High",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@SPI_CPHA_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SPI_CPHA_TypeDef@SPI_CPHA_1Edge",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_CPHA_1Edge",
+        "location": {
+          "column": "3",
+          "line": "51",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_CPHA_1Edge",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_CPHA_TypeDef@SPI_CPHA_2Edge",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_CPHA_2Edge",
+        "location": {
+          "column": "3",
+          "line": "52",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_CPHA_2Edge",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@SPI_FirstBit_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SPI_FirstBit_TypeDef@SPI_FirstBit_MSB",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_FirstBit_MSB",
+        "location": {
+          "column": "3",
+          "line": "57",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_FirstBit_MSB",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_FirstBit_TypeDef@SPI_FirstBit_LSB",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_FirstBit_LSB",
+        "location": {
+          "column": "3",
+          "line": "58",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_FirstBit_LSB",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@SPI_DMAReq_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SPI_DMAReq_TypeDef@SPI_DMAReq_RX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_DMAReq_RX",
+        "location": {
+          "column": "3",
+          "line": "62",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_DMAReq_RX",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_DMAReq_TypeDef@SPI_DMAReq_TX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_DMAReq_TX",
+        "location": {
+          "column": "3",
+          "line": "63",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_DMAReq_TX",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@SPI_CRC_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SPI_CRC_TypeDef@SPI_CRC_RX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_CRC_RX",
+        "location": {
+          "column": "3",
+          "line": "67",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_CRC_RX",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_CRC_TypeDef@SPI_CRC_TX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_CRC_TX",
+        "location": {
+          "column": "3",
+          "line": "68",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_CRC_TX",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "66",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@SPI_FLAG_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_BSY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_FLAG_BSY",
+        "location": {
+          "column": "3",
+          "line": "72",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_FLAG_BSY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_OVR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_FLAG_OVR",
+        "location": {
+          "column": "3",
+          "line": "73",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_FLAG_OVR",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_MODF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_FLAG_MODF",
+        "location": {
+          "column": "3",
+          "line": "74",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_FLAG_MODF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_CRCERR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_FLAG_CRCERR",
+        "location": {
+          "column": "3",
+          "line": "75",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_FLAG_CRCERR",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_WKUP",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_FLAG_WKUP",
+        "location": {
+          "column": "3",
+          "line": "76",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_FLAG_WKUP",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_TXE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_FLAG_TXE",
+        "location": {
+          "column": "3",
+          "line": "77",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_FLAG_TXE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_FLAG_TypeDef@SPI_FLAG_RXNE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_FLAG_RXNE",
+        "location": {
+          "column": "3",
+          "line": "78",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_FLAG_RXNE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@SPI_IT_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_WKUP",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_IT_WKUP",
+        "location": {
+          "column": "3",
+          "line": "83",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_IT_WKUP",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_OVR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_IT_OVR",
+        "location": {
+          "column": "3",
+          "line": "84",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_IT_OVR",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_MODF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_IT_MODF",
+        "location": {
+          "column": "3",
+          "line": "85",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_IT_MODF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_CRCERR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_IT_CRCERR",
+        "location": {
+          "column": "3",
+          "line": "86",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_IT_CRCERR",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_TXE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_IT_TXE",
+        "location": {
+          "column": "3",
+          "line": "87",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_IT_TXE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_RXNE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_IT_RXNE",
+        "location": {
+          "column": "3",
+          "line": "88",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_IT_RXNE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_IT_TypeDef@SPI_IT_ERR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_IT_ERR",
+        "location": {
+          "column": "3",
+          "line": "89",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_IT_ERR",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "81",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@SPI_FirstByte_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SPI_FirstByte_TypeDef@SPI_FirstByte_MSB",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_FirstByte_MSB",
+        "location": {
+          "column": "3",
+          "line": "94",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_FirstByte_MSB",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SPI_FirstByte_TypeDef@SPI_FirstByte_LSB",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SPI_FirstByte_LSB",
+        "location": {
+          "column": "3",
+          "line": "95",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SPI_FirstByte_LSB",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@SPI_struct",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "SPI_struct",
+    "location": {
+      "column": "16",
+      "line": "98",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@SPI_struct@FI@CR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR1",
+        "location": {
+          "column": "20",
+          "line": "100",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "CR1",
+        "origin": "user_include",
+        "scope": "SPI_struct"
+      },
+      {
+        "ID": "c:@S@SPI_struct@FI@CR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR2",
+        "location": {
+          "column": "20",
+          "line": "101",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "CR2",
+        "origin": "user_include",
+        "scope": "SPI_struct"
+      },
+      {
+        "ID": "c:@S@SPI_struct@FI@CR3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR3",
+        "location": {
+          "column": "20",
+          "line": "102",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "CR3",
+        "origin": "user_include",
+        "scope": "SPI_struct"
+      },
+      {
+        "ID": "c:@S@SPI_struct@FI@SR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "SR",
+        "location": {
+          "column": "20",
+          "line": "103",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "SR",
+        "origin": "user_include",
+        "scope": "SPI_struct"
+      },
+      {
+        "ID": "c:@S@SPI_struct@FI@DR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "DR",
+        "location": {
+          "column": "20",
+          "line": "104",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "DR",
+        "origin": "user_include",
+        "scope": "SPI_struct"
+      },
+      {
+        "ID": "c:@S@SPI_struct@FI@CRCPR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CRCPR",
+        "location": {
+          "column": "20",
+          "line": "105",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "CRCPR",
+        "origin": "user_include",
+        "scope": "SPI_struct"
+      },
+      {
+        "ID": "c:@S@SPI_struct@FI@RXCRCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "RXCRCR",
+        "location": {
+          "column": "20",
+          "line": "106",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "RXCRCR",
+        "origin": "user_include",
+        "scope": "SPI_struct"
+      },
+      {
+        "ID": "c:@S@SPI_struct@FI@TXCRCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "TXCRCR",
+        "location": {
+          "column": "20",
+          "line": "107",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+        },
+        "name": "TXCRCR",
+        "origin": "user_include",
+        "scope": "SPI_struct"
+      }
+    ],
+    "name": "SPI_struct",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:spi.h@T@SPI_TypeDef",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "struct SPI_struct",
+    "location": {
+      "column": "1",
+      "line": "109",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_TypeDef",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:spi.h@4456@macro@SPI_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI_BASE",
+    "location": {
+      "column": "9",
+      "line": "111",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:spi.h@4509@macro@SPI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI",
+    "location": {
+      "column": "9",
+      "line": "112",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Init",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void Itc_Init(void)",
+    "display": "void SPI_Init(SPI_FirstBit_TypeDef, SPI_BaudRatePrescaler_TypeDef, SPI_Mode_TypeDef, SPI_CPOL_TypeDef, SPI_CPHA_TypeDef, SPI_DirectionMode_TypeDef, SPI_NSS_TypeDef, uint8_t)",
     "location": {
       "column": "6",
-      "line": "23",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
+      "line": "114",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
     },
-    "name": "Itc_Init",
+    "name": "SPI_Init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@Itc_Init",
+    "ID": "c:@F@SPI_Init",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void Itc_Init(void)",
+    "display": "void SPI_Init(SPI_FirstBit_TypeDef, SPI_BaudRatePrescaler_TypeDef, SPI_Mode_TypeDef, SPI_CPOL_TypeDef, SPI_CPHA_TypeDef, SPI_DirectionMode_TypeDef, SPI_NSS_TypeDef, uint8_t)",
     "location": {
       "column": "6",
-      "line": "23",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\itc.h"
+      "line": "114",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
     },
-    "name": "Itc_Init",
+    "name": "SPI_Init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@Itc_Init",
+    "ID": "c:@F@SPI_Cmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SPI_Cmd(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "119",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_Cmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Cmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SPI_Cmd(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "119",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_Cmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Write_One_Byte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SPI_Write_One_Byte(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "120",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_Write_One_Byte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Write_One_Byte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SPI_Write_One_Byte(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "120",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_Write_One_Byte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Write_Multi_Bytes",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SPI_Write_Multi_Bytes(uint8_t *, uint8_t, SPI_FirstByte_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "121",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_Write_Multi_Bytes",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Write_Multi_Bytes",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SPI_Write_Multi_Bytes(uint8_t *, uint8_t, SPI_FirstByte_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "121",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_Write_Multi_Bytes",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Get_DR",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t SPI_Get_DR(void)",
+    "location": {
+      "column": "9",
+      "line": "122",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_Get_DR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Get_DR",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t SPI_Get_DR(void)",
+    "location": {
+      "column": "9",
+      "line": "122",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_Get_DR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Send_Sync_One",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t SPI_Send_Sync_One(uint8_t)",
+    "location": {
+      "column": "9",
+      "line": "123",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_Send_Sync_One",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Send_Sync_One",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t SPI_Send_Sync_One(uint8_t)",
+    "location": {
+      "column": "9",
+      "line": "123",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_Send_Sync_One",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Send_Sync_Multi",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t * SPI_Send_Sync_Multi(uint8_t *, uint8_t *, uint8_t, SPI_FirstByte_TypeDef)",
+    "location": {
+      "column": "10",
+      "line": "124",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_Send_Sync_Multi",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Send_Sync_Multi",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t * SPI_Send_Sync_Multi(uint8_t *, uint8_t *, uint8_t, SPI_FirstByte_TypeDef)",
+    "location": {
+      "column": "10",
+      "line": "124",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\spi.h"
+    },
+    "name": "SPI_Send_Sync_Multi",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@nRF_Set_Payload_Leng",
     "What": "Function",
     "defdec": "Def",
-    "display": "void Itc_Init(void)",
+    "display": "void nRF_Set_Payload_Leng(uint8_t)",
     "location": {
       "column": "6",
-      "line": "3",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\itc.c"
+      "line": "11",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
     },
-    "name": "Itc_Init",
+    "name": "nRF_Set_Payload_Leng",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@nRF_Get_Status_Reg",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t nRF_Get_Status_Reg(void)",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
+    },
+    "name": "nRF_Get_Status_Reg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:nRF24.c@308@F@nRF_Get_Status_Reg@ret",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "ret",
+    "location": {
+      "column": "11",
+      "line": "16",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
+    },
+    "name": "ret",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@nRF_Write_One_Reg",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void nRF_Write_One_Reg(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "23",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
+    },
+    "name": "nRF_Write_One_Reg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@nRF_Read_One_Reg",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t nRF_Read_One_Reg(uint8_t)",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
+    },
+    "name": "nRF_Read_One_Reg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@nRF_Write_Multi_Regs",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void nRF_Write_Multi_Regs(uint8_t, uint8_t *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "34",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
+    },
+    "name": "nRF_Write_Multi_Regs",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:nRF24.c@1131@F@nRF_Write_Multi_Regs@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "15",
+      "line": "37",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@nRF_Read_Multi_Regs",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t * nRF_Read_Multi_Regs(uint8_t, uint8_t *, uint8_t)",
+    "location": {
+      "column": "10",
+      "line": "43",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
+    },
+    "name": "nRF_Read_Multi_Regs",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:nRF24.c@1484@F@nRF_Read_Multi_Regs@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "15",
+      "line": "46",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\nRF24.c"
+    },
+    "name": "i",
     "origin": "project_file",
     "scope": null
   },
@@ -8887,6 +9431,484 @@
     },
     "name": "i",
     "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Buff_Receive_USART",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Buff_Receive_USART",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "Buff_Receive_USART",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USART1_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void USART1_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "USART1_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USART1_Send_Char",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void USART1_Send_Char(char)",
+    "location": {
+      "column": "6",
+      "line": "24",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "USART1_Send_Char",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USART1_Send_String",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void USART1_Send_String(char *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "29",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "USART1_Send_String",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.c@713@F@USART1_Send_String@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "16",
+      "line": "30",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USART1_Receive_Char",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t USART1_Receive_Char(char *)",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "USART1_Receive_Char",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USART1_Receive_String",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void USART1_Receive_String(char, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "50",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "USART1_Receive_String",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.c@1333@F@USART1_Receive_String@iLeng",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "iLeng",
+    "location": {
+      "column": "11",
+      "line": "51",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "iLeng",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.c@1353@F@USART1_Receive_String@receiveChar",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "receiveChar",
+    "location": {
+      "column": "8",
+      "line": "52",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "receiveChar",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USART1_Receive_String_TimeOut",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void USART1_Receive_String_TimeOut(char, uint8_t, unsigned long)",
+    "location": {
+      "column": "6",
+      "line": "70",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "USART1_Receive_String_TimeOut",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.c@1985@F@USART1_Receive_String_TimeOut@iLeng",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "iLeng",
+    "location": {
+      "column": "11",
+      "line": "71",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "iLeng",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.c@2005@F@USART1_Receive_String_TimeOut@receiveChar",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "receiveChar",
+    "location": {
+      "column": "8",
+      "line": "72",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "receiveChar",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USART1_Receive_String_TimeOutReset",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void USART1_Receive_String_TimeOutReset(char, uint8_t, unsigned long)",
+    "location": {
+      "column": "6",
+      "line": "92",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "USART1_Receive_String_TimeOutReset",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.c@2773@F@USART1_Receive_String_TimeOutReset@iLeng",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "iLeng",
+    "location": {
+      "column": "11",
+      "line": "93",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "iLeng",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.c@2793@F@USART1_Receive_String_TimeOutReset@receiveChar",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "receiveChar",
+    "location": {
+      "column": "8",
+      "line": "94",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
+    },
+    "name": "receiveChar",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:tim4.h@26@macro@__TIM4_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__TIM4_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+    },
+    "name": "__TIM4_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@TIM4_struct",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "TIM4_struct",
+    "location": {
+      "column": "16",
+      "line": "7",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@TIM4_struct@FI@CR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR1",
+        "location": {
+          "column": "20",
+          "line": "9",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+        },
+        "name": "CR1",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@CR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR2",
+        "location": {
+          "column": "20",
+          "line": "10",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+        },
+        "name": "CR2",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@SMCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "SMCR",
+        "location": {
+          "column": "20",
+          "line": "11",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+        },
+        "name": "SMCR",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@DER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "DER",
+        "location": {
+          "column": "20",
+          "line": "12",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+        },
+        "name": "DER",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@IER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "IER",
+        "location": {
+          "column": "20",
+          "line": "13",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+        },
+        "name": "IER",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@SR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "SR1",
+        "location": {
+          "column": "20",
+          "line": "14",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+        },
+        "name": "SR1",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@EGR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EGR",
+        "location": {
+          "column": "20",
+          "line": "15",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+        },
+        "name": "EGR",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@CNTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CNTR",
+        "location": {
+          "column": "20",
+          "line": "16",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+        },
+        "name": "CNTR",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@PSCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PSCR",
+        "location": {
+          "column": "20",
+          "line": "17",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+        },
+        "name": "PSCR",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@ARR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ARR",
+        "location": {
+          "column": "20",
+          "line": "18",
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+        },
+        "name": "ARR",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      }
+    ],
+    "name": "TIM4_struct",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:tim4.h@T@TIM4_TypeDef",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "struct TIM4_struct",
+    "location": {
+      "column": "1",
+      "line": "20",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+    },
+    "name": "TIM4_TypeDef",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:tim4.h@719@macro@TIM4_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM4_BASE",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+    },
+    "name": "TIM4_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:tim4.h@773@macro@TIM4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM4",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+    },
+    "name": "TIM4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@timeCount",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "timeCount",
+    "location": {
+      "column": "26",
+      "line": "24",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+    },
+    "name": "timeCount",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@timeCount",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "timeCount",
+    "location": {
+      "column": "26",
+      "line": "24",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+    },
+    "name": "timeCount",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Tim4_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Tim4_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+    },
+    "name": "Tim4_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Tim4_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Tim4_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
+    },
+    "name": "Tim4_Init",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -9337,6 +10359,34 @@
     },
     "name": "USART1_Receive_String_TimeOutReset",
     "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@timeCount",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timeCount",
+    "location": {
+      "column": "19",
+      "line": "3",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\tim4.c"
+    },
+    "name": "timeCount",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Tim4_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Tim4_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\tim4.c"
+    },
+    "name": "Tim4_Init",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -9914,484 +10964,6 @@
     "scope": null
   },
   {
-    "ID": "c:tim4.h@26@macro@__TIM4_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__TIM4_H",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-    },
-    "name": "__TIM4_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@S@TIM4_struct",
-    "What": "Struct",
-    "defdec": "Def",
-    "display": "TIM4_struct",
-    "location": {
-      "column": "16",
-      "line": "7",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-    },
-    "members": [
-      {
-        "ID": "c:@S@TIM4_struct@FI@CR1",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CR1",
-        "location": {
-          "column": "20",
-          "line": "9",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-        },
-        "name": "CR1",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@CR2",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CR2",
-        "location": {
-          "column": "20",
-          "line": "10",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-        },
-        "name": "CR2",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@SMCR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "SMCR",
-        "location": {
-          "column": "20",
-          "line": "11",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-        },
-        "name": "SMCR",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@DER",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "DER",
-        "location": {
-          "column": "20",
-          "line": "12",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-        },
-        "name": "DER",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@IER",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "IER",
-        "location": {
-          "column": "20",
-          "line": "13",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-        },
-        "name": "IER",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@SR1",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "SR1",
-        "location": {
-          "column": "20",
-          "line": "14",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-        },
-        "name": "SR1",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@EGR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "EGR",
-        "location": {
-          "column": "20",
-          "line": "15",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-        },
-        "name": "EGR",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@CNTR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CNTR",
-        "location": {
-          "column": "20",
-          "line": "16",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-        },
-        "name": "CNTR",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@PSCR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PSCR",
-        "location": {
-          "column": "20",
-          "line": "17",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-        },
-        "name": "PSCR",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@ARR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "ARR",
-        "location": {
-          "column": "20",
-          "line": "18",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-        },
-        "name": "ARR",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      }
-    ],
-    "name": "TIM4_struct",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:tim4.h@T@TIM4_TypeDef",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "struct TIM4_struct",
-    "location": {
-      "column": "1",
-      "line": "20",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-    },
-    "name": "TIM4_TypeDef",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:tim4.h@719@macro@TIM4_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIM4_BASE",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-    },
-    "name": "TIM4_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:tim4.h@773@macro@TIM4",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIM4",
-    "location": {
-      "column": "9",
-      "line": "22",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-    },
-    "name": "TIM4",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@timeCount",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "timeCount",
-    "location": {
-      "column": "26",
-      "line": "24",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-    },
-    "name": "timeCount",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@timeCount",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "timeCount",
-    "location": {
-      "column": "26",
-      "line": "24",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-    },
-    "name": "timeCount",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Tim4_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Tim4_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "26",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-    },
-    "name": "Tim4_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Tim4_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Tim4_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "26",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\inc\\tim4.h"
-    },
-    "name": "Tim4_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@Buff_Receive_USART",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Buff_Receive_USART",
-    "location": {
-      "column": "6",
-      "line": "3",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "Buff_Receive_USART",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@USART1_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void USART1_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "5",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "USART1_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@USART1_Send_Char",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void USART1_Send_Char(char)",
-    "location": {
-      "column": "6",
-      "line": "24",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "USART1_Send_Char",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@USART1_Send_String",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void USART1_Send_String(char *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "29",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "USART1_Send_String",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:usart.c@713@F@USART1_Send_String@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "16",
-      "line": "30",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@USART1_Receive_Char",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t USART1_Receive_Char(char *)",
-    "location": {
-      "column": "9",
-      "line": "40",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "USART1_Receive_Char",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@USART1_Receive_String",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void USART1_Receive_String(char, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "50",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "USART1_Receive_String",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:usart.c@1333@F@USART1_Receive_String@iLeng",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "iLeng",
-    "location": {
-      "column": "11",
-      "line": "51",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "iLeng",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:usart.c@1353@F@USART1_Receive_String@receiveChar",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "receiveChar",
-    "location": {
-      "column": "8",
-      "line": "52",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "receiveChar",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@USART1_Receive_String_TimeOut",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void USART1_Receive_String_TimeOut(char, uint8_t, unsigned long)",
-    "location": {
-      "column": "6",
-      "line": "70",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "USART1_Receive_String_TimeOut",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:usart.c@1985@F@USART1_Receive_String_TimeOut@iLeng",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "iLeng",
-    "location": {
-      "column": "11",
-      "line": "71",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "iLeng",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:usart.c@2005@F@USART1_Receive_String_TimeOut@receiveChar",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "receiveChar",
-    "location": {
-      "column": "8",
-      "line": "72",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "receiveChar",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@USART1_Receive_String_TimeOutReset",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void USART1_Receive_String_TimeOutReset(char, uint8_t, unsigned long)",
-    "location": {
-      "column": "6",
-      "line": "92",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "USART1_Receive_String_TimeOutReset",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:usart.c@2773@F@USART1_Receive_String_TimeOutReset@iLeng",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "iLeng",
-    "location": {
-      "column": "11",
-      "line": "93",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "iLeng",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:usart.c@2793@F@USART1_Receive_String_TimeOutReset@receiveChar",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "receiveChar",
-    "location": {
-      "column": "8",
-      "line": "94",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\usart.c"
-    },
-    "name": "receiveChar",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:intrinsics.h@239@macro@__INTRINSICS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10588,17 +11160,101 @@
     "scope": null
   },
   {
-    "ID": "c:@F@delay",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delay(unsigned long)",
+    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YSIZET_H",
     "location": {
-      "column": "6",
-      "line": "15",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\main.c"
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
     },
-    "name": "delay",
-    "origin": "project_file",
+    "name": "_YSIZET_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@333@macro@_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "17",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@352@macro@_SIZET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_SIZET",
+    "location": {
+      "column": "11",
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZET",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@370@macro@_STD_USING_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STD_USING_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "19",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_STD_USING_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "_Sizet",
+    "location": {
+      "column": "16",
+      "line": "20",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "size_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@475@macro@__DATA_PTR_MEM_HELPER1__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DATA_PTR_MEM_HELPER1__",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "__DATA_PTR_MEM_HELPER1__",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@__data_size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned int",
+    "location": {
+      "column": "1",
+      "line": "25",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "__data_size_t",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -10697,132 +11353,6 @@
     },
     "name": "TIM4_UPD_OVF_TRG_IRQHandler",
     "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@timeCount",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "timeCount",
-    "location": {
-      "column": "19",
-      "line": "3",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\tim4.c"
-    },
-    "name": "timeCount",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Tim4_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Tim4_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "5",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\stm8l151k6t6\\nRF24\\Transmit\\V01\\src\\tim4.c"
-    },
-    "name": "Tim4_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_YSIZET_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_YSIZET_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@333@macro@_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "17",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@352@macro@_SIZET",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_SIZET",
-    "location": {
-      "column": "11",
-      "line": "18",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_SIZET",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@370@macro@_STD_USING_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STD_USING_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "19",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_STD_USING_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "_Sizet",
-    "location": {
-      "column": "16",
-      "line": "20",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "size_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@475@macro@__DATA_PTR_MEM_HELPER1__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DATA_PTR_MEM_HELPER1__",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "__DATA_PTR_MEM_HELPER1__",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@__data_size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "1",
-      "line": "25",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "__data_size_t",
-    "origin": "system_include",
     "scope": null
   }
 ]
