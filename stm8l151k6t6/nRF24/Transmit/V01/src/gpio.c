@@ -20,8 +20,20 @@
 void GPIO_Init() {
   /* user button */
   cbi(GPIOD->DDR, 0); //input mode
-  cbi(GPIOD->CR1, 0); //floating(0), pull-up(1)
+  sbi(GPIOD->CR1, 0); //floating(0), pull-up(1)
   sbi(GPIOD->CR2, 0); //interrupt en(1), interrupt dis(0)
+  
+  cbi(GPIOD->DDR, 1); //input mode
+  sbi(GPIOD->CR1, 1); //floating(0), pull-up(1)
+  sbi(GPIOD->CR2, 1); //interrupt en(1), interrupt dis(0)
+  
+  cbi(GPIOD->DDR, 2); //input mode
+  sbi(GPIOD->CR1, 2); //floating(0), pull-up(1)
+  sbi(GPIOD->CR2, 2); //interrupt en(1), interrupt dis(0)
+  
+  cbi(GPIOD->DDR, 3); //input mode
+  sbi(GPIOD->CR1, 3); //floating(0), pull-up(1)
+  sbi(GPIOD->CR2, 3); //interrupt en(1), interrupt dis(0)
   /* TX */
   sbi(GPIOC->DDR, 2); //output mode
   sbi(GPIOC->CR1, 2); //push-pull(1), open-drain(0)

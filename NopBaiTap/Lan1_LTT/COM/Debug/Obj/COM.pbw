@@ -4297,7 +4297,7 @@
     "location": {
       "column": "9",
       "line": "2",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "__CONFIG_H",
     "origin": "user_include",
@@ -4311,7 +4311,7 @@
     "location": {
       "column": "10",
       "line": "7",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKSource_HSI",
     "origin": "user_include",
@@ -4325,7 +4325,7 @@
     "location": {
       "column": "10",
       "line": "8",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKSource_LSI",
     "origin": "user_include",
@@ -4339,7 +4339,7 @@
     "location": {
       "column": "10",
       "line": "9",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKSource_HSE",
     "origin": "user_include",
@@ -4353,7 +4353,7 @@
     "location": {
       "column": "10",
       "line": "10",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKSource_LSE",
     "origin": "user_include",
@@ -4367,7 +4367,7 @@
     "location": {
       "column": "10",
       "line": "12",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_1",
     "origin": "user_include",
@@ -4381,7 +4381,7 @@
     "location": {
       "column": "10",
       "line": "13",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_2",
     "origin": "user_include",
@@ -4395,7 +4395,7 @@
     "location": {
       "column": "10",
       "line": "14",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_4",
     "origin": "user_include",
@@ -4409,7 +4409,7 @@
     "location": {
       "column": "10",
       "line": "15",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_8",
     "origin": "user_include",
@@ -4423,7 +4423,7 @@
     "location": {
       "column": "10",
       "line": "16",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_16",
     "origin": "user_include",
@@ -4437,7 +4437,7 @@
     "location": {
       "column": "10",
       "line": "17",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_32",
     "origin": "user_include",
@@ -4451,7 +4451,7 @@
     "location": {
       "column": "10",
       "line": "18",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_64",
     "origin": "user_include",
@@ -4465,7 +4465,7 @@
     "location": {
       "column": "10",
       "line": "19",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_128",
     "origin": "user_include",
@@ -4479,7 +4479,7 @@
     "location": {
       "column": "16",
       "line": "21",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "members": [
       {
@@ -4490,7 +4490,7 @@
         "location": {
           "column": "20",
           "line": "23",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "CKDIVR",
         "origin": "user_include",
@@ -4504,7 +4504,7 @@
         "location": {
           "column": "20",
           "line": "24",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "CRTCR",
         "origin": "user_include",
@@ -4518,7 +4518,7 @@
         "location": {
           "column": "20",
           "line": "25",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "ICKCR",
         "origin": "user_include",
@@ -4532,7 +4532,7 @@
         "location": {
           "column": "20",
           "line": "26",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "PCKENR1",
         "origin": "user_include",
@@ -4546,7 +4546,7 @@
         "location": {
           "column": "20",
           "line": "27",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "PCKENR2",
         "origin": "user_include",
@@ -4560,7 +4560,7 @@
         "location": {
           "column": "20",
           "line": "28",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "CCOR",
         "origin": "user_include",
@@ -4574,7 +4574,7 @@
         "location": {
           "column": "20",
           "line": "29",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "ECKCR",
         "origin": "user_include",
@@ -4588,7 +4588,7 @@
         "location": {
           "column": "20",
           "line": "30",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "SCSR",
         "origin": "user_include",
@@ -4602,7 +4602,7 @@
         "location": {
           "column": "20",
           "line": "31",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "SWR",
         "origin": "user_include",
@@ -4616,7 +4616,7 @@
         "location": {
           "column": "20",
           "line": "32",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "SWCR",
         "origin": "user_include",
@@ -4630,7 +4630,7 @@
         "location": {
           "column": "20",
           "line": "33",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "CSSR",
         "origin": "user_include",
@@ -4644,7 +4644,7 @@
         "location": {
           "column": "20",
           "line": "34",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "CBEEPR",
         "origin": "user_include",
@@ -4658,7 +4658,7 @@
         "location": {
           "column": "20",
           "line": "35",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "HSICALR",
         "origin": "user_include",
@@ -4672,7 +4672,7 @@
         "location": {
           "column": "20",
           "line": "36",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "HSITRIMR",
         "origin": "user_include",
@@ -4686,7 +4686,7 @@
         "location": {
           "column": "20",
           "line": "37",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "HSIUNLCKR",
         "origin": "user_include",
@@ -4700,7 +4700,7 @@
         "location": {
           "column": "20",
           "line": "38",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "REGCSR",
         "origin": "user_include",
@@ -4714,7 +4714,7 @@
         "location": {
           "column": "20",
           "line": "39",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
         },
         "name": "PCKENR3",
         "origin": "user_include",
@@ -4733,7 +4733,7 @@
     "location": {
       "column": "1",
       "line": "41",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "CLK_TypeDef",
     "origin": "user_include",
@@ -4747,7 +4747,7 @@
     "location": {
       "column": "9",
       "line": "42",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "System_Clock_BASE",
     "origin": "user_include",
@@ -4761,7 +4761,7 @@
     "location": {
       "column": "9",
       "line": "43",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "System_Clock",
     "origin": "user_include",
@@ -4775,7 +4775,7 @@
     "location": {
       "column": "6",
       "line": "45",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "Clk_Init",
     "origin": "user_include",
@@ -4789,7 +4789,7 @@
     "location": {
       "column": "6",
       "line": "45",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\clk.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\clk.h"
     },
     "name": "Clk_Init",
     "origin": "user_include",
@@ -4817,7 +4817,7 @@
     "location": {
       "column": "6",
       "line": "3",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\clk.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\clk.c"
     },
     "name": "Clk_Init",
     "origin": "project_file",
@@ -4831,7 +4831,7 @@
     "location": {
       "column": "9",
       "line": "2",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\mymacro.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\mymacro.h"
     },
     "name": "__MY_MACRO_H",
     "origin": "user_include",
@@ -4845,7 +4845,7 @@
     "location": {
       "column": "9",
       "line": "5",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\mymacro.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\mymacro.h"
     },
     "name": "sbi",
     "origin": "user_include",
@@ -4859,7 +4859,7 @@
     "location": {
       "column": "9",
       "line": "7",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\mymacro.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\mymacro.h"
     },
     "name": "cbi",
     "origin": "user_include",
@@ -4873,7 +4873,7 @@
     "location": {
       "column": "9",
       "line": "10",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\mymacro.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\mymacro.h"
     },
     "name": "bit_is_set",
     "origin": "user_include",
@@ -4887,7 +4887,7 @@
     "location": {
       "column": "9",
       "line": "2",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\exti.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\exti.h"
     },
     "name": "__EXTI_H",
     "origin": "user_include",
@@ -4901,7 +4901,7 @@
     "location": {
       "column": "16",
       "line": "7",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\exti.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\exti.h"
     },
     "members": [
       {
@@ -4912,7 +4912,7 @@
         "location": {
           "column": "20",
           "line": "9",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\exti.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\exti.h"
         },
         "name": "CR1",
         "origin": "user_include",
@@ -4926,7 +4926,7 @@
         "location": {
           "column": "20",
           "line": "10",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\exti.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\exti.h"
         },
         "name": "CR2",
         "origin": "user_include",
@@ -4940,7 +4940,7 @@
         "location": {
           "column": "20",
           "line": "11",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\exti.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\exti.h"
         },
         "name": "CR3",
         "origin": "user_include",
@@ -4954,7 +4954,7 @@
         "location": {
           "column": "20",
           "line": "12",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\exti.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\exti.h"
         },
         "name": "SR1",
         "origin": "user_include",
@@ -4968,7 +4968,7 @@
         "location": {
           "column": "20",
           "line": "13",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\exti.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\exti.h"
         },
         "name": "SR2",
         "origin": "user_include",
@@ -4982,7 +4982,7 @@
         "location": {
           "column": "20",
           "line": "14",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\exti.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\exti.h"
         },
         "name": "CONF1",
         "origin": "user_include",
@@ -5001,7 +5001,7 @@
     "location": {
       "column": "1",
       "line": "16",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\exti.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\exti.h"
     },
     "name": "EXTI_TypeDef",
     "origin": "user_include",
@@ -5015,7 +5015,7 @@
     "location": {
       "column": "9",
       "line": "18",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\exti.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\exti.h"
     },
     "name": "EXTI_BASE",
     "origin": "user_include",
@@ -5029,7 +5029,7 @@
     "location": {
       "column": "9",
       "line": "19",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\exti.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\exti.h"
     },
     "name": "EXTI",
     "origin": "user_include",
@@ -5043,7 +5043,7 @@
     "location": {
       "column": "6",
       "line": "21",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\exti.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\exti.h"
     },
     "name": "Exti_Init",
     "origin": "user_include",
@@ -5057,7 +5057,7 @@
     "location": {
       "column": "6",
       "line": "21",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\exti.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\exti.h"
     },
     "name": "Exti_Init",
     "origin": "user_include",
@@ -5071,7 +5071,7 @@
     "location": {
       "column": "6",
       "line": "3",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\exti.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\exti.c"
     },
     "name": "Exti_Init",
     "origin": "project_file",
@@ -5085,7 +5085,7 @@
     "location": {
       "column": "9",
       "line": "2",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "__GPIO_H",
     "origin": "user_include",
@@ -5099,7 +5099,7 @@
     "location": {
       "column": "16",
       "line": "9",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "members": [
       {
@@ -5110,7 +5110,7 @@
         "location": {
           "column": "20",
           "line": "11",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
         },
         "name": "ODR",
         "origin": "user_include",
@@ -5124,7 +5124,7 @@
         "location": {
           "column": "20",
           "line": "12",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
         },
         "name": "IDR",
         "origin": "user_include",
@@ -5138,7 +5138,7 @@
         "location": {
           "column": "20",
           "line": "13",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
         },
         "name": "DDR",
         "origin": "user_include",
@@ -5152,7 +5152,7 @@
         "location": {
           "column": "20",
           "line": "14",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
         },
         "name": "CR1",
         "origin": "user_include",
@@ -5166,7 +5166,7 @@
         "location": {
           "column": "20",
           "line": "15",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
         },
         "name": "CR2",
         "origin": "user_include",
@@ -5185,7 +5185,7 @@
     "location": {
       "column": "1",
       "line": "17",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIO_TypeDef",
     "origin": "user_include",
@@ -5199,7 +5199,7 @@
     "location": {
       "column": "9",
       "line": "19",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIOA_BASE",
     "origin": "user_include",
@@ -5213,7 +5213,7 @@
     "location": {
       "column": "9",
       "line": "20",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIOB_BASE",
     "origin": "user_include",
@@ -5227,7 +5227,7 @@
     "location": {
       "column": "9",
       "line": "21",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIOC_BASE",
     "origin": "user_include",
@@ -5241,7 +5241,7 @@
     "location": {
       "column": "9",
       "line": "22",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIOD_BASE",
     "origin": "user_include",
@@ -5255,7 +5255,7 @@
     "location": {
       "column": "9",
       "line": "23",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIOE_BASE",
     "origin": "user_include",
@@ -5269,7 +5269,7 @@
     "location": {
       "column": "9",
       "line": "24",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIOF_BASE",
     "origin": "user_include",
@@ -5283,7 +5283,7 @@
     "location": {
       "column": "9",
       "line": "26",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIOA",
     "origin": "user_include",
@@ -5297,7 +5297,7 @@
     "location": {
       "column": "9",
       "line": "27",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIOB",
     "origin": "user_include",
@@ -5311,7 +5311,7 @@
     "location": {
       "column": "9",
       "line": "28",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIOC",
     "origin": "user_include",
@@ -5325,7 +5325,7 @@
     "location": {
       "column": "9",
       "line": "29",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIOD",
     "origin": "user_include",
@@ -5339,7 +5339,7 @@
     "location": {
       "column": "9",
       "line": "30",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIOE",
     "origin": "user_include",
@@ -5353,7 +5353,7 @@
     "location": {
       "column": "9",
       "line": "31",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIOF",
     "origin": "user_include",
@@ -5367,7 +5367,7 @@
     "location": {
       "column": "9",
       "line": "35",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "ON",
     "origin": "user_include",
@@ -5381,7 +5381,7 @@
     "location": {
       "column": "9",
       "line": "36",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "OFF",
     "origin": "user_include",
@@ -5395,7 +5395,7 @@
     "location": {
       "column": "9",
       "line": "37",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "PRESS",
     "origin": "user_include",
@@ -5409,7 +5409,7 @@
     "location": {
       "column": "9",
       "line": "38",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "UNPRESS",
     "origin": "user_include",
@@ -5423,7 +5423,7 @@
     "location": {
       "column": "9",
       "line": "42",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "Togle_Led_Green",
     "origin": "user_include",
@@ -5437,7 +5437,7 @@
     "location": {
       "column": "9",
       "line": "44",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "Turn_Led_Green",
     "origin": "user_include",
@@ -5451,7 +5451,7 @@
     "location": {
       "column": "9",
       "line": "46",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "Togle_Led_Blue",
     "origin": "user_include",
@@ -5465,7 +5465,7 @@
     "location": {
       "column": "9",
       "line": "48",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "Turn_Led_Blue",
     "origin": "user_include",
@@ -5479,7 +5479,7 @@
     "location": {
       "column": "9",
       "line": "50",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "Check_User_Btn",
     "origin": "user_include",
@@ -5493,7 +5493,7 @@
     "location": {
       "column": "6",
       "line": "55",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIO_Init",
     "origin": "user_include",
@@ -5507,7 +5507,7 @@
     "location": {
       "column": "6",
       "line": "55",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIO_Init",
     "origin": "user_include",
@@ -5521,7 +5521,7 @@
     "location": {
       "column": "6",
       "line": "56",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIO_Write_Bit",
     "origin": "user_include",
@@ -5535,7 +5535,7 @@
     "location": {
       "column": "6",
       "line": "56",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIO_Write_Bit",
     "origin": "user_include",
@@ -5549,7 +5549,7 @@
     "location": {
       "column": "6",
       "line": "57",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIO_Write",
     "origin": "user_include",
@@ -5563,7 +5563,7 @@
     "location": {
       "column": "6",
       "line": "57",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIO_Write",
     "origin": "user_include",
@@ -5577,7 +5577,7 @@
     "location": {
       "column": "9",
       "line": "58",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIO_Read_Bit",
     "origin": "user_include",
@@ -5591,7 +5591,7 @@
     "location": {
       "column": "9",
       "line": "58",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIO_Read_Bit",
     "origin": "user_include",
@@ -5605,7 +5605,7 @@
     "location": {
       "column": "9",
       "line": "59",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIO_Read",
     "origin": "user_include",
@@ -5619,7 +5619,7 @@
     "location": {
       "column": "9",
       "line": "59",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\gpio.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\gpio.h"
     },
     "name": "GPIO_Read",
     "origin": "user_include",
@@ -5633,7 +5633,7 @@
     "location": {
       "column": "6",
       "line": "20",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\gpio.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\gpio.c"
     },
     "name": "GPIO_Init",
     "origin": "project_file",
@@ -5647,7 +5647,7 @@
     "location": {
       "column": "6",
       "line": "49",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\gpio.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\gpio.c"
     },
     "name": "GPIO_Write_Bit",
     "origin": "project_file",
@@ -5661,7 +5661,7 @@
     "location": {
       "column": "6",
       "line": "56",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\gpio.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\gpio.c"
     },
     "name": "GPIO_Write",
     "origin": "project_file",
@@ -5675,7 +5675,7 @@
     "location": {
       "column": "9",
       "line": "59",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\gpio.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\gpio.c"
     },
     "name": "GPIO_Read_Bit",
     "origin": "project_file",
@@ -5689,7 +5689,7 @@
     "location": {
       "column": "9",
       "line": "62",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\gpio.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\gpio.c"
     },
     "name": "GPIO_Read",
     "origin": "project_file",
@@ -5703,7 +5703,7 @@
     "location": {
       "column": "10",
       "line": "4",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\lcd.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\lcd.c"
     },
     "name": "char_list",
     "origin": "project_file",
@@ -5717,7 +5717,7 @@
     "location": {
       "column": "9",
       "line": "13",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\lcd.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\lcd.c"
     },
     "name": "buffer",
     "origin": "project_file",
@@ -5731,7 +5731,7 @@
     "location": {
       "column": "6",
       "line": "15",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\lcd.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\lcd.c"
     },
     "name": "LCD_Init",
     "origin": "project_file",
@@ -5745,7 +5745,7 @@
     "location": {
       "column": "6",
       "line": "41",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\lcd.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\lcd.c"
     },
     "name": "Start_Write_Ram",
     "origin": "project_file",
@@ -5759,7 +5759,7 @@
     "location": {
       "column": "6",
       "line": "47",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\lcd.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\lcd.c"
     },
     "name": "Lcd_Clear",
     "origin": "project_file",
@@ -5773,7 +5773,7 @@
     "location": {
       "column": "11",
       "line": "49",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\lcd.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\lcd.c"
     },
     "name": "i",
     "origin": "project_file",
@@ -5787,7 +5787,7 @@
     "location": {
       "column": "6",
       "line": "54",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\lcd.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\lcd.c"
     },
     "name": "Lcd_Print_Char",
     "origin": "project_file",
@@ -5801,7 +5801,7 @@
     "location": {
       "column": "6",
       "line": "214",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\lcd.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\lcd.c"
     },
     "name": "Lcd_Print_String",
     "origin": "project_file",
@@ -5815,7 +5815,7 @@
     "location": {
       "column": "9",
       "line": "2",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "__LCD_H",
     "origin": "user_include",
@@ -5829,7 +5829,7 @@
     "location": {
       "column": "16",
       "line": "7",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "members": [
       {
@@ -5840,7 +5840,7 @@
         "location": {
           "column": "20",
           "line": "9",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
         },
         "name": "CR1",
         "origin": "user_include",
@@ -5854,7 +5854,7 @@
         "location": {
           "column": "20",
           "line": "10",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
         },
         "name": "CR2",
         "origin": "user_include",
@@ -5868,7 +5868,7 @@
         "location": {
           "column": "20",
           "line": "11",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
         },
         "name": "CR3",
         "origin": "user_include",
@@ -5882,7 +5882,7 @@
         "location": {
           "column": "20",
           "line": "12",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
         },
         "name": "FRQ",
         "origin": "user_include",
@@ -5896,7 +5896,7 @@
         "location": {
           "column": "20",
           "line": "13",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
         },
         "name": "PM",
         "origin": "user_include",
@@ -5910,7 +5910,7 @@
         "location": {
           "column": "11",
           "line": "14",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
         },
         "name": "RESERVED1",
         "origin": "user_include",
@@ -5924,7 +5924,7 @@
         "location": {
           "column": "20",
           "line": "15",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
         },
         "name": "RAM",
         "origin": "user_include",
@@ -5938,7 +5938,7 @@
         "location": {
           "column": "11",
           "line": "16",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
         },
         "name": "RESERVED2",
         "origin": "user_include",
@@ -5952,7 +5952,7 @@
         "location": {
           "column": "20",
           "line": "17",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
         },
         "name": "CR4",
         "origin": "user_include",
@@ -5971,7 +5971,7 @@
     "location": {
       "column": "1",
       "line": "19",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "LCD_TypeDef",
     "origin": "user_include",
@@ -5985,7 +5985,7 @@
     "location": {
       "column": "9",
       "line": "21",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "LCD_BASE",
     "origin": "user_include",
@@ -5999,7 +5999,7 @@
     "location": {
       "column": "9",
       "line": "22",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "LCD",
     "origin": "user_include",
@@ -6013,7 +6013,7 @@
     "location": {
       "column": "6",
       "line": "24",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "LCD_Init",
     "origin": "user_include",
@@ -6027,7 +6027,7 @@
     "location": {
       "column": "6",
       "line": "24",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "LCD_Init",
     "origin": "user_include",
@@ -6041,7 +6041,7 @@
     "location": {
       "column": "6",
       "line": "25",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "Start_Write_Ram",
     "origin": "user_include",
@@ -6055,7 +6055,7 @@
     "location": {
       "column": "6",
       "line": "25",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "Start_Write_Ram",
     "origin": "user_include",
@@ -6069,7 +6069,7 @@
     "location": {
       "column": "6",
       "line": "26",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "Lcd_Clear",
     "origin": "user_include",
@@ -6083,7 +6083,7 @@
     "location": {
       "column": "6",
       "line": "26",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "Lcd_Clear",
     "origin": "user_include",
@@ -6097,7 +6097,7 @@
     "location": {
       "column": "6",
       "line": "27",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "Lcd_Print_Char",
     "origin": "user_include",
@@ -6111,7 +6111,7 @@
     "location": {
       "column": "6",
       "line": "27",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "Lcd_Print_Char",
     "origin": "user_include",
@@ -6125,7 +6125,7 @@
     "location": {
       "column": "6",
       "line": "28",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "Lcd_Print_String",
     "origin": "user_include",
@@ -6139,7 +6139,7 @@
     "location": {
       "column": "6",
       "line": "28",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\lcd.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\lcd.h"
     },
     "name": "Lcd_Print_String",
     "origin": "user_include",
@@ -6153,7 +6153,7 @@
     "location": {
       "column": "9",
       "line": "2",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
     },
     "name": "__ITC_H",
     "origin": "user_include",
@@ -6167,7 +6167,7 @@
     "location": {
       "column": "16",
       "line": "7",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
     },
     "members": [
       {
@@ -6178,7 +6178,7 @@
         "location": {
           "column": "20",
           "line": "9",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
         },
         "name": "ISPR1",
         "origin": "user_include",
@@ -6192,7 +6192,7 @@
         "location": {
           "column": "20",
           "line": "10",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
         },
         "name": "ISPR2",
         "origin": "user_include",
@@ -6206,7 +6206,7 @@
         "location": {
           "column": "20",
           "line": "11",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
         },
         "name": "ISPR3",
         "origin": "user_include",
@@ -6220,7 +6220,7 @@
         "location": {
           "column": "20",
           "line": "12",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
         },
         "name": "ISPR4",
         "origin": "user_include",
@@ -6234,7 +6234,7 @@
         "location": {
           "column": "20",
           "line": "13",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
         },
         "name": "ISPR5",
         "origin": "user_include",
@@ -6248,7 +6248,7 @@
         "location": {
           "column": "20",
           "line": "14",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
         },
         "name": "ISPR6",
         "origin": "user_include",
@@ -6262,7 +6262,7 @@
         "location": {
           "column": "20",
           "line": "15",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
         },
         "name": "ISPR7",
         "origin": "user_include",
@@ -6276,7 +6276,7 @@
         "location": {
           "column": "20",
           "line": "16",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
         },
         "name": "ISPR8",
         "origin": "user_include",
@@ -6295,7 +6295,7 @@
     "location": {
       "column": "1",
       "line": "18",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
     },
     "name": "ITC_TypeDef",
     "origin": "user_include",
@@ -6309,7 +6309,7 @@
     "location": {
       "column": "9",
       "line": "20",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
     },
     "name": "ITC_BASE",
     "origin": "user_include",
@@ -6323,7 +6323,7 @@
     "location": {
       "column": "9",
       "line": "21",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
     },
     "name": "ITC",
     "origin": "user_include",
@@ -6337,7 +6337,7 @@
     "location": {
       "column": "6",
       "line": "23",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
     },
     "name": "Itc_Init",
     "origin": "user_include",
@@ -6351,7 +6351,7 @@
     "location": {
       "column": "6",
       "line": "23",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\itc.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\itc.h"
     },
     "name": "Itc_Init",
     "origin": "user_include",
@@ -6365,7 +6365,7 @@
     "location": {
       "column": "6",
       "line": "3",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\itc.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\itc.c"
     },
     "name": "Itc_Init",
     "origin": "project_file",
@@ -6379,7 +6379,7 @@
     "location": {
       "column": "9",
       "line": "2",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
     },
     "name": "__TIM4_H",
     "origin": "user_include",
@@ -6393,7 +6393,7 @@
     "location": {
       "column": "16",
       "line": "7",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
     },
     "members": [
       {
@@ -6404,7 +6404,7 @@
         "location": {
           "column": "20",
           "line": "9",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
         },
         "name": "CR1",
         "origin": "user_include",
@@ -6418,7 +6418,7 @@
         "location": {
           "column": "20",
           "line": "10",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
         },
         "name": "CR2",
         "origin": "user_include",
@@ -6432,7 +6432,7 @@
         "location": {
           "column": "20",
           "line": "11",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
         },
         "name": "SMCR",
         "origin": "user_include",
@@ -6446,7 +6446,7 @@
         "location": {
           "column": "20",
           "line": "12",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
         },
         "name": "DER",
         "origin": "user_include",
@@ -6460,7 +6460,7 @@
         "location": {
           "column": "20",
           "line": "13",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
         },
         "name": "IER",
         "origin": "user_include",
@@ -6474,7 +6474,7 @@
         "location": {
           "column": "20",
           "line": "14",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
         },
         "name": "SR1",
         "origin": "user_include",
@@ -6488,7 +6488,7 @@
         "location": {
           "column": "20",
           "line": "15",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
         },
         "name": "EGR",
         "origin": "user_include",
@@ -6502,7 +6502,7 @@
         "location": {
           "column": "20",
           "line": "16",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
         },
         "name": "CNTR",
         "origin": "user_include",
@@ -6516,7 +6516,7 @@
         "location": {
           "column": "20",
           "line": "17",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
         },
         "name": "PSCR",
         "origin": "user_include",
@@ -6530,7 +6530,7 @@
         "location": {
           "column": "20",
           "line": "18",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
         },
         "name": "ARR",
         "origin": "user_include",
@@ -6549,7 +6549,7 @@
     "location": {
       "column": "1",
       "line": "20",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
     },
     "name": "TIM4_TypeDef",
     "origin": "user_include",
@@ -6563,7 +6563,7 @@
     "location": {
       "column": "9",
       "line": "21",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
     },
     "name": "TIM4_BASE",
     "origin": "user_include",
@@ -6577,7 +6577,7 @@
     "location": {
       "column": "9",
       "line": "22",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
     },
     "name": "TIM4",
     "origin": "user_include",
@@ -6591,7 +6591,7 @@
     "location": {
       "column": "26",
       "line": "24",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
     },
     "name": "timeCount",
     "origin": "user_include",
@@ -6605,7 +6605,7 @@
     "location": {
       "column": "26",
       "line": "24",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
     },
     "name": "timeCount",
     "origin": "user_include",
@@ -6619,7 +6619,7 @@
     "location": {
       "column": "6",
       "line": "26",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
     },
     "name": "Tim4_Init",
     "origin": "user_include",
@@ -6633,7 +6633,7 @@
     "location": {
       "column": "6",
       "line": "26",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\tim4.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\tim4.h"
     },
     "name": "Tim4_Init",
     "origin": "user_include",
@@ -6647,7 +6647,7 @@
     "location": {
       "column": "19",
       "line": "3",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\tim4.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\tim4.c"
     },
     "name": "timeCount",
     "origin": "project_file",
@@ -6661,7 +6661,7 @@
     "location": {
       "column": "6",
       "line": "5",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\tim4.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\tim4.c"
     },
     "name": "Tim4_Init",
     "origin": "project_file",
@@ -6675,7 +6675,7 @@
     "location": {
       "column": "6",
       "line": "3",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "Buff_Receive_USART",
     "origin": "project_file",
@@ -6689,7 +6689,7 @@
     "location": {
       "column": "6",
       "line": "5",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "USART1_Init",
     "origin": "project_file",
@@ -6703,7 +6703,7 @@
     "location": {
       "column": "6",
       "line": "24",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "USART1_Send_Char",
     "origin": "project_file",
@@ -6717,7 +6717,7 @@
     "location": {
       "column": "6",
       "line": "29",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "USART1_Send_String",
     "origin": "project_file",
@@ -6731,7 +6731,7 @@
     "location": {
       "column": "16",
       "line": "30",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "i",
     "origin": "project_file",
@@ -6745,7 +6745,7 @@
     "location": {
       "column": "9",
       "line": "40",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "USART1_Receive_Char",
     "origin": "project_file",
@@ -6759,7 +6759,7 @@
     "location": {
       "column": "6",
       "line": "50",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "USART1_Receive_String",
     "origin": "project_file",
@@ -6773,7 +6773,7 @@
     "location": {
       "column": "11",
       "line": "51",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "iLeng",
     "origin": "project_file",
@@ -6787,7 +6787,7 @@
     "location": {
       "column": "8",
       "line": "52",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "receiveChar",
     "origin": "project_file",
@@ -6801,7 +6801,7 @@
     "location": {
       "column": "6",
       "line": "70",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "USART1_Receive_String_TimeOut",
     "origin": "project_file",
@@ -6815,7 +6815,7 @@
     "location": {
       "column": "11",
       "line": "71",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "iLeng",
     "origin": "project_file",
@@ -6829,7 +6829,7 @@
     "location": {
       "column": "8",
       "line": "72",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "receiveChar",
     "origin": "project_file",
@@ -6843,7 +6843,7 @@
     "location": {
       "column": "6",
       "line": "92",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "USART1_Receive_String_TimeOutReset",
     "origin": "project_file",
@@ -6857,7 +6857,7 @@
     "location": {
       "column": "11",
       "line": "93",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "iLeng",
     "origin": "project_file",
@@ -6871,7 +6871,7 @@
     "location": {
       "column": "8",
       "line": "94",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\usart.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\usart.c"
     },
     "name": "receiveChar",
     "origin": "project_file",
@@ -6885,7 +6885,7 @@
     "location": {
       "column": "9",
       "line": "2",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "__USART_H",
     "origin": "user_include",
@@ -6899,7 +6899,7 @@
     "location": {
       "column": "9",
       "line": "8",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "RECEIVE_FAIL",
     "origin": "user_include",
@@ -6913,7 +6913,7 @@
     "location": {
       "column": "16",
       "line": "10",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "members": [
       {
@@ -6924,7 +6924,7 @@
         "location": {
           "column": "20",
           "line": "12",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
         },
         "name": "SR",
         "origin": "user_include",
@@ -6938,7 +6938,7 @@
         "location": {
           "column": "20",
           "line": "13",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
         },
         "name": "DR",
         "origin": "user_include",
@@ -6952,7 +6952,7 @@
         "location": {
           "column": "20",
           "line": "14",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
         },
         "name": "BRR1",
         "origin": "user_include",
@@ -6966,7 +6966,7 @@
         "location": {
           "column": "20",
           "line": "15",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
         },
         "name": "BRR2",
         "origin": "user_include",
@@ -6980,7 +6980,7 @@
         "location": {
           "column": "20",
           "line": "16",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
         },
         "name": "CR1",
         "origin": "user_include",
@@ -6994,7 +6994,7 @@
         "location": {
           "column": "20",
           "line": "17",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
         },
         "name": "CR2",
         "origin": "user_include",
@@ -7008,7 +7008,7 @@
         "location": {
           "column": "20",
           "line": "18",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
         },
         "name": "CR3",
         "origin": "user_include",
@@ -7022,7 +7022,7 @@
         "location": {
           "column": "20",
           "line": "19",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
         },
         "name": "CR4",
         "origin": "user_include",
@@ -7036,7 +7036,7 @@
         "location": {
           "column": "20",
           "line": "20",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
         },
         "name": "CR5",
         "origin": "user_include",
@@ -7050,7 +7050,7 @@
         "location": {
           "column": "20",
           "line": "21",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
         },
         "name": "GTR",
         "origin": "user_include",
@@ -7064,7 +7064,7 @@
         "location": {
           "column": "20",
           "line": "22",
-          "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+          "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
         },
         "name": "PSCR",
         "origin": "user_include",
@@ -7083,7 +7083,7 @@
     "location": {
       "column": "1",
       "line": "24",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART_TypeDef",
     "origin": "user_include",
@@ -7097,7 +7097,7 @@
     "location": {
       "column": "9",
       "line": "26",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_BASE",
     "origin": "user_include",
@@ -7111,7 +7111,7 @@
     "location": {
       "column": "9",
       "line": "27",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1",
     "origin": "user_include",
@@ -7125,7 +7125,7 @@
     "location": {
       "column": "13",
       "line": "29",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "Buff_Receive_USART",
     "origin": "user_include",
@@ -7139,7 +7139,7 @@
     "location": {
       "column": "6",
       "line": "31",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Init",
     "origin": "user_include",
@@ -7153,7 +7153,7 @@
     "location": {
       "column": "6",
       "line": "31",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Init",
     "origin": "user_include",
@@ -7167,7 +7167,7 @@
     "location": {
       "column": "6",
       "line": "32",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Send_Char",
     "origin": "user_include",
@@ -7181,7 +7181,7 @@
     "location": {
       "column": "6",
       "line": "32",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Send_Char",
     "origin": "user_include",
@@ -7195,7 +7195,7 @@
     "location": {
       "column": "6",
       "line": "33",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Send_String",
     "origin": "user_include",
@@ -7209,7 +7209,7 @@
     "location": {
       "column": "6",
       "line": "33",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Send_String",
     "origin": "user_include",
@@ -7223,7 +7223,7 @@
     "location": {
       "column": "9",
       "line": "34",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Receive_Char",
     "origin": "user_include",
@@ -7237,7 +7237,7 @@
     "location": {
       "column": "9",
       "line": "34",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Receive_Char",
     "origin": "user_include",
@@ -7251,7 +7251,7 @@
     "location": {
       "column": "6",
       "line": "35",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Receive_String",
     "origin": "user_include",
@@ -7265,7 +7265,7 @@
     "location": {
       "column": "6",
       "line": "35",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Receive_String",
     "origin": "user_include",
@@ -7279,7 +7279,7 @@
     "location": {
       "column": "6",
       "line": "36",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Receive_String_TimeOut",
     "origin": "user_include",
@@ -7293,7 +7293,7 @@
     "location": {
       "column": "6",
       "line": "36",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Receive_String_TimeOut",
     "origin": "user_include",
@@ -7307,7 +7307,7 @@
     "location": {
       "column": "6",
       "line": "37",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Receive_String_TimeOutReset",
     "origin": "user_include",
@@ -7321,7 +7321,7 @@
     "location": {
       "column": "6",
       "line": "37",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\inc\\usart.h"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\inc\\usart.h"
     },
     "name": "USART1_Receive_String_TimeOutReset",
     "origin": "user_include",
@@ -7909,7 +7909,7 @@
     "location": {
       "column": "6",
       "line": "13",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\main.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\main.c"
     },
     "name": "delay",
     "origin": "project_file",
@@ -7923,7 +7923,7 @@
     "location": {
       "column": "6",
       "line": "15",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\main.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\main.c"
     },
     "name": "main",
     "origin": "project_file",
@@ -7937,7 +7937,7 @@
     "location": {
       "column": "6",
       "line": "43",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\main.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\main.c"
     },
     "name": "delay",
     "origin": "project_file",
@@ -7951,7 +7951,7 @@
     "location": {
       "column": "18",
       "line": "49",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\main.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\main.c"
     },
     "name": "EXTI_Handle_Bit_1",
     "origin": "project_file",
@@ -7965,7 +7965,7 @@
     "location": {
       "column": "18",
       "line": "62",
-      "path": "D:\\ThucLT\\project\\FPT_Lab\\COM\\src\\main.c"
+      "path": "D:\\ThucLT\\project\\FPT_Lab\\NopBaiTap\\Lan1_LTT\\COM\\src\\main.c"
     },
     "name": "TIM4_UPD_OVF_TRG_IRQHandler",
     "origin": "project_file",

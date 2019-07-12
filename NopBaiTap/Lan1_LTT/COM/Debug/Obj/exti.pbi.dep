@@ -1,6 +1,6 @@
-exti.pbi: D:\ThucLT\project\FPT_Lab\COM\src\exti.c \
-  D:\ThucLT\project\FPT_Lab\COM\inc\exti.h \
-  D:\ThucLT\project\FPT_Lab\COM\inc/mymacro.h \
+exti.pbi: D:\ThucLT\project\FPT_Lab\NopBaiTap\Lan1_LTT\COM\src\exti.c \
+  D:\ThucLT\project\FPT_Lab\NopBaiTap\Lan1_LTT\COM\inc\exti.h \
+  D:\ThucLT\project\FPT_Lab\NopBaiTap\Lan1_LTT\COM\inc/mymacro.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \

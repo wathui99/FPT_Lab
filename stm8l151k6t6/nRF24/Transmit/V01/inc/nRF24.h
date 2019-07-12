@@ -7,6 +7,14 @@
 #include "spi.h"
 #include "gpio.h"
 
+#define nRF_Delay_Time 100
+/*
+* 1 enable delay
+* 0 no delay
+*/
+#define nRF_Delay_Mask 1
+
+
 typedef enum {
   nRF_MaskInterrupt_Disable = (uint8_t)0x00,
   nRF_MaskInterrupt_MaxTries = (uint8_t)0x10,
@@ -66,6 +74,8 @@ typedef enum {
 
 static uint8_t nRF_payloadLength;
 
+/* basic function */
+void nRF_Delay(uint32_t);
 void nRF_Set_Payload_Leng(uint8_t value);
 uint8_t nRF_Get_Status_Reg();
 void nRF_Write_One_Reg(uint8_t reg, uint8_t value);
@@ -73,6 +83,7 @@ uint8_t nRF_Read_One_Reg(uint8_t reg);
 void nRF_Write_Multi_Regs(uint8_t reg, uint8_t *value, uint8_t len);
 uint8_t *nRF_Read_Multi_Regs(uint8_t reg, uint8_t *ret, uint8_t len);
 
+/* config function */
 void nRF_Config(nRF_MaskInterrupt_TypeDef MaskInterrupt, nRF_CRC_TypeDef CRC, nRF_Mode_TypeDef Mode, \
                 nRF_AA_TypeDef AA, nRF_EN_Pipe_TypeDef EN_Pipe, nRF_Add_Width_TypeDef Add_Width, \
                 uint8_t delay_reTrans, uint8_t num_reTrans, uint8_t RF_channel, \
@@ -82,12 +93,13 @@ void nRF_Config(nRF_MaskInterrupt_TypeDef MaskInterrupt, nRF_CRC_TypeDef CRC, nR
                 uint8_t *TX_Add, uint8_t num_Byte_P0, uint8_t num_Byte_P1, uint8_t num_Byte_P2, \
                 uint8_t num_Byte_P3, uint8_t num_Byte_P4, uint8_t num_Byte_P5);
       
-uint8_t nRF_Is_Sending(void);                  
+uint8_t nRF_Is_Sending(void);
+void nRF_Powerup_TX(void);
+void nRF_Powerup_RX(void);
+void nRF_Powerdown(void);
+void nRF_Send(uint8_t *payload, uint8_t len, uint8_t clearFIFO);                  
                   
-                  
-                  
-                  
-                  
-                  
-                  
+/* user function */
+void User_nRF_Send(uint8_t *payload, uint8_t len);
+
 #endif /* __nRF24_H */

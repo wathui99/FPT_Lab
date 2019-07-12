@@ -1,22 +1,22 @@
-"D:\ThucLT\project\FPT_Lab\NopBaiTap\COM\src\itc.c"
+"D:\ThucLT\project\FPT_Lab\NopBaiTap\Lan1_LTT\COM\src\itc.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-D:\ThucLT\project\FPT_Lab\NopBaiTap\COM\Debug\Obj\itc.pbi.dep
+D:\ThucLT\project\FPT_Lab\NopBaiTap\Lan1_LTT\COM\Debug\Obj\itc.pbi.dep
 -o
 itc.pbi
 -I
-D:\ThucLT\project\FPT_Lab\NopBaiTap\COM\src
+D:\ThucLT\project\FPT_Lab\NopBaiTap\Lan1_LTT\COM\src
 -I
-D:\ThucLT\project\FPT_Lab\NopBaiTap\COM\inc
+D:\ThucLT\project\FPT_Lab\NopBaiTap\Lan1_LTT\COM\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 -I
-D:\ThucLT\project\FPT_Lab\NopBaiTap\COM\inc
+D:\ThucLT\project\FPT_Lab\NopBaiTap\Lan1_LTT\COM\inc
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

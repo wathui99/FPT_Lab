@@ -3,8 +3,8 @@ main.pbi: \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
   D:\ThucLT\project\FPT_Lab\stm8l151k6t6\nRF24\Transmit\V01\inc\nRF24.h \
   D:\ThucLT\project\FPT_Lab\stm8l151k6t6\nRF24\Transmit\V01\inc\spi.h \
-  D:\ThucLT\project\FPT_Lab\stm8l151k6t6\nRF24\Transmit\V01\inc\usart.h \
   D:\ThucLT\project\FPT_Lab\stm8l151k6t6\nRF24\Transmit\V01\inc\tim4.h \
+  D:\ThucLT\project\FPT_Lab\stm8l151k6t6\nRF24\Transmit\V01\inc\usart.h \
   D:\ThucLT\project\FPT_Lab\stm8l151k6t6\nRF24\Transmit\V01\inc\exti.h \
   D:\ThucLT\project\FPT_Lab\stm8l151k6t6\nRF24\Transmit\V01\inc\itc.h \
   D:\ThucLT\project\FPT_Lab\stm8l151k6t6\nRF24\Transmit\V01\inc\gpio.h \

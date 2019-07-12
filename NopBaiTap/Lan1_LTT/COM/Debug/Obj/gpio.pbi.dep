@@ -1,5 +1,5 @@
-gpio.pbi: D:\ThucLT\project\FPT_Lab\COM\src\gpio.c \
-  D:\ThucLT\project\FPT_Lab\COM\inc\gpio.h \
+gpio.pbi: D:\ThucLT\project\FPT_Lab\NopBaiTap\Lan1_LTT\COM\src\gpio.c \
+  D:\ThucLT\project\FPT_Lab\NopBaiTap\Lan1_LTT\COM\inc\gpio.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
@@ -8,4 +8,4 @@ gpio.pbi: D:\ThucLT\project\FPT_Lab\COM\src\gpio.c \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
-  D:\ThucLT\project\FPT_Lab\COM\inc/mymacro.h
+  D:\ThucLT\project\FPT_Lab\NopBaiTap\Lan1_LTT\COM\inc/mymacro.h

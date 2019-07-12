@@ -9,10 +9,10 @@ void USART1_Init(void) {
   USART1->CR3 = 0x00;
   /* 
   * baud rate, see config in page 533 reference manual 
-  * Fsysclk = 16MHz
+  * Fsysclk = 38KHz
   */
-  USART1->BRR2 = 0x03;
-  USART1->BRR1 = 0x68;
+  USART1->BRR2 = 0x0F;
+  USART1->BRR1 = 0x03;
   /*
   * enable transmitter
   * enable receiver
