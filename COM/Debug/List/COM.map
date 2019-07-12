@@ -1,0 +1,359 @@
+###############################################################################
+#
+# IAR ELF Linker V3.11.1.207 for STM8                     12/Jul/2019  10:02:49
+# Copyright 2010-2019 IAR Systems AB.
+#
+#    Output file  =  D:\ThucLT\project\FPT_Lab\COM\Debug\Exe\COM.out
+#    Map file     =  D:\ThucLT\project\FPT_Lab\COM\Debug\List\COM.map
+#    Command line =  
+#        -f C:\Users\HERA~1.FGA\AppData\Local\Temp\EW3931.tmp
+#        (D:\ThucLT\project\FPT_Lab\COM\Debug\Obj\clk.o
+#        D:\ThucLT\project\FPT_Lab\COM\Debug\Obj\exti.o
+#        D:\ThucLT\project\FPT_Lab\COM\Debug\Obj\gpio.o
+#        D:\ThucLT\project\FPT_Lab\COM\Debug\Obj\itc.o
+#        D:\ThucLT\project\FPT_Lab\COM\Debug\Obj\lcd.o
+#        D:\ThucLT\project\FPT_Lab\COM\Debug\Obj\main.o
+#        D:\ThucLT\project\FPT_Lab\COM\Debug\Obj\tim4.o
+#        D:\ThucLT\project\FPT_Lab\COM\Debug\Obj\usart.o --redirect
+#        _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall --no_out_extension
+#        -o D:\ThucLT\project\FPT_Lab\COM\Debug\Exe\COM.out --map
+#        D:\ThucLT\project\FPT_Lab\COM\Debug\List\COM.map --config "C:\Program
+#        Files (x86)\IAR Systems\Embedded Workbench
+#        8.3\stm8\config\lnkstm8l152c6.icf" --config_def _CSTACK_SIZE=0x100
+#        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary            = DLib
+__code_model               = small
+__core                     = stm8
+__data_model               = medium
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__rt_version               = 4
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at start of [0x000000-0x0000ff] { rw section .vregs };
+"A1":  place at end of [0x000000-0x0007ff] { block CSTACK };
+"P2":  place in [from 0x000000 to 0x0007ff] {
+          block HEAP, rw section __DLIB_PERTHREAD, rw section .far.bss,
+          rw section .far.data, rw section .far.noinit,
+          rw section .far_func.textrw, rw section .huge.bss,
+          rw section .huge.data, rw section .huge.noinit,
+          rw section .huge_func.textrw, rw section .iar.dynexit,
+          rw section .near.bss, rw section .near.data, rw section .near.noinit,
+          rw section .near_func.textrw };
+"A2":  place at start of [0x008000-0x00ffff] { block INTVEC };
+"P3":  place in [from 0x008000 to 0x00ffff] {
+          ro section __DLIB_PERTHREAD_init, ro section .far.data_init,
+          ro section .far_func.textrw_init, ro section .huge.data_init,
+          ro section .huge_func.textrw_init, ro section .iar.init_table,
+          ro section .init_array, ro section .near.data_init,
+          ro section .near.rodata, ro section .near_func.text,
+          ro section .near_func.textrw_init, ro section .tiny.data_init,
+          ro section .tiny.rodata_init };
+"P4":  place in [from 0x008000 to 0x00ffff] {
+          ro section .far.rodata, ro section .far_func.text };
+"P5":  place in [from 0x008000 to 0x00ffff] {
+          ro section .huge.rodata, ro section .huge_func.text };
+do not initialize {
+   rw section .eeprom.noinit, rw section .far.noinit, rw section .huge.noinit,
+   rw section .near.noinit, rw section .tiny.noinit, rw section .vregs };
+initialize by copy {
+   rw section .far.bss, rw section .far.data, rw section .far_func.textrw,
+   rw section .huge.bss, rw section .huge.data, rw section .huge_func.textrw,
+   rw section .iar.dynexit, rw section .near.bss, rw section .near.data,
+   rw section .near_func.textrw, rw section .tiny.bss, rw section .tiny.data,
+   ro section .tiny.rodata };
+
+No sections matched the following patterns:
+
+  ro section .far.data_init          in "P3-P5"
+  ro section .far.rodata             in "P3-P5"
+  ro section .far_func.text          in "P3-P5"
+  ro section .far_func.textrw_init   in "P3-P5"
+  ro section .huge.data_init         in "P3-P5"
+  ro section .huge.rodata            in "P3-P5"
+  ro section .huge_func.text         in "P3-P5"
+  ro section .huge_func.textrw_init  in "P3-P5"
+  ro section .iar.init_table         in "P3-P5"
+  ro section .init_array             in "P3-P5"
+  ro section .near_func.textrw_init  in "P3-P5"
+  ro section .tiny.data_init         in "P3-P5"
+  ro section .tiny.rodata_init       in "P3-P5"
+  ro section __DLIB_PERTHREAD_init   in "P3-P5"
+  rw section .far.bss                in "P2"
+  rw section .far.data               in "P2"
+  rw section .far.noinit             in "P2"
+  rw section .far_func.textrw        in "P2"
+  rw section .huge.bss               in "P2"
+  rw section .huge.data              in "P2"
+  rw section .huge.noinit            in "P2"
+  rw section .huge_func.textrw       in "P2"
+  rw section .iar.dynexit            in "P2"
+  rw section .near.noinit            in "P2"
+  rw section .near_func.textrw       in "P2"
+  rw section .tiny.bss               in "P1"
+  rw section .tiny.data              in "P1"
+  rw section .tiny.noinit            in "P1"
+  rw section .tiny.rodata            in "P1"
+  rw section __DLIB_PERTHREAD        in "P2"
+  section .eeprom.data               in "P6-P8"
+  section .eeprom.noinit             in "P6-P8"
+  section .eeprom.rodata             in "P6-P8"
+
+
+  Section            Kind      Address   Size  Object
+  -------            ----      -------   ----  ------
+"A0":                                     0xc
+  .vregs             uninit   0x000000    0xc  vregs.o [4]
+                            - 0x00000c    0xc
+
+"P2", part 1 of 2:                       0x4a
+  P2-1                        0x00000c   0x4a  <Init block>
+    .near.data       inited   0x00000c   0x4a  lcd.o [1]
+                            - 0x000056   0x4a
+
+"P2", part 2 of 2:                       0xce
+  .near.bss          zero     0x000056   0xc8  usart.o [1]
+  .near.bss          zero     0x00011e    0x4  tim4.o [1]
+  .near.bss          zero     0x000122    0x2  lcd.o [1]
+                            - 0x000124   0xce
+
+"A1":                                   0x100
+  CSTACK                      0x000700  0x100  <Block>
+    CSTACK           uninit   0x000700  0x100  <Block tail>
+                            - 0x000800  0x100
+
+"A2":                                    0x80
+  INTVEC                      0x008000   0x80  <Block>
+    .intvec          const    0x008000   0x80  interrupt.o [4]
+                            - 0x008080   0x80
+
+"P3-P5":                                0x885
+  .near_func.text    ro code  0x008080  0x440  lcd.o [1]
+  .near_func.text    ro code  0x0084c0   0x7d  vreg_util.o [4]
+  .near_func.text    ro code  0x00853d   0x6a  usart.o [1]
+  Initializer bytes  const    0x0085a7   0x4a  <for P2-1>
+  .near_func.text    ro code  0x0085f1   0x49  gpio.o [1]
+  .near_func.text    ro code  0x00863a   0x3d  main.o [1]
+  .near_func.text    ro code  0x008677   0x3c  lcd.o [1]
+  .near_func.text    ro code  0x0086b3   0x3c  main.o [1]
+  .near_func.text    ro code  0x0086ef   0x31  clk.o [1]
+  .near_func.text    ro code  0x008720   0x2a  lcd.o [1]
+  .near_func.text    ro code  0x00874a   0x28  init_small.o [4]
+  .near_func.text    ro code  0x008772   0x25  usart.o [1]
+  .near_func.text    ro code  0x008797   0x23  long.o [4]
+  .iar.init_table    const    0x0087ba   0x12  - Linker created -
+  .near_func.text    ro code  0x0087cc   0x1e  init_small.o [4]
+  .near_func.text    ro code  0x0087ea   0x1a  main.o [1]
+  .near_func.text    ro code  0x008804   0x1a  long_util.o [4]
+  .near_func.text    ro code  0x00881e   0x19  tim4.o [1]
+  .near_func.text    ro code  0x008837   0x19  usart.o [1]
+  .near_func.text    ro code  0x008850   0x15  lcd.o [1]
+  .near_func.text    ro code  0x008865   0x14  init.o [4]
+  .near_func.text    ro code  0x008879   0x14  __dbg_xxexit.o [3]
+  .near_func.text    ro code  0x00888d   0x13  cstartup.o [4]
+  .near_func.text    ro code  0x0088a0    0xe  usart.o [1]
+  .near_func.text    ro code  0x0088ae    0xd  strlen.o [4]
+  .near_func.text    ro code  0x0088bb    0xc  char.o [4]
+  .near_func.text    ro code  0x0088c7    0xa  lcd.o [1]
+  .near_func.text    ro code  0x0088d1    0x9  exti.o [1]
+  .near_func.text    ro code  0x0088da    0x9  itc.o [1]
+  .near_func.text    ro code  0x0088e3    0x9  usart.o [1]
+  .near.rodata       const    0x0088ec    0x7  main.o [1]
+  .near_func.text    ro code  0x0088f3    0x5  cexit.o [4]
+  .near_func.text    ro code  0x0088f8    0x3  interrupt.o [4]
+  .near_func.text    ro code  0x0088fb    0x3  low_level_init.o [4]
+  .near_func.text    ro code  0x0088fe    0x3  exit.o [4]
+  .near_func.text    ro code  0x008901    0x3  unhandled_exception.o [4]
+  .near_func.text    ro code  0x008904    0x1  __dbg_break.o [3]
+                            - 0x008905  0x885
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address   Size
+          -------   ----
+Zero (__iar_zero_init2)
+    1 destination range, total size 0xce:
+          0x000056  0xce
+
+Copy (__iar_copy_init2)
+    1 source range, total size 0x4a:
+          0x0085a7  0x4a
+    1 destination range, total size 0x4a:
+          0x00000c  0x4a
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+D:\ThucLT\project\FPT_Lab\COM\Debug\Obj: [1]
+    clk.o                       49
+    exti.o                       9
+    gpio.o                      73
+    itc.o                        9
+    lcd.o                    1 221       74       76
+    main.o                     147        7
+    tim4.o                      25                 4
+    usart.o                    191               200
+    ------------------------------------------------
+    Total:                   1 724       81      280
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dbgstm8smd.a: [3]
+    __dbg_break.o                1
+    __dbg_xxexit.o              20
+    ------------------------------------------------
+    Total:                      21
+
+dlstm8smn.a: [4]
+    cexit.o                      5
+    char.o                      12
+    cstartup.o                  19
+    exit.o                       3
+    init.o                      20
+    init_small.o                70
+    interrupt.o                  3      128
+    long.o                      35
+    long_util.o                 26
+    low_level_init.o             3
+    strlen.o                    13
+    unhandled_exception.o        3
+    vreg_util.o                125
+    vregs.o                                       12
+    ------------------------------------------------
+    Total:                     337      128       12
+
+    Linker created                       18      256
+----------------------------------------------------
+    Grand Total:             2 082      227      548
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address   Size  Type      Object
+-----                    -------   ----  ----      ------
+.iar.init_table$$Base   0x0087ba          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0087cc          --   Gb  - Linker created -
+?b0                     0x000000         Data  Gb  vregs.o [4]
+?b1                     0x000001         Data  Gb  vregs.o [4]
+?b10                    0x00000a         Data  Gb  vregs.o [4]
+?b11                    0x00000b         Data  Gb  vregs.o [4]
+?b2                     0x000002         Data  Gb  vregs.o [4]
+?b3                     0x000003         Data  Gb  vregs.o [4]
+?b4                     0x000004         Data  Gb  vregs.o [4]
+?b5                     0x000005         Data  Gb  vregs.o [4]
+?b6                     0x000006         Data  Gb  vregs.o [4]
+?b7                     0x000007         Data  Gb  vregs.o [4]
+?b8                     0x000008         Data  Gb  vregs.o [4]
+?b9                     0x000009         Data  Gb  vregs.o [4]
+?e0                     0x000001         Data  Gb  vregs.o [4]
+?e1                     0x000005         Data  Gb  vregs.o [4]
+?e2                     0x000009         Data  Gb  vregs.o [4]
+?epilogue_w4            0x00852c         Code  Gb  vreg_util.o [4]
+?inc32_0x_0x            0x00879c         Code  Gb  long.o [4]
+?inc32_l0_l0            0x008797         Code  Gb  long.o [4]
+?l0                     0x000000         Data  Gb  vregs.o [4]
+?l1                     0x000004         Data  Gb  vregs.o [4]
+?l2                     0x000008         Data  Gb  vregs.o [4]
+?load32_0x_l0           0x008810         Code  Gb  long_util.o [4]
+?load32_l0_0x           0x008804         Code  Gb  long_util.o [4]
+?mov_e0_e1              0x008533         Code  Gb  vreg_util.o [4]
+?mov_l0_l1              0x008530         Code  Gb  vreg_util.o [4]
+?mov_w1_w3              0x008536         Code  Gb  vreg_util.o [4]
+?pop_l0                 0x00850e         Code  Gb  vreg_util.o [4]
+?pop_l1                 0x008519         Code  Gb  vreg_util.o [4]
+?pop_w4                 0x0084d8         Code  Gb  vreg_util.o [4]
+?push_l0                0x0084e7         Code  Gb  vreg_util.o [4]
+?push_l1                0x0084ec         Code  Gb  vreg_util.o [4]
+?push_w4                0x0084c0         Code  Gb  vreg_util.o [4]
+?sll8_a_a_5             0x0088bc         Code  Gb  char.o [4]
+?sll8_a_a_6             0x0088bb         Code  Gb  char.o [4]
+?srl8_a_a_5             0x0088c2         Code  Gb  char.o [4]
+?srl8_a_a_6             0x0088c1         Code  Gb  char.o [4]
+?ucmp32_c_l0_0x         0x0087aa         Code  Gb  long.o [4]
+?w0                     0x000000         Data  Gb  vregs.o [4]
+?w1                     0x000002         Data  Gb  vregs.o [4]
+?w2                     0x000004         Data  Gb  vregs.o [4]
+?w3                     0x000006         Data  Gb  vregs.o [4]
+?w4                     0x000008         Data  Gb  vregs.o [4]
+?w5                     0x00000a         Data  Gb  vregs.o [4]
+Buff_Receive_USART      0x000056   0xc8  Data  Gb  usart.o [1]
+CSTACK$$Base            0x000700          --   Gb  - Linker created -
+CSTACK$$Limit           0x000800          --   Gb  - Linker created -
+Clk_Init                0x0086ef   0x31  Code  Gb  clk.o [1]
+EXTI_Handle_Bit_1       0x00863a   0x3d  Code  Gb  main.o [1]
+Exti_Init               0x0088d1    0x9  Code  Gb  exti.o [1]
+GPIO_Init               0x0085f1   0x49  Code  Gb  gpio.o [1]
+INTVEC$$Base            0x008000          --   Gb  - Linker created -
+INTVEC$$Limit           0x008080          --   Gb  - Linker created -
+Itc_Init                0x0088da    0x9  Code  Gb  itc.o [1]
+LCD_Init                0x008720   0x2a  Code  Gb  lcd.o [1]
+Lcd_Clear               0x008850   0x15  Code  Gb  lcd.o [1]
+Lcd_Print_Char          0x008080  0x440  Code  Gb  lcd.o [1]
+Lcd_Print_String        0x008677   0x3c  Code  Gb  lcd.o [1]
+Region$$Table$$Base     0x0087ba          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0087cc          --   Gb  - Linker created -
+Start_Write_Ram         0x0088c7    0xa  Code  Gb  lcd.o [1]
+TIM4_UPD_OVF_TRG_IRQHandler
+                        0x0087ea   0x1a  Code  Gb  main.o [1]
+Tim4_Init               0x00881e   0x19  Code  Gb  tim4.o [1]
+USART1_Init             0x008837   0x19  Code  Gb  usart.o [1]
+USART1_Receive_Char     0x0088a0    0xe  Code  Gb  usart.o [1]
+USART1_Receive_String_TimeOutReset
+                        0x00853d   0x6a  Code  Gb  usart.o [1]
+USART1_Send_Char        0x0088e3    0x9  Code  Gb  usart.o [1]
+USART1_Send_String      0x008772   0x25  Code  Gb  usart.o [1]
+__DebugBreak            0x008904    0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x008879   0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_copy_init2        0x00874a         Code  Gb  init_small.o [4]
+__iar_data_init2        0x008865   0x14  Code  Gb  init.o [4]
+__iar_program_start     0x00888d         Code  Gb  cstartup.o [4]
+__iar_unhandled_exception
+                        0x008901         Code  Gb  unhandled_exception.o [4]
+__iar_zero_init2        0x0087cc         Code  Gb  init_small.o [4]
+__intvec                0x008000         Data  Gb  interrupt.o [4]
+__low_level_init        0x0088fb    0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x0088f3         Code  Gb  cexit.o [4]
+_interrupt_11           0x00863a         Code  Gb  main.o [1]
+_interrupt_27           0x0087ea         Code  Gb  main.o [1]
+buffer                  0x000122    0x2  Data  Gb  lcd.o [1]
+char_list               0x00000c   0x4a  Data  Gb  lcd.o [1]
+exit                    0x0088fe    0x3  Code  Gb  exit.o [4]
+main                    0x0086b3   0x3c  Code  Gb  main.o [1]
+strlen                  0x0088ae    0xd  Code  Gb  strlen.o [4]
+timeCount               0x00011e    0x4  Data  Gb  tim4.o [1]
+
+
+[1] = D:\ThucLT\project\FPT_Lab\COM\Debug\Obj
+[2] = command line
+[3] = dbgstm8smd.a
+[4] = dlstm8smn.a
+
+  2 082 bytes of readonly  code memory
+    227 bytes of readonly  data memory
+    548 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

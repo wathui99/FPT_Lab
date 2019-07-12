@@ -1,0 +1,20 @@
+main.pbi: \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
+  D:\ThucLT\project\FPT_Lab\COM\inc\lcd.h \
+  D:\ThucLT\project\FPT_Lab\COM\inc\usart.h \
+  D:\ThucLT\project\FPT_Lab\COM\inc\tim4.h \
+  D:\ThucLT\project\FPT_Lab\COM\inc\exti.h \
+  D:\ThucLT\project\FPT_Lab\COM\inc\itc.h \
+  D:\ThucLT\project\FPT_Lab\COM\inc\gpio.h \
+  D:\ThucLT\project\FPT_Lab\COM\inc\mymacro.h \
+  D:\ThucLT\project\FPT_Lab\COM\inc\clk.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\string.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  D:\ThucLT\project\FPT_Lab\COM\src\main.c

@@ -61,7 +61,7 @@ void USART1_Print_Binary(uint8_t value) {
 #pragma vector = 10 //8+2
 __interrupt void EXTI_Handle_Bit_0 (void) {
   USART1_Send_String("REG:\n", 5);
-  USART1_Print_Binary(nRF_Read_One_Reg(RF_CH));
+  USART1_Print_Binary(nRF_Read_One_Reg(RX_PW_P4));
   sbi(EXTI->SR1, 0); //clear flag by set this bit
 }
 #pragma vector=27 //25+2

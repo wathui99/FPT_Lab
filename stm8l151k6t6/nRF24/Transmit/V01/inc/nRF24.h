@@ -82,7 +82,7 @@ void nRF_Config(nRF_MaskInterrupt_TypeDef MaskInterrupt, nRF_CRC_TypeDef CRC, nR
                 uint8_t *TX_Add, uint8_t num_Byte_P0, uint8_t num_Byte_P1, uint8_t num_Byte_P2, \
                 uint8_t num_Byte_P3, uint8_t num_Byte_P4, uint8_t num_Byte_P5);
       
-                  
+uint8_t nRF_Is_Sending(void);                  
                   
                   
                   
