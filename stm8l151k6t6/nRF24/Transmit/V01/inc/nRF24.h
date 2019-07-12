@@ -44,8 +44,20 @@ typedef enum {
 typedef enum {
   nRF_Add_Width_3Bytes = (uint8_t)0x01,
   nRF_Add_Width_4Bytes = (uint8_t)0x02,
-  nRF_Add_Width_5Bytes = (uint8_t)0x03,
+  nRF_Add_Width_5Bytes = (uint8_t)0x03
 } nRF_Add_Width_TypeDef;
+
+typedef enum {
+  nRF_DataRate_1Mbps = (uint8_t)0x00,
+  nRF_DataRate_2Mbps = (uint8_t)0x08
+} nRF_DataRate_TypeDef;
+
+typedef enum {
+  nRF_OutPower_Tx_m18dBm = (uint8_t)0x00,
+  nRF_OutPower_Tx_m12dBm = (uint8_t)0x02,
+  nRF_OutPower_Tx_m6dBm = (uint8_t)0x04,
+  nRF_OutPower_Tx_0dBm = (uint8_t)0x06
+} nRF_OutPower_Tx_TypeDef;
 
 #define CSS_GPIO GPIOB
 #define CSS_PIN 4
@@ -63,6 +75,19 @@ uint8_t *nRF_Read_Multi_Regs(uint8_t reg, uint8_t *ret, uint8_t len);
 
 void nRF_Config(nRF_MaskInterrupt_TypeDef MaskInterrupt, nRF_CRC_TypeDef CRC, nRF_Mode_TypeDef Mode, \
                 nRF_AA_TypeDef AA, nRF_EN_Pipe_TypeDef EN_Pipe, nRF_Add_Width_TypeDef Add_Width, \
-                
+                uint8_t delay_reTrans, uint8_t num_reTrans, uint8_t RF_channel, \
+                nRF_DataRate_TypeDef DataRate, nRF_OutPower_Tx_TypeDef OutPower, 
+                uint8_t *RX_Add_P0, uint8_t *RX_Add_P1, \
+                uint8_t RX_Add_P2, uint8_t RX_Add_P3, uint8_t RX_Add_P4, uint8_t RX_Add_P5, \
+                uint8_t *TX_Add, uint8_t num_Byte_P0, uint8_t num_Byte_P1, uint8_t num_Byte_P2, \
+                uint8_t num_Byte_P3, uint8_t num_Byte_P4, uint8_t num_Byte_P5);
+      
+                  
+                  
+                  
+                  
+                  
+                  
+                  
                   
 #endif /* __nRF24_H */

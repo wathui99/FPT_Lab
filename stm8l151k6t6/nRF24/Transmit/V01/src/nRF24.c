@@ -28,9 +28,14 @@ void nRF_Write_One_Reg(uint8_t reg, uint8_t value) {
 }
 /* Read just one byte from one register */
 uint8_t nRF_Read_One_Reg(uint8_t reg) {
-  return SPI_Send_Sync_One(R_REGISTER | (reg & REGISTER_MASK));
+  uint8_t ret=0;
+  GPIO_Write_Bit(CSS_GPIO, CSS_PIN, OFF);
+  SPI_Write_One_Byte((reg & REGISTER_MASK) | R_REGISTER);
+  ret=SPI_Send_Sync_One(NOP);
+  GPIO_Write_Bit(CSS_GPIO, CSS_PIN, ON);
+  return ret;
 }
-/* Write multi bytes into registers (base_address = reg) */
+/* Write multi bytes into registers*/
 void nRF_Write_Multi_Regs(uint8_t reg, uint8_t *value, uint8_t len) {
   GPIO_Write_Bit(CSS_GPIO, CSS_PIN, OFF);
   SPI_Write_One_Byte(W_REGISTER | (REGISTER_MASK & reg));
@@ -39,7 +44,7 @@ void nRF_Write_Multi_Regs(uint8_t reg, uint8_t *value, uint8_t len) {
   }
   GPIO_Write_Bit(CSS_GPIO, CSS_PIN, ON);
 }
-/* Read multi bytes from registers (base_address = reg) */
+/*Read multi bytes from registers*/
 uint8_t *nRF_Read_Multi_Regs(uint8_t reg, uint8_t *ret, uint8_t len) {
   GPIO_Write_Bit(CSS_GPIO, CSS_PIN, OFF);
   SPI_Write_One_Byte(R_REGISTER | (REGISTER_MASK & reg));
@@ -49,3 +54,48 @@ uint8_t *nRF_Read_Multi_Regs(uint8_t reg, uint8_t *ret, uint8_t len) {
   GPIO_Write_Bit(CSS_GPIO, CSS_PIN, ON);
   return ret;
 }
+
+void nRF_Config(nRF_MaskInterrupt_TypeDef MaskInterrupt, nRF_CRC_TypeDef CRC, nRF_Mode_TypeDef Mode, \
+                nRF_AA_TypeDef AA, nRF_EN_Pipe_TypeDef EN_Pipe, nRF_Add_Width_TypeDef Add_Width, \
+                uint8_t delay_reTrans, uint8_t num_reTrans, uint8_t RF_channel, \
+                nRF_DataRate_TypeDef DataRate, nRF_OutPower_Tx_TypeDef OutPower, 
+                uint8_t *RX_Add_P0, uint8_t *RX_Add_P1, \
+                uint8_t RX_Add_P2, uint8_t RX_Add_P3, uint8_t RX_Add_P4, uint8_t RX_Add_P5, \
+                uint8_t *TX_Add, uint8_t num_Byte_P0, uint8_t num_Byte_P1, uint8_t num_Byte_P2, \
+                uint8_t num_Byte_P3, uint8_t num_Byte_P4, uint8_t num_Byte_P5) {
+  
+  nRF_Write_One_Reg(CONFIG, MaskInterrupt | CRC | Mode); //write config reg
+  
+  nRF_Write_One_Reg(EN_AA, AA); //write auto ack pipe
+  
+  nRF_Write_One_Reg(EN_RXADDR, EN_Pipe); //write enable rx pipe
+  
+  nRF_Write_One_Reg(SETUP_AW, Add_Width); //address width -> recommended: 5bytes
+  
+  nRF_Write_One_Reg(SETUP_RETR, delay_reTrans | num_reTrans); //delay retries + try times
+  
+  nRF_Write_One_Reg(RF_CH, RF_channel);
+  
+  nRF_Write_One_Reg(RF_SETUP, 0x01 | DataRate | OutPower); //0x01 keep LNA
+  
+  nRF_Write_Multi_Regs(RX_ADDR_P0, RX_Add_P0, 5);
+  nRF_Write_Multi_Regs(RX_ADDR_P1, RX_Add_P1, 5);
+  nRF_Write_One_Reg(RX_ADDR_P2, RX_Add_P2);
+  nRF_Write_One_Reg(RX_ADDR_P3, RX_Add_P3);
+  nRF_Write_One_Reg(RX_ADDR_P4, RX_Add_P4);
+  nRF_Write_One_Reg(RX_ADDR_P5, RX_Add_P5);
+  
+  nRF_Write_Multi_Regs(TX_ADDR, TX_Add, 5);
+  
+  nRF_Write_One_Reg(RX_PW_P0, num_Byte_P0);
+  nRF_Write_One_Reg(RX_PW_P1, num_Byte_P1);
+  nRF_Write_One_Reg(RX_PW_P2, num_Byte_P2);
+  nRF_Write_One_Reg(RX_PW_P3, num_Byte_P3);
+  nRF_Write_One_Reg(RX_PW_P4, num_Byte_P4);
+  nRF_Write_One_Reg(RX_PW_P5, num_Byte_P5);
+}
+
+
+
+
+

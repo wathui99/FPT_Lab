@@ -23,7 +23,7 @@
 */
 
 /* Memory Map */
-#define CONFIG      0x00
+#define CONFIG      0x00    
 #define EN_AA       0x01
 #define EN_RXADDR   0x02
 #define SETUP_AW    0x03
@@ -49,6 +49,18 @@
 #define FIFO_STATUS 0x17
 #define DYNPD	    0x1C
 #define FEATURE	    0x1D
+
+/* Register Reset Value */
+#define CONFIG_RST      0x08
+#define EN_AA_RST       0x3F
+#define EN_RXADDR_RST   0x03
+#define SETUP_AW_RST    0x03
+#define SETUP_RETR_RST  0x03
+#define RF_CH_RST       0x02
+#define RF_SETUP_RST    0x0F
+#define STATUS_RST     0x0E
+#define OBSERVE_TX_RST  0x00
+#define CD_RST          0x00
 
 /* Bit Mnemonics */
 #define MASK_RX_DR  6
