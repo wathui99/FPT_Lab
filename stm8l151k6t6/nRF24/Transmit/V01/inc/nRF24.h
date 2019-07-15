@@ -13,6 +13,7 @@
 * 0 no delay
 */
 #define nRF_Delay_Mask 1
+#define CONFIG_DEFAULT 0x08
 
 
 typedef enum {
@@ -84,7 +85,7 @@ void nRF_Write_Multi_Regs(uint8_t reg, uint8_t *value, uint8_t len);
 uint8_t *nRF_Read_Multi_Regs(uint8_t reg, uint8_t *ret, uint8_t len);
 
 /* config function */
-void nRF_Config(nRF_MaskInterrupt_TypeDef MaskInterrupt, nRF_CRC_TypeDef CRC, nRF_Mode_TypeDef Mode, \
+void nRF_Config(nRF_MaskInterrupt_TypeDef MaskInterrupt, nRF_Mode_TypeDef Mode, \
                 nRF_AA_TypeDef AA, nRF_EN_Pipe_TypeDef EN_Pipe, nRF_Add_Width_TypeDef Add_Width, \
                 uint8_t delay_reTrans, uint8_t num_reTrans, uint8_t RF_channel, \
                 nRF_DataRate_TypeDef DataRate, nRF_OutPower_Tx_TypeDef OutPower, 

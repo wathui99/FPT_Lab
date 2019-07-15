@@ -19,6 +19,8 @@
 uint8_t payloadRF[2];
 uint8_t state[4];
 
+uint8_t readReg[5];
+
 /* delay ms */
 //void delay(unsigned long int n);
 void USART1_Print_Binary(uint8_t value);
@@ -35,14 +37,14 @@ void main (void) {
            SPI_CPHA_1Edge, SPI_Direction_2Lines_FullDuplex, SPI_NSS_Soft, 0x07);
   SPI_Cmd(ENABLE);
   
-  uint8_t Add_P0[5] = {0x00, 0x01, 0x02, 0x03, 0x04};
+  uint8_t Add_P0[5] = {0xD7, 0xD7, 0xD7, 0xD7, 0xD7};
   uint8_t Add_P1[5] = {0xF0, 0xF0, 0xF0, 0xF0, 0xF0};
   uint8_t Add_TX[5] = {0xD7, 0xD7, 0xD7, 0xD7, 0xD7};
   
-  nRF_Config(nRF_MaskInterrupt_Disable, nRF_CRC_Disable, nRF_Mode_TX, nRF_AA_Pipe_1, \
-             nRF_Pipe_Disable, nRF_Add_Width_5Bytes, 0x00, 0x00, \
+  nRF_Config(nRF_MaskInterrupt_Disable, nRF_Mode_TX, nRF_AA_Pipe_0, \
+             nRF_EN_Pipe_0, nRF_Add_Width_5Bytes, 0x0A, 0x010, \
              0x02, nRF_DataRate_1Mbps, nRF_OutPower_Tx_0dBm, Add_P0, Add_P1, \
-             0x02, 0x03, 0x04, 0x05, Add_TX, 0, 0, 0, 0, 0, 0);
+             0x02, 0x03, 0x04, 0x05, Add_TX, 2, 0, 0, 0, 0, 0);
   
   __enable_interrupt(); //enable global interrupt
   __halt();
@@ -76,8 +78,8 @@ __interrupt void EXTI_Handle_Bit_0 (void) {
   
   payloadRF[0]=BT0;
   payloadRF[1]=state[0]=((state[0]==200)?(100):(200));
-  User_nRF_Send(payloadRF,2);
-
+  User_nRF_Send(payloadRF, 2);
+  
   sbi(EXTI->SR1, 0); //clear flag by set this bit
   nRF_Delay(5);
   __halt();
@@ -86,7 +88,7 @@ __interrupt void EXTI_Handle_Bit_0 (void) {
 __interrupt void EXTI_Handle_Bit_1 (void) {
   nRF_Delay(2);
   USART1_Send_String("BT1\n",4);
-
+  
   payloadRF[0]=BT1;
   payloadRF[1]=state[1]=((state[1]==200)?(100):(200));
   User_nRF_Send(payloadRF,2);

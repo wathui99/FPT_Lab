@@ -105,7 +105,7 @@ uint8_t *nRF_Read_Multi_Regs(uint8_t reg, uint8_t *ret, uint8_t len) {
 * uint8_t: Number of byte receive in P4
 * uint8_t: Number of byte receive in P5
 */
-void nRF_Config(nRF_MaskInterrupt_TypeDef MaskInterrupt, nRF_CRC_TypeDef CRC, nRF_Mode_TypeDef Mode, \
+void nRF_Config(nRF_MaskInterrupt_TypeDef MaskInterrupt, nRF_Mode_TypeDef Mode, \
                 nRF_AA_TypeDef AA, nRF_EN_Pipe_TypeDef EN_Pipe, nRF_Add_Width_TypeDef Add_Width, \
                 uint8_t delay_reTrans, uint8_t num_reTrans, uint8_t RF_channel, \
                 nRF_DataRate_TypeDef DataRate, nRF_OutPower_Tx_TypeDef OutPower, 
@@ -114,7 +114,7 @@ void nRF_Config(nRF_MaskInterrupt_TypeDef MaskInterrupt, nRF_CRC_TypeDef CRC, nR
                 uint8_t *TX_Add, uint8_t num_Byte_P0, uint8_t num_Byte_P1, uint8_t num_Byte_P2, \
                 uint8_t num_Byte_P3, uint8_t num_Byte_P4, uint8_t num_Byte_P5) {
   /*write config reg (interrupt, CRC, Mode TX|RX*/
-  nRF_Write_One_Reg(CONFIG, MaskInterrupt | CRC | Mode);
+  nRF_Write_One_Reg(CONFIG, MaskInterrupt | CONFIG_DEFAULT | Mode);
   /* auto ack pipe */
   nRF_Write_One_Reg(EN_AA, AA);
   /* enable rx pipe */
@@ -122,7 +122,7 @@ void nRF_Config(nRF_MaskInterrupt_TypeDef MaskInterrupt, nRF_CRC_TypeDef CRC, nR
   /* address width -> recommended: 5bytes */
   nRF_Write_One_Reg(SETUP_AW, Add_Width);
   /* delay retries + try times */
-  nRF_Write_One_Reg(SETUP_RETR, delay_reTrans | num_reTrans);
+  nRF_Write_One_Reg(SETUP_RETR, (delay_reTrans<<4) | num_reTrans);
   /* channel */
   nRF_Write_One_Reg(RF_CH, RF_channel);
   /* data rate, output signal */
@@ -159,60 +159,47 @@ uint8_t nRF_Is_Sending(void) {
   return 1;
 }
 /*
-* read CONFIG reg
 * clear bit RX_PRIM
 * set bit POWER
 */
 void nRF_Powerup_TX(void) {
-  uint8_t config=nRF_Read_One_Reg(CONFIG);
-  sbi(config, 1); //power up
-  cbi(config, 0); //set tx mode
-  nRF_Write_One_Reg(CONFIG, config);
+  /* CRC enable, 1 byte scheme */
+  nRF_Write_One_Reg(CONFIG,(CONFIG_DEFAULT)|((1<<PWR_UP)|(0<<PRIM_RX)));
 }
 /*
-* read CONFIG reg
 * set bit RX_PRIM
 * set bit POWER
 */
 void nRF_Powerup_RX(void) {
-  uint8_t config=nRF_Read_One_Reg(CONFIG);
-  sbi(config, 1); //power up
-  sbi(config, 0); //set rx mode
-  nRF_Write_One_Reg(CONFIG, config);
+  /* CRC enable, 1 byte scheme */
+  nRF_Write_One_Reg(CONFIG,(CONFIG_DEFAULT)|((1<<PWR_UP)|(1<<PRIM_RX)));
 }
 /*
-* read CONFIG reg
 * clear bit POWER
 */
 void nRF_Powerdown(void) {
-  uint8_t config=nRF_Read_One_Reg(CONFIG);
-  cbi(config, 1); //power down
-  nRF_Write_One_Reg(CONFIG, config);
+  /* CRC enable, 1 byte scheme */
+  nRF_Write_One_Reg(CONFIG,(CONFIG_DEFAULT)|(1<<PRIM_RX));
 }
 /*
 * nRF send payload
 * <! CE still high after this function
 */
 void nRF_Send(uint8_t *payload, uint8_t len, uint8_t clearFIFO) {
-  /* Go into Standby-I */
   GPIO_Write_Bit(CE_GPIO, CE_PIN, OFF);
-  /* Powerup TX */
-  
+  nRF_Write_One_Reg(STATUS,(1<<RX_DR)|(1<<TX_DS)|(1<<MAX_RT)); //Write 1 to clear all flag
+  /* CRC enable, 1 byte scheme, power-up, tx */
+  nRF_Powerup_TX();
+  /* flush TX FIFO */
   if(clearFIFO) {
-    /* flush TX FIFO */
     GPIO_Write_Bit(CSS_GPIO, CSS_PIN, OFF);
     SPI_Write_One_Byte(FLUSH_TX);
     GPIO_Write_Bit(CSS_GPIO, CSS_PIN, ON);
   }
   GPIO_Write_Bit(CSS_GPIO, CSS_PIN, OFF);
-  
-  /* send command write tx payload */
   SPI_Write_One_Byte(W_TX_PAYLOAD);
-  /* write tx payload */
-  SPI_Write_Multi_Bytes(payload, len, SPI_FirstByte_MSB);
-  
+  SPI_Write_Multi_Bytes(payload,len,SPI_FirstByte_MSB);
   GPIO_Write_Bit(CSS_GPIO, CSS_PIN, ON);
-  /* set CE high -> start transmit */
   GPIO_Write_Bit(CE_GPIO, CE_PIN, ON);
 }
 /*
@@ -224,10 +211,9 @@ void nRF_Send(uint8_t *payload, uint8_t len, uint8_t clearFIFO) {
 */
 void User_nRF_Send(uint8_t *payload, uint8_t len) {
   nRF_Send(payload, len, 1);
-  //while(nRF_Is_Sending()) {}
-  nRF_Delay(20);
+  while(nRF_Is_Sending());
   GPIO_Write_Bit(CE_GPIO, CE_PIN, OFF);
-  nRF_Powerdown();
+  nRF_Write_One_Reg(CONFIG,(CONFIG_DEFAULT)|(0<<PWR_UP));
 }
 
 
