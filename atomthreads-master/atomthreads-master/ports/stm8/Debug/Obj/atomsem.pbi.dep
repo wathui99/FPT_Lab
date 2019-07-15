@@ -1,0 +1,4 @@
+atomsem.pbi: \
+  E:\download\Thuc\project\stm8l\atomthreads-master\atomthreads-master\kernel\atomsem.c \
+  E:\download\Thuc\project\stm8l\atomthreads-master\atomthreads-master\kernel/atom.h \
+  E:\download\Thuc\project\stm8l\atomthreads-master\atomthreads-master\kernel/atomtimer.h

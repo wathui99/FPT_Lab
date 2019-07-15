@@ -1,0 +1,42 @@
+#Generating source browse information for project port_atom_v2.1
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3_2\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3_2\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3_2\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build atomkernel.pbi : index atomkernel.xcl
+build atommutex.pbi : index atommutex.xcl
+build atomqueue.pbi : index atomqueue.xcl
+build atomsem.pbi : index atomsem.xcl
+build atomtimer.pbi : index atomtimer.xcl
+build clk.pbi : index clk.xcl
+build gpio.pbi : index gpio.xcl
+build tim1.pbi : index tim1.xcl
+build atomport.pbi : index atomport.xcl
+build tests-main.pbi : index tests-main.xcl
+build uart.pbi : index uart.xcl
+build sem1.pbi : index sem1.xcl
+build port_atom_v2.1_part0.pbi : link atomkernel.pbi atommutex.pbi atomqueue.pbi
+build port_atom_v2.1_part1.pbi : link atomsem.pbi atomtimer.pbi clk.pbi
+build port_atom_v2.1_part2.pbi : link gpio.pbi tim1.pbi atomport.pbi
+build port_atom_v2.1_part3.pbi : link tests-main.pbi uart.pbi sem1.pbi
+build port_atom_v2.1.pbd : link port_atom_v2.1_part0.pbi port_atom_v2.1_part1.pbi port_atom_v2.1_part2.pbi port_atom_v2.1_part3.pbi
+build port_atom_v2.1.pbw : browsedata port_atom_v2.1.pbd
+
+

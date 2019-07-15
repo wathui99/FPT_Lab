@@ -19,6 +19,22 @@
 @REM 
 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\common\bin\cspybat" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\stm8\bin\stm8proc.dll" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\stm8\bin\stm8stlink.dll"  %1 --plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\stm8\bin\stm8bat.dll" --backend -B "-p" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\stm8\config\ddf\iostm8l152c6.ddf" "-d" "stlink" "--mcuname" "STM8L152C6" 
+@echo off 
 
+if not "%~1" == "" goto debugFile 
 
+@echo on 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\common\bin\cspybat" -f "E:\download\Thuc\project\stm8l\TIM1\TIMING\settings\TIMING.Debug.general.xcl" --backend -f "E:\download\Thuc\project\stm8l\TIM1\TIMING\settings\TIMING.Debug.driver.xcl" 
+
+@echo off 
+goto end 
+
+:debugFile 
+
+@echo on 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\common\bin\cspybat" -f "E:\download\Thuc\project\stm8l\TIM1\TIMING\settings\TIMING.Debug.general.xcl" "--debug_file=%~1" --backend -f "E:\download\Thuc\project\stm8l\TIM1\TIMING\settings\TIMING.Debug.driver.xcl" 
+
+@echo off 
+:end

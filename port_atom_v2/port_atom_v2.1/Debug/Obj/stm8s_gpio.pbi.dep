@@ -1,0 +1,11 @@
+stm8s_gpio.pbi: \
+  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8s-periphs\stm8s_gpio.c \
+  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8s-periphs/stm8s_gpio.h \
+  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8s-periphs/stm8s.h \
+  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8s-periphs/stm8s_type.h \
+  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8s_conf.h \
+  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8s-periphs\stm8s.h \
+  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8s-periphs\stm8s_clk.h \
+  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8s-periphs\stm8s_gpio.h \
+  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8s-periphs\stm8s_tim1.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\intrinsics.h

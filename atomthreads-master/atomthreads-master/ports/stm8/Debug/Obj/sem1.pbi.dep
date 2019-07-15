@@ -1,0 +1,21 @@
+sem1.pbi: \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ystdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\stdio.h \
+  E:\download\Thuc\project\stm8l\atomthreads-master\atomthreads-master\tests\..\ports\stm8\atomport-tests.h \
+  E:\download\Thuc\project\stm8l\atomthreads-master\atomthreads-master\tests\atomtests.h \
+  E:\download\Thuc\project\stm8l\atomthreads-master\atomthreads-master\tests\..\kernel\atomsem.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\stddef.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\intrinsics.h \
+  E:\download\Thuc\project\stm8l\atomthreads-master\atomthreads-master\tests\..\ports\stm8\stm8s-periphs\stm8s_type.h \
+  E:\download\Thuc\project\stm8l\atomthreads-master\atomthreads-master\tests\..\ports\stm8\atomport.h \
+  E:\download\Thuc\project\stm8l\atomthreads-master\atomthreads-master\tests\..\kernel\atomtimer.h \
+  E:\download\Thuc\project\stm8l\atomthreads-master\atomthreads-master\tests\..\kernel\atom.h \
+  E:\download\Thuc\project\stm8l\atomthreads-master\atomthreads-master\tests\sem1.c
