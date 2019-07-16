@@ -1,282 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>3149615963</fileChecksum>
+    <fileChecksum>2379978957</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\atomport.c</file>
-            <file>$PROJ_DIR$\kernel\atomsem.c</file>
-            <file>$PROJ_DIR$\kernel\atomqueue.c</file>
-            <file>$PROJ_DIR$\stm8l-periphs\clk.c</file>
-            <file>$PROJ_DIR$\stm8l-periphs\tim1.c</file>
+            <file>$PROJ_DIR$\uart.c</file>
             <file>$PROJ_DIR$\kernel\atomkernel.c</file>
             <file>$PROJ_DIR$\kernel\atomtimer.c</file>
-            <file>$PROJ_DIR$\atomport-asm-iar.s</file>
             <file>$PROJ_DIR$\kernel\atommutex.c</file>
+            <file>$PROJ_DIR$\stm8l-periphs\clk.c</file>
             <file>$PROJ_DIR$\stm8l-periphs\gpio.c</file>
-            <file>$PROJ_DIR$\stm8l-periphs\usart.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomkernel.xcl</file>
-            <file>$PROJ_DIR$\stm8s-periphs\stm8s_clk.h</file>
-            <file>$PROJ_DIR$\kernel\atommutex.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
-            <file>$PROJ_DIR$\kernel\atomqueue.h</file>
-            <file>$PROJ_DIR$\atomport-private.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\tests-main.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\stm8s-periphs\stm8s_tim1.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\port_atom_v2.1.out</file>
-            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomqueue.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\atommutex.xcl</file>
-            <file>$PROJ_DIR$\atomport-tests.h</file>
-            <file>$PROJ_DIR$\test\atomtests.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomport.o</file>
-            <file>$TOOLKIT_DIR$\inc\vregs.inc</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomtimer.o</file>
-            <file>$PROJ_DIR$\uart.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-            <file>$PROJ_DIR$\stm8s-periphs\stm8s.h</file>
-            <file>$PROJ_DIR$\stm8s_conf.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\port_atom_v2.1.pbd</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomsem.xcl</file>
-            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_tim1.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\sem1.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomtimer.xcl</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\atomport.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\tests-main.__cstat.et</file>
-            <file>$PROJ_DIR$\stm8s-periphs\stm8s_clk.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\kernel\atom.h</file>
-            <file>$PROJ_DIR$\stm8s-periphs\stm8s_uart2.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_tim1.o</file>
-            <file>$PROJ_DIR$\stm8s-periphs\stm8s_gpio.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomport.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart.xcl</file>
-            <file>$PROJ_DIR$\stm8s-periphs\stm8s_type.h</file>
-            <file>$PROJ_DIR$\kernel\atomtimer.h</file>
-            <file>$PROJ_DIR$\stm8s-periphs\stm8s_tim1.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-            <file>$PROJ_DIR$\stm8s-periphs\stm8s_itc.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-            <file>$PROJ_DIR$\stm8_interrupt_vector.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart2.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\sem1.xcl</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomsem.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\sem1.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
-            <file>$PROJ_DIR$\stm8s-periphs\stm8s_gpio.c</file>
-            <file>$PROJ_DIR$\kernel\atomsem.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\clk.xcl</file>
-            <file>$PROJ_DIR$\stm8l-periphs\tim1.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\usart.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\tim1.xcl</file>
-            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
-            <file>$TOOLKIT_DIR$\config\lnkstm8l152c6.icf</file>
-            <file>$PROJ_DIR$\stm8l-periphs\clk.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_itc.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\clk.__cstat.et</file>
-            <file>$PROJ_DIR$\stm8l-periphs\stm8s_type.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\tim1.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_itc.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\List\port_atom_v2.1.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomtimer.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio.__cstat.et</file>
-            <file>$PROJ_DIR$\stm8l-periphs\gpio.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.__cstat.et</file>
-            <file>$PROJ_DIR$\stm8l-periphs\mymacro.h</file>
-            <file>$PROJ_DIR$\stm8l-periphs\usart.h</file>
-            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_itc.h</file>
-            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\usart.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\usart.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\tim1.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\clk.o</file>
-            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_gpio.h</file>
-            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_clk.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart2.o</file>
-            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_tim1.h</file>
-            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_usart.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomport.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomkernel.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_tim1.__cstat.et</file>
-            <file>$PROJ_DIR$\stm8s-periphs\stm8s_itc.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomsem.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\atommutex.__cstat.et</file>
+            <file>$PROJ_DIR$\stm8l-periphs\tim1.c</file>
+            <file>$PROJ_DIR$\atomport-asm-iar.s</file>
+            <file>$PROJ_DIR$\kernel\atomsem.c</file>
+            <file>$PROJ_DIR$\atomport.c</file>
+            <file>$PROJ_DIR$\tests-main.c</file>
+            <file>$PROJ_DIR$\kernel\atomqueue.c</file>
+            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_gpio.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_itc.xcl</file>
+            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_itc.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_itc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.xcl</file>
+            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_usart.c</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_itc.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomqueue.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_itc.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\atomport-asm-iar.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.xcl</file>
-            <file>$PROJ_DIR$\uart.c</file>
+            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_usart.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart2.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_tim1.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomport.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\atomkernel.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\atomqueue.o</file>
-            <file>$PROJ_DIR$\stm8s-periphs\stm8s_uart2.h</file>
-            <file>$PROJ_DIR$\tests-main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart2.xcl</file>
-            <file>$PROJ_DIR$\test\sem1.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_itc.o</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\atommutex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart2.xcl</file>
+            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_tim1.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_tim1.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\tests-main.xcl</file>
             <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_clk.c</file>
-            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_itc.c</file>
-            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_usart.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_itc.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.xcl</file>
-            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_gpio.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_itc.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.xcl</file>
-            <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomsem.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk.o</file>
+            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_clk.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomkernel.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomqueue.__cstat.et</file>
+            <file>$PROJ_DIR$\stm8s-periphs\stm8s_itc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomport-asm-iar.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\atommutex.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.xcl</file>
+            <file>$PROJ_DIR$\stm8s-periphs\stm8s_uart2.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\atommutex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tim1.o</file>
+            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_gpio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\usart.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\tim1.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_itc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tim1.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\stm8l-periphs\clk.h</file>
+            <file>$PROJ_DIR$\stm8l-periphs\stm8s_type.h</file>
+            <file>$PROJ_DIR$\stm8l-periphs\mymacro.h</file>
+            <file>$PROJ_DIR$\stm8l-periphs\usart.h</file>
+            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_itc.h</file>
+            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\usart.o</file>
+            <file>$PROJ_DIR$\stm8l-periphs\tim1.h</file>
+            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_itc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\List\port_atom_v2.1.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomtimer.__cstat.et</file>
+            <file>$PROJ_DIR$\stm8l-periphs\gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\usart.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\config\lnkstm8l152c6.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+            <file>$PROJ_DIR$\atomport-private.h</file>
+            <file>$PROJ_DIR$\test\atomtests.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomport.o</file>
+            <file>$TOOLKIT_DIR$\inc\vregs.inc</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomtimer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\stm8s_conf.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\port_atom_v2.1.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomsem.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\test\sem1.c</file>
+            <file>$PROJ_DIR$\kernel\atomqueue.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tests-main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.o</file>
+            <file>$PROJ_DIR$\stm8l-periphs\usart.c</file>
+            <file>$PROJ_DIR$\stm8s-periphs\stm8s.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomkernel.xcl</file>
+            <file>$PROJ_DIR$\stm8s-periphs\stm8s_tim1.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\port_atom_v2.1.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomqueue.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\atommutex.xcl</file>
+            <file>$PROJ_DIR$\uart.h</file>
+            <file>$PROJ_DIR$\stm8s-periphs\stm8s_clk.h</file>
+            <file>$PROJ_DIR$\kernel\atommutex.h</file>
+            <file>$PROJ_DIR$\atomport-tests.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\stm8l-periphs\stm8l15x_tim1.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tests-main.__cstat.et</file>
+            <file>$PROJ_DIR$\stm8s-periphs\stm8s_itc.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart2.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sem1.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomsem.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sem1.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
+            <file>$PROJ_DIR$\stm8s-periphs\stm8s_type.h</file>
+            <file>$PROJ_DIR$\stm8s-periphs\stm8s_gpio.c</file>
+            <file>$PROJ_DIR$\kernel\atomsem.h</file>
+            <file>$PROJ_DIR$\kernel\atomtimer.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_tim1.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.xcl</file>
+            <file>$PROJ_DIR$\kernel\atom.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomport.__cstat.et</file>
+            <file>$PROJ_DIR$\stm8s-periphs\stm8s_tim1.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\sem1.o</file>
+            <file>$PROJ_DIR$\atomport.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.xcl</file>
+            <file>$PROJ_DIR$\stm8_interrupt_vector.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\atomtimer.xcl</file>
+            <file>$PROJ_DIR$\stm8s-periphs\stm8s_clk.c</file>
+            <file>$PROJ_DIR$\stm8s-periphs\stm8s_uart2.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\stm8s-periphs\stm8s_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 20 88</file>
+                    <file> 109 76</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\atomport.c</name>
+            <name>$PROJ_DIR$\uart.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
                     <name>ICCSTM8</name>
-                    <file> 27</file>
+                    <file> 92</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 55</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 110</file>
+                    <file> 130</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 49 58 45 83 60 62 48 44 66 73 72 33 31 18 37 16 75 94 80</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\kernel\atomsem.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 67</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 116</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 39</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 49 58 45 83 60 62 48 44 66 73 72 33 31 18 37 71</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\kernel\atomqueue.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 128</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 121</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 22</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 52 48 44 66 73 72 33 31 18 49 58 45 83 60 62 37 15</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\stm8l-periphs\clk.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 104</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 82</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 74</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 80 37 48 44 66 73 72 33 31 94</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\stm8l-periphs\tim1.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 103</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 85</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 77</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 75 37 48 44 66 73 72 33 31 94</file>
+                    <file> 94 127 126 125 86 79 99 93 118 103 67 137 134 141 66 149 123 116 114 68 15</file>
                 </tool>
             </inputs>
         </file>
@@ -284,22 +192,22 @@
             <name>$PROJ_DIR$\kernel\atomkernel.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
                     <name>ICCSTM8</name>
-                    <file> 113</file>
+                    <file> 43</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 127</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 11</file>
+                    <file> 30</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 49 58 45 83 60 62 48 44 66 73 72 33 31 18 37</file>
+                    <file> 137 134 141 66 149 123 127 126 125 86 79 99 93 118 116</file>
                 </tool>
             </inputs>
         </file>
@@ -307,22 +215,114 @@
             <name>$PROJ_DIR$\kernel\atomtimer.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
                     <name>ICCSTM8</name>
-                    <file> 29</file>
+                    <file> 91</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 90</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 43</file>
+                    <file> 77</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 49 58 45 83 60 62 48 44 66 73 72 33 31 18 37</file>
+                    <file> 137 134 141 66 149 123 127 126 125 86 79 99 93 118 116</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\kernel\atommutex.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 137 134 141 66 149 123 127 126 125 86 79 99 93 118 116 114</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm8l-periphs\clk.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 65 116 127 126 125 86 79 99 93 67</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm8l-periphs\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 78 116 127 126 125 86 79 99 93 67</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm8l-periphs\tim1.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 72 116 127 126 125 86 79 99 93 67</file>
                 </tool>
             </inputs>
         </file>
@@ -331,59 +331,220 @@
             <outputs>
                 <tool>
                     <name>ASTM8</name>
-                    <file> 124</file>
+                    <file> 49</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ASTM8</name>
-                    <file> 28</file>
+                    <file> 90</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\kernel\atommutex.c</name>
+            <name>$PROJ_DIR$\kernel\atomsem.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
                     <name>ICCSTM8</name>
-                    <file> 134</file>
+                    <file> 128</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 117</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 23</file>
+                    <file> 40</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 49 58 45 83 60 62 48 44 66 73 72 33 31 18 37 13</file>
+                    <file> 137 134 141 66 149 123 127 126 125 86 79 99 93 118 116 133</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\stm8l-periphs\gpio.c</name>
+            <name>$PROJ_DIR$\atomport.c</name>
             <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 137 134 141 66 149 123 127 126 125 86 79 99 93 118 116 87 72 67 65</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\tests-main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38</file>
+                </tool>
                 <tool>
                     <name>ICCSTM8</name>
                     <file> 102</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 91</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 100</file>
+                    <file> 119</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 92 37 48 44 66 73 72 33 31 94</file>
+                    <file> 94 127 126 125 86 79 99 93 118 103 137 134 141 66 149 123 116 87 115 88 112 78 67 65</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\kernel\atomqueue.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 147 127 126 125 86 79 99 93 118 137 134 141 66 149 123 116 101</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 55 73 116 127 126 125 86 79 99 93 149</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_itc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 69 73 116 127 126 125 86 79 99 93 149</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 25 73 116 127 126 125 86 79 99 93 149 42</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_clk.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 42 73 116 127 126 125 86 79 99 93 149</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\test\sem1.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 129</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 137 134 141 66 149 123 127 126 125 86 79 99 93 118 116 133 88 115 94 103 78 67</file>
                 </tool>
             </inputs>
         </file>
@@ -391,22 +552,22 @@
             <name>$PROJ_DIR$\stm8l-periphs\usart.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
                     <name>ICCSTM8</name>
-                    <file> 98</file>
+                    <file> 71</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 99</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 76</file>
+                    <file> 80</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 95 37 48 44 66 73 72 33 31 94</file>
+                    <file> 68 116 127 126 125 86 79 99 93 67</file>
                 </tool>
             </inputs>
         </file>
@@ -415,13 +576,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 88</file>
+                    <file> 76</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 79 113 134 124 27 128 67 29 104 102 42 17 103 14 86 78</file>
+                    <file> 82 43 53 49 89 31 128 91 41 59 140 102 54 92 74 70</file>
                 </tool>
             </inputs>
         </file>
@@ -429,91 +590,22 @@
             <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_tim1.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
                     <name>ICCSTM8</name>
-                    <file> 141</file>
+                    <file> 20</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 101</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 142</file>
+                    <file> 58</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 108 97 37 48 44 66 73 72 33 31 60</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\stm8s-periphs\stm8s_clk.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 122</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 133</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 125</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 12 34 57 35 54 19 60</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\stm8s-periphs\stm8s_uart2.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 107</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 64</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 131</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 129 34 57 35 12 54 19 60</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\stm8s-periphs\stm8s_tim1.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 53</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 114</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 135</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 19 34 57 35 12 54 60</file>
+                    <file> 36 73 116 127 126 125 86 79 99 93 149</file>
                 </tool>
             </inputs>
         </file>
@@ -521,22 +613,68 @@
             <name>$PROJ_DIR$\stm8s-periphs\stm8s_itc.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
                     <name>ICCSTM8</name>
-                    <file> 123</file>
+                    <file> 32</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 81</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 118</file>
+                    <file> 62</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 115 34 57 35 12 54 19 60</file>
+                    <file> 45 106 131 95 113 148 108 149</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm8s-periphs\stm8s_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 148 106 131 95 113 108 149</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm8s-periphs\stm8s_tim1.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 108 106 131 95 113 148 149</file>
                 </tool>
             </inputs>
         </file>
@@ -544,221 +682,83 @@
             <name>$PROJ_DIR$\stm8_interrupt_vector.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm8s-periphs\stm8s_clk.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 113 106 131 95 148 108 149</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm8s-periphs\stm8s_uart2.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
                     <name>ICCSTM8</name>
                     <file> 26</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 51</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 112</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\stm8s-periphs\stm8s_gpio.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 111</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 119</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 120</file>
+                    <file> 122</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 54 34 57 35 12 19 60</file>
+                    <file> 52 106 131 95 113 148 108 149</file>
                 </tool>
             </inputs>
         </file>
-        <file>
-            <name>$PROJ_DIR$\uart.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 14</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 69</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 56</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 32 48 44 66 73 72 33 31 18 21 94 49 58 45 83 60 62 37 13 95 149</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\tests-main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 17</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 46</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 136</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 32 48 44 66 73 72 33 31 18 21 49 58 45 83 60 62 37 16 24 25 30 92 94 80</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\test\sem1.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 42</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 68</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 65</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 49 58 45 83 60 62 48 44 66 73 72 33 31 18 37 71 25 24 32 21 92 94</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_clk.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 38</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 89</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 148</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 106 97 37 48 44 66 73 72 33 31 60</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_itc.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 144</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 87</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 140</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 96 97 37 48 44 66 73 72 33 31 60</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_usart.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 145</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 84</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 41</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 109 97 37 48 44 66 73 72 33 31 60 106</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
+        <forcedrebuild>
             <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_gpio.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 147</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 93</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 146</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 105 97 37 48 44 66 73 72 33 31 60</file>
-                </tool>
-            </inputs>
-        </file>
+            <tool>ICCSTM8</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_usart.c</name>
+            <tool>ICCSTM8</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_clk.c</name>
+            <tool>ICCSTM8</tool>
+        </forcedrebuild>
         <forcedrebuild>
             <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_tim1.c</name>
             <tool>ICCSTM8</tool>
         </forcedrebuild>
         <forcedrebuild>
             <name>$PROJ_DIR$\stm8s-periphs\stm8s_uart2.c</name>
-            <tool>ICCSTM8</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_clk.c</name>
-            <tool>ICCSTM8</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_usart.c</name>
-            <tool>ICCSTM8</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\stm8l-periphs\stm8l15x_gpio.c</name>
             <tool>ICCSTM8</tool>
         </forcedrebuild>
     </configuration>

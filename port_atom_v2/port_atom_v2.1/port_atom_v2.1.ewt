@@ -2182,6 +2182,9 @@
         <file>
             <name>$PROJ_DIR$\stm8l-periphs\tim1.c</name>
         </file>
+        <file>
+            <name>$PROJ_DIR$\uart.c</name>
+        </file>
     </group>
     <group>
         <name>stm8</name>
@@ -2193,9 +2196,6 @@
         </file>
         <file>
             <name>$PROJ_DIR$\tests-main.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\uart.c</name>
         </file>
     </group>
     <group>

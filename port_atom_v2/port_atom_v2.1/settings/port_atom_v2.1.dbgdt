@@ -751,7 +751,7 @@
             <IarPane-34092>
                 <expressions>
                     <item>status</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>
