@@ -227,9 +227,6 @@ void archThreadContextInit (ATOM_TCB *tcb_ptr, void *stack_top, void (*entry_poi
  */
 void archInitSystemTickTimer ( void )
 {
-    /* Init clk with sysclk=16Mhz */
-    Clk_Init();
-
     /* Configure a 100ms tick */
     Tim1_Init();
 }

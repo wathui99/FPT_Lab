@@ -33,24 +33,6 @@
 /* Include Atomthreads kernel API */
 #include "atom.h"
 
-/* Prerequisite include for ATOMLOG() macro (via printf) */
-#include <stdio.h>
-
-/* Logger macro for viewing test results */
-#define ATOMLOG     printf
-
-/*
- * String location macro: for platforms which need to place strings in
- * alternative locations. Not used on this platform.
- */
-#define _STR
-
-/* Default thread stack size (in bytes) */
-#define TEST_THREAD_STACK_SIZE      192
-
-/* Uncomment to enable logging of stack usage to UART */
-#define TESTS_LOG_STACK_USAGE
-
 /**
  * IAR EWSTM8: Ignore warnings on volatile ordering thrown up
  * by ATOMLOG() statements in the test modules.

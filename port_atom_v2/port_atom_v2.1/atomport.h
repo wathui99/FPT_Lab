@@ -40,7 +40,7 @@
 #include <stddef.h>
 
 /* Required number of system ticks per second (normally 10 for 100ms tick) */
-#define SYSTEM_TICKS_PER_SEC            10
+#define SYSTEM_TICKS_PER_SEC            100
 
 /**
  * Architecture-specific types.

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\common\bin\cspybat" -f "E:\download\Thuc\project\stm8l\COM\settings\COM.Debug.general.xcl" --backend -f "E:\download\Thuc\project\stm8l\COM\settings\COM.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\ThucLT\project\FPT_Lab\COM\settings\COM.Debug.general.xcl" --backend -f "D:\ThucLT\project\FPT_Lab\COM\settings\COM.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\common\bin\cspybat" -f "E:\download\Thuc\project\stm8l\COM\settings\COM.Debug.general.xcl" "--debug_file=%~1" --backend -f "E:\download\Thuc\project\stm8l\COM\settings\COM.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\ThucLT\project\FPT_Lab\COM\settings\COM.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\ThucLT\project\FPT_Lab\COM\settings\COM.Debug.driver.xcl" 
 
 @echo off 
 :end

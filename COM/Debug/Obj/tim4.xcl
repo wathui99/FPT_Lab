@@ -1,22 +1,22 @@
-"E:\download\Thuc\project\stm8l\COM\src\tim4.c"
+"D:\ThucLT\project\FPT_Lab\COM\src\tim4.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-E:\download\Thuc\project\stm8l\COM\Debug\Obj\tim4.pbi.dep
+D:\ThucLT\project\FPT_Lab\COM\Debug\Obj\tim4.pbi.dep
 -o
 tim4.pbi
 -I
-E:\download\Thuc\project\stm8l\COM\src
+D:\ThucLT\project\FPT_Lab\COM\src
 -I
-E:\download\Thuc\project\stm8l\COM\inc
+D:\ThucLT\project\FPT_Lab\COM\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\stm8\inc
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\stm8\inc\c
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 -I
-E:\download\Thuc\project\stm8l\COM\inc
+D:\ThucLT\project\FPT_Lab\COM\inc
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -253,8 +253,8 @@ E:\download\Thuc\project\stm8l\COM\inc
 -D__EDG_SYSV=0
 -D__EDG_ANSIC=1
 -D__EDG_CPP11_IL_EXTENSIONS_SUPPORTED=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\stm8\LIB\dlstm8smn.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3_2\\stm8\\LIB\\dlstm8smn.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\LIB\dlstm8smn.h"
+-D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\LIB\\dlstm8smn.h"
 -D__VERSION__="IAR C/C++ Compiler V3.11.1.207 for STM8"
 -D__CODE_MEMORY_LIST1__()=__CODE_MEM_HELPER1__(__code, 0 )
 -D__CODE_MEMORY_LIST2__(_P1)=__CODE_MEM_HELPER2__(__code, 0 ,  _P1 )

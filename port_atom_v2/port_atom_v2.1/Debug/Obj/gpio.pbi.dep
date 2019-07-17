@@ -1,12 +1,12 @@
 gpio.pbi: \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8l-periphs\gpio.c \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8l-periphs/gpio.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\stdint.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ycheck.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\yvals.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Defaults.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\LIB\dlstm8smn.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Product.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\xencoding_limits.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Threads.h \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8l-periphs/mymacro.h
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1\stm8l-periphs\gpio.c \
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1\stm8l-periphs/gpio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8smn.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1\stm8l-periphs/mymacro.h

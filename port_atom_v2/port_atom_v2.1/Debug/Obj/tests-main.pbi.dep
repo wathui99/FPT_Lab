@@ -1,25 +1,26 @@
 tests-main.pbi: \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\stdint.h \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8l-periphs\clk.h \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8l-periphs\mymacro.h \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8l-periphs\gpio.h \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\uart.h \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\test\atomtests.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\stdio.h \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\atomport-tests.h \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\atomport-private.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ycheck.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ysizet.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\stddef.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\intrinsics.h \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\stm8l-periphs\stm8s_type.h \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\atomport.h \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\kernel\atomtimer.h \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\kernel\atom.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ystdio.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Threads.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\yvals.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\xencoding_limits.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Product.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Defaults.h \
-  E:\download\Thuc\project\stm8l\port_atom_v2\port_atom_v2.1\tests-main.c
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1\tests-main.c \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8smn.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ystdio.h \
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1\kernel\atom.h \
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1\kernel/atomtimer.h \
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1\atomport.h \
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1\stm8l-periphs\stm8s_type.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stddef.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1/atomport-private.h \
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1/atomport-tests.h \
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1\kernel\atomtimer.h \
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1/uart.h \
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1\stm8l-periphs\gpio.h \
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1\stm8l-periphs/mymacro.h \
+  D:\ThucLT\project\FPT_Lab\port_atom_v2\port_atom_v2.1\stm8l-periphs\clk.h

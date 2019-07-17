@@ -1,7 +1,4 @@
-
 #include "atom.h"
-
-
 /*
  * Perform UART startup initialization.
  */

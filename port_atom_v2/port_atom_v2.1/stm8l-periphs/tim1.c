@@ -25,11 +25,11 @@ void Tim1_Init(void) {
   * Fsys = 16Mhz
   * Fcnt = 500
   Tovf = 100ms
-  => (1/500) * (ARR) = 100ms
-  => ARR = 50
+  => (1/500) * (ARR) = 10ms
+  => ARR = 5
   */
   TIM1->ARRH = 0x00;
-  TIM1->ARRL = 0x32; //50
+  TIM1->ARRL = 0x05;
   /* enable tim1 */
   sbi(TIM1->CR1, 0);
 }

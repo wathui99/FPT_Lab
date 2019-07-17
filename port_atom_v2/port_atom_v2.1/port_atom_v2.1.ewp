@@ -1683,10 +1683,4 @@
             <name>$PROJ_DIR$\tests-main.c</name>
         </file>
     </group>
-    <group>
-        <name>test</name>
-        <file>
-            <name>$PROJ_DIR$\test\sem1.c</name>
-        </file>
-    </group>
 </project>
