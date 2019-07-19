@@ -3996,6 +3996,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@tim1_int_handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void tim1_int_handler(void)",
+    "location": {
+      "column": "1",
+      "line": "121",
+      "path": "C:\\Users\\hera.fgatraining\\Documents\\git_fpt_lab\\FPT_Lab\\main.c"
+    },
+    "name": "tim1_int_handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:DLib_Threads.h@442@macro@_DLIB_THREADS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -6276,20 +6290,6 @@
       "path": "C:\\Users\\hera.fgatraining\\Documents\\git_fpt_lab\\FPT_Lab\\timer1.c"
     },
     "name": "Quantumn_time_RoundRobin_10ms",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@tim1_int_handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void tim1_int_handler(void)",
-    "location": {
-      "column": "1",
-      "line": "18",
-      "path": "C:\\Users\\hera.fgatraining\\Documents\\git_fpt_lab\\FPT_Lab\\timer1.c"
-    },
-    "name": "tim1_int_handler",
     "origin": "project_file",
     "scope": null
   }

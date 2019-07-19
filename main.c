@@ -117,4 +117,10 @@ int main( void )
   
   return 0;
 }
+_Pragma( "vector = 25" ) __interrupt void
+tim1_int_handler( void )
+{
+  PortCb->ODR.ODR7^=1; //for debug
+  TIM1->TIM1_SR1 = ~0x01;
+}
 

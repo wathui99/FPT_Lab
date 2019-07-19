@@ -14,11 +14,3 @@ void Quantumn_time_RoundRobin_10ms()
 }
 
 // Interrupt of TIM1 is 23 + 2 (REST and TRAP)
-_Pragma( "vector = 25" ) __interrupt void
-tim1_int_handler( void )
-{
-  //PortCb->ODR.ODR7^=1; for debug
-  TIM1->TIM1_SR1 = ~0x01;
-  TIM1->TIM1_ARRH = 0xd0;
-  TIM1->TIM1_ARRL = 0xf9;
-}
