@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\khanh\OneDrive\Máy tính\New folder\settings\test.Debug.general.xcl" --backend -f "C:\Users\khanh\OneDrive\Máy tính\New folder\settings\test.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\hera.fgatraining\Documents\git_fpt_lab\FPT_Lab\settings\test.Debug.general.xcl" --backend -f "C:\Users\hera.fgatraining\Documents\git_fpt_lab\FPT_Lab\settings\test.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\khanh\OneDrive\Máy tính\New folder\settings\test.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\khanh\OneDrive\Máy tính\New folder\settings\test.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\hera.fgatraining\Documents\git_fpt_lab\FPT_Lab\settings\test.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\hera.fgatraining\Documents\git_fpt_lab\FPT_Lab\settings\test.Debug.driver.xcl" 
 
 @echo off 
 :end
