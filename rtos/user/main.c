@@ -1,134 +1,105 @@
-#include <stdint.h>
-#include "intrinsics.h"
-#include "stm8l_timer1.h"
+#include "main.h"
 
-#define PortAb   ((GPIObit*)0x5000)    
-#define PortBb   ((GPIObit*)0x5005)   
-#define PortCb   ((GPIObit*)0x500a)   
-#define PortDb   ((GPIObit*)0x500f)   
-#define PortEb   ((GPIObit*)0x5014)  
-#define PortFb   ((GPIObit*)0x5019) 
+volatile uint32_t cnt = 0;
 
-typedef struct ODR
-{
-  uint8_t       ODR0 :1;
-  uint8_t       ODR1 :1;
-  uint8_t       ODR2 :1;
-  uint8_t       ODR3 :1;
-  uint8_t       ODR4 :1;
-  uint8_t       ODR5 :1;
-  uint8_t       ODR6 :1;
-  uint8_t       ODR7 :1;
-}ODRreg;
- 
-typedef struct IDR
-{
-  uint8_t       IDR0 :1;
-  uint8_t       IDR1 :1;
-  uint8_t       IDR2 :1;
-  uint8_t       IDR3 :1;
-  uint8_t       IDR4 :1;
-  uint8_t       IDR5 :1;
-  uint8_t       IDR6 :1;
-  uint8_t       IDR7 :1;
-}IDRreg;
+#define IDLE_STACK_SIZE_BYTES       128
+#define MAIN_STACK_SIZE_BYTES       384
 
-typedef struct DDR
-{
-  uint8_t       DDR0 :1;
-  uint8_t       DDR1 :1;
-  uint8_t       DDR2 :1;
-  uint8_t       DDR3 :1;
-  uint8_t       DDR4 :1;
-  uint8_t       DDR5 :1;
-  uint8_t       DDR6 :1;
-  uint8_t       DDR7 :1;
-}DDRreg;
+/* Local data */
 
-typedef struct CR1
-{
-  uint8_t       CR10 :1;
-  uint8_t       CR11 :1;
-  uint8_t       CR12 :1;
-  uint8_t       CR13 :1;
-  uint8_t       CR14 :1;
-  uint8_t       CR15 :1;
-  uint8_t       CR16 :1;
-  uint8_t       CR17 :1;
-}CR1reg;
+/* Application threads' TCBs */
+static ATOM_TCB led_thread_tcb;
+static ATOM_TCB button_thread_tcb;
 
-typedef struct CR2
-{
-  uint8_t       CR20 :1;
-  uint8_t       CR21 :1;
-  uint8_t       CR22 :1;
-  uint8_t       CR23 :1;
-  uint8_t       CR24 :1;
-  uint8_t       CR25 :1;
-  uint8_t       CR26 :1;
-  uint8_t       CR27 :1;
-}CR2reg;
+/* LED thread's stack area (large so place outside of the small page0 area on STM8) */
+NEAR static uint8_t led_thread_stack[MAIN_STACK_SIZE_BYTES];
+/* BUTTON thread's stack area (large so place outside of the small page0 area on STM8) */
+NEAR static uint8_t button_thread_stack[MAIN_STACK_SIZE_BYTES];
 
-//Define with bitfeild stype    
-typedef struct GPIORegbit
-{
-  ODRreg       ODR;
-  IDRreg       IDR;
-  DDRreg       DDR;
-  CR1reg       CR1;
-  CR2reg       CR2;
-} GPIObit;
+/* Idle thread's stack area (large so place outside of the small page0 area on STM8) */
+NEAR static uint8_t idle_thread_stack[IDLE_STACK_SIZE_BYTES];
 
+uint8_t delay_time = 1;
+/* Forward declarations */
+static void led_thread (uint32_t param);
+static void button_thread (uint32_t param);
 
-typedef struct Clock
-{
-  uint8_t       CLK_DIVR;
-  uint8_t       CLK_CRTCR;
-  uint8_t       CLK_ICKR;
-  uint8_t       CLK_PCKENR1;
-  uint8_t       CLK_PCKENR2;   
-  uint8_t       CLK_CCOR;
-  uint8_t       CLK_ECKR;
-  uint8_t       CLK_SCSR;
-  uint8_t       CLK_SWR;
-  uint8_t       CLK_SWCR;   
-  uint8_t       CLK_CSSR;
-  uint8_t       CLK_CBEEPR;
-  uint8_t       CLK_HSICALR;
-  uint8_t       CLK_HSITRIMR;
-  uint8_t       CLK_HSIUNLCKR;
-  uint8_t       CLK_REGCSR; 
-}ClodkReg;
+NO_REG_SAVE void main ( void ){
 
-#define Clock   ((ClodkReg*)0x50C0) 
+  InitClock_Source(CLK_SYSCLKSource_HSI, CLK_SYSCLKDiv_1);
+  InitClock_Timer();
+    int8_t status;
+    int8_t st;
+    /**
+     * Note: to protect OS structures and data during initialisation,
+     * interrupts must remain disabled until the first thread
+     * has been restored. They are reenabled at the very end of
+     * the first thread restore, at which point it is safe for a
+     * reschedule to take place.
+     */
+    /* Initialise the OS before creating our threads */
+    status = atomOSInit(&idle_thread_stack[0], IDLE_STACK_SIZE_BYTES, TRUE);
+    
+    if (status == ATOM_OK)
+    {
+        /* Enable the system tick timer */
+        archInitSystemTickTimer();
+        /* Create an application thread */
+        status = atomThreadCreate(&led_thread_tcb,
+                     TEST_THREAD_PRIO, led_thread, 0,
+                     &led_thread_stack[0],
+                     MAIN_STACK_SIZE_BYTES,
+                     TRUE);
+        st = atomThreadCreate(&button_thread_tcb,
+                     TEST_THREAD_PRIO, button_thread, 0,
+                     &button_thread_stack[0],
+                     MAIN_STACK_SIZE_BYTES,
+                     TRUE);
+        
+        if (st == ATOM_OK && status == ATOM_OK)
+        {
+            atomOSStart();
+        }
+    }
+    /* There was an error starting the OS if we reach here */
+    while (1){
+       printf ("If this is printed, the OS initialization has failed\n");
+    }
 
-volatile uint8_t cnt = 0;
-
-int main( void )
-{
-  Clock->CLK_DIVR = 0x00;
-  Clock->CLK_PCKENR2 = 0x02;
-  
-  PortCb->DDR.DDR7=1;
-  PortCb->CR1.CR17=1;
-  Quantumn_time_RoundRobin_10ms();
-  
-  asm("rim\n");
-  
-  return 0;
 }
 
-// Interrupt of TIM1 is 23 + 2 (REST and TRAP)
-_Pragma( "vector = 25" ) 
-__interrupt void tim1_int_handler( void )
-{
-  /*
-  cnt++;
-  if(cnt%50){
-    PortCb->ODR.ODR7^=1; //for debug
-    cnt = 0;
-  }*/
-  TIM1->TIM1_SR1 = ~0x01;
-  PortCb->ODR.ODR7^=1; //for debug
-  
+static void led_thread (uint32_t param){
+    /* Compiler warnings */
+    param = param;
+    /* Init PE7 as output pin */
+    gpio_init(Port_E, 0x80, Out_PP_Low_Fast );    
+    /* Put a message out on the UART or terminal */
+    printf ("led_thread has been created\n");
+    while (1)
+    {
+      Port_E->ODR ^= 0x80;
+      atomTimerDelay (SYSTEM_TICKS_PER_SEC*delay_time);
+    }
+}
+
+static void button_thread (uint32_t param){
+    /* Compiler warnings */
+    param = param;
+    /* Init PC7 as output pin */
+    gpio_init(Port_C, 0x80, Out_PP_High_Fast );
+    /* Init PC1 as input pin without interrupt */
+    gpio_init(Port_C, 0x01, In_Fl_No_IT );
+    /* Put a message out on the UART or terminal */
+    printf ("button_thread has been created\n");
+    while (1){
+      if(!GPIO_read(Port_C,0x02)){
+         delay_time++;
+         if(delay_time>3) delay_time = 1;
+         atomTimerDelay (SYSTEM_TICKS_PER_SEC);
+      }
+      else{
+         Port_C->ODR ^= 0x80;
+         atomTimerDelay (SYSTEM_TICKS_PER_SEC/10);
+      }
+    }
 }

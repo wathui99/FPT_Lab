@@ -1,0 +1,5 @@
+Kha: rối, thư viện thì viết cho dạng tổng quát nhưng function thì viết cho dạng riêng
+Diệu: cần bám sát yêu cầu đề, mấy cái giá trị pin nên define luôn cho tiện
+	ex: #define GPIO_Pin_0	0x01
+		#define GPIO_Pin_1	0x02
+		...
