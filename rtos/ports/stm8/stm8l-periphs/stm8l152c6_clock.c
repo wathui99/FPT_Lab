@@ -21,7 +21,11 @@ void InitClock_RTC(void)
 };
 
 //SystemClock
-void InitClock_LCD(void)
+void InitClock_LCD_RTC(void)
 {
+    /*Enable rtc clock */
+    CLK->CLK_PCKENR2 |= (1<<2);
+    CLK->CLK_CRTCR = (uint8_t)((uint8_t)0x04 | (uint8_t)0x00);
+    /*Enable lcd clock */
     CLK_PeripheralClockConfig(CLK_Peripheral_LCD, ENABLE);
 };

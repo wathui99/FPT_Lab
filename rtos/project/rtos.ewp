@@ -1647,6 +1647,9 @@
             <name>$PROJ_DIR$\..\ports\stm8\stm8l-periphs\stm8l_gpio.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\..\ports\stm8\stm8l-periphs\stm8l_lcd.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\ports\stm8\stm8l-periphs\stm8l_timer1.c</name>
         </file>
     </group>

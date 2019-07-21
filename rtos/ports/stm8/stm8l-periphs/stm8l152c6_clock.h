@@ -10,6 +10,6 @@ void InitClock_Timer(void);
 //SystemClock
 void InitClock_RTC(void);
 //SystemClock
-void InitClock_LCD(void);
+void InitClock_LCD_RTC(void);
 
 #endif

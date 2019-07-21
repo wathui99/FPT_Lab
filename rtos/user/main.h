@@ -12,6 +12,7 @@
 #include "stm8l_gpio.h"
 #include "stm8l152c6_clock.h"
 #include "stm8l_timer1.h"
+#include "stm8l_lcd.h"
 #include <intrinsics.h>
 
 /******************************************************************************/
