@@ -1,8 +1,9 @@
-atomsem.pbi: D:\WorkingZone\RTOS\FPT_Lab\rtos\kernel\atomsem.c \
-  D:\WorkingZone\RTOS\FPT_Lab\rtos\kernel/atom.h \
-  D:\WorkingZone\RTOS\FPT_Lab\rtos\kernel/atomtimer.h \
-  D:\WorkingZone\RTOS\FPT_Lab\rtos\project\..\ports\stm8\atomport.h \
-  D:\WorkingZone\RTOS\FPT_Lab\rtos\project\..\ports\stm8\stm8l-periphs\stm8l_type.h \
+atomsem.pbi: \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos\kernel\atomsem.c \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos\kernel/atom.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos\kernel/atomtimer.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos\project\..\ports\stm8\atomport.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos\project\..\ports\stm8\stm8l-periphs\stm8l_type.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stddef.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
@@ -14,4 +15,4 @@ atomsem.pbi: D:\WorkingZone\RTOS\FPT_Lab\rtos\kernel\atomsem.c \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
-  D:\WorkingZone\RTOS\FPT_Lab\rtos\kernel/atomsem.h
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos\kernel/atomsem.h

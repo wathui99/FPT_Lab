@@ -1,6 +1,6 @@
 stm8l152c6_clk.pbi: \
-  D:\WorkingZone\RTOS\FPT_Lab\rtos\ports\stm8\stm8l-periphs\stm8l152c6_clk.c \
-  D:\WorkingZone\RTOS\FPT_Lab\rtos\ports\stm8\stm8l-periphs/stm8l152c6_clk.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos\ports\stm8\stm8l-periphs\stm8l152c6_clk.c \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos\ports\stm8\stm8l-periphs/stm8l152c6_clk.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
@@ -9,4 +9,4 @@ stm8l152c6_clk.pbi: \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
-  D:\WorkingZone\RTOS\FPT_Lab\rtos\ports\stm8\stm8l-periphs/stm8l_type.h
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos\ports\stm8\stm8l-periphs/stm8l_type.h
