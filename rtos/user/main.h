@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include "atom.h"
+#include "atomsem.h"
 #include "atomport-private.h"
 #include "atomport-tests.h"
 #include "atomtests.h"

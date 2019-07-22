@@ -7,6 +7,15 @@ volatile uint32_t cnt = 0;
 
 /* Local data */
 
+uint8_t delay_time = 1;
+
+/* Semaphore 
+* semLCD: control LCD display thread
+* semStatusLed: control read/write delay_time variable
+*/
+ATOM_SEM semLCD;
+ATOM_SEM semDelayTime;
+
 /* Application threads' TCBs */
 static ATOM_TCB led_thread_tcb;
 static ATOM_TCB button_thread_tcb;
@@ -22,7 +31,6 @@ NEAR static uint8_t display_thread_stack[MAIN_STACK_SIZE_BYTES];
 /* Idle thread's stack area (large so place outside of the small page0 area on STM8) */
 NEAR static uint8_t idle_thread_stack[IDLE_STACK_SIZE_BYTES];
 
-uint8_t delay_time = 1;
 /* Forward declarations */
 static void led_thread (uint32_t param);
 static void button_thread (uint32_t param);
@@ -65,10 +73,13 @@ NO_REG_SAVE void main ( void ){
                      &display_thread_stack[0],
                      MAIN_STACK_SIZE_BYTES,
                      TRUE);
-        
+        /* 3 thread create successful */
         if (status_button == ATOM_OK && status_led == ATOM_OK && status_display == ATOM_OK)
         {
+          /* 2 semaphore create successful */
+          if(atomSemCreate(&semLCD, 1) == ATOM_OK && atomSemCreate(&semDelayTime, 1) == ATOM_OK) {
             atomOSStart();
+          }
         }
     }
     /* There was an error starting the OS if we reach here */
@@ -85,10 +96,15 @@ static void led_thread (uint32_t param){
     gpio_init(Port_E, 0x80, Out_PP_Low_Fast );    
     /* Put a message out on the UART or terminal */
     printf ("led_thread has been created\n");
+    /*local delay variable*/
+    uint16_t local_delay_time = delay_time*SYSTEM_TICKS_PER_SEC;
     while (1)
     {
       Port_E->ODR ^= 0x80;
-      atomTimerDelay (SYSTEM_TICKS_PER_SEC*delay_time);
+      atomSemGet(&semDelayTime, 0); //request right, no time out
+      local_delay_time = delay_time*SYSTEM_TICKS_PER_SEC; //update new value
+      atomSemPut(&semDelayTime); //increase semaphore delay time
+      atomTimerDelay (local_delay_time);
     }
 }
 
@@ -103,13 +119,12 @@ static void button_thread (uint32_t param){
     printf ("button_thread has been created\n");
     while (1){
       if(!GPIO_read(Port_C,0x02)){
-         delay_time++;
-         if(delay_time>3) delay_time = 1;
-         atomTimerDelay (SYSTEM_TICKS_PER_SEC);
-      }
-      else{
+         atomSemGet(&semDelayTime, 0); //request right, no time out
+         delay_time = (delay_time%4) + 1;
+         atomSemPut(&semDelayTime); //increase semaphore delay time
+         atomSemPut(&semLCD); //increase semaphore control LCD
          Port_C->ODR ^= 0x80;
-         atomTimerDelay (SYSTEM_TICKS_PER_SEC/8);
+         atomTimerDelay (SYSTEM_TICKS_PER_SEC);
       }
     }
 }
@@ -125,7 +140,7 @@ static void display_thread (uint32_t param){
     printf ("display_thread has been created\n");
     LCD_printf("time %d",delay_time);
     while (1){
+       atomSemGet(&semLCD, 0); //request right to print lcd, no time out
        LCD_printf("time %d",delay_time);
-       atomTimerDelay (SYSTEM_TICKS_PER_SEC/8);
     }
 }
