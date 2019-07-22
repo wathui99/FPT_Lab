@@ -1,0 +1,31 @@
+main.pbi: \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdarg.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_lcd.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_timer1.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_gpio.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l152c6_clk.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l152c6_clock.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8s_conf.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\tests\atomtests.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdio.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\ports\stm8\atomport-tests.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\ports\stm8\atomport-private.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\kernel\atomsem.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stddef.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_type.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\ports\stm8\atomport.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\kernel\atomtimer.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\kernel\atom.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ystdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\user\main.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\user\main.c

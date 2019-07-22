@@ -1,0 +1,4 @@
+stm8l_gpio.pbi: \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs\stm8l_gpio.c \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs/stm8l_gpio.h \
+  D:\ThucLT\project\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs/stm8l_type.h
