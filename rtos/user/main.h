@@ -3,7 +3,6 @@
 
 #include <stdio.h>
 #include "atom.h"
-#include "atomsem.h"
 #include "atomport-private.h"
 #include "atomport-tests.h"
 #include "atomtests.h"
@@ -14,7 +13,10 @@
 #include "stm8l152c6_clock.h"
 #include "stm8l_timer1.h"
 #include "stm8l_lcd.h"
+#include "stm8l_exti.h"
 #include <intrinsics.h>
+
+//volatile static uint8_t delay_time = 1;
 
 /******************************************************************************/
 /*                          Macro to Control Bit              	              */
