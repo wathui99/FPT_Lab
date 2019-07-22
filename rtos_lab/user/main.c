@@ -124,7 +124,7 @@ static void button_thread (uint32_t param){
          atomSemPut(&semDelayTime); //increase semaphore delay time
          atomSemPut(&semLCD); //increase semaphore control LCD
          Port_C->ODR ^= 0x80;
-         atomTimerDelay (SYSTEM_TICKS_PER_SEC);
+         while(!GPIO_read(Port_C,0x02));
       }
     }
 }
