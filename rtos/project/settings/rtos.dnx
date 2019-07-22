@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <DebugChecksum>
+        <Checksum>1800254893</Checksum>
+    </DebugChecksum>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <watch_formats>
+        <Fmt0>{W}42:delay_time	3	0</Fmt0>
+    </watch_formats>
+    <DataSample>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+    </DataSample>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <Breakpoints>
+        <Count>0</Count>
+    </Breakpoints>
+    <Aliases>
+        <A0>_ "C:\Users\Hoang Phuc\Desktop\workspace\rtos_mock\FPT_Lab\rtos\kernel\atomkernel.c" "D:\WorkingZone\RTOS\FPT_Lab\rtos\kernel\atomkernel.c"</A0>
+        <A1>_ "C:\Users\Hoang Phuc\Desktop\workspace\rtos_mock\FPT_Lab\rtos\kernel\atomtimer.c" ""</A1>
+        <A2>_ "C:\Users\Hoang Phuc\Desktop\workspace\rtos_mock\FPT_Lab\rtos\ports\stm8\atomport.c" ""</A2>
+        <A3>_ "C:\Users\Hoang Phuc\Desktop\workspace\rtos_mock\FPT_Lab\rtos\ports\stm8\stm8l-periphs\stm8l152c6_clk.c" "D:\WorkingZone\RTOS\FPT_Lab\rtos\ports\stm8\stm8l-periphs\stm8l152c6_clk.c"</A3>
+        <A4>_ "C:\Users\Hoang Phuc\Desktop\workspace\rtos_mock\FPT_Lab\rtos\ports\stm8\stm8l-periphs\stm8l152c6_clock.c" ""</A4>
+        <A5>_ "C:\Users\Hoang Phuc\Desktop\workspace\rtos_mock\FPT_Lab\rtos\ports\stm8\stm8l-periphs\stm8l_gpio.c" ""</A5>
+        <A6>_ "C:\Users\Hoang Phuc\Desktop\workspace\rtos_mock\FPT_Lab\rtos\ports\stm8\stm8l-periphs\stm8l_timer1.c" ""</A6>
+        <A7>_ "C:\Users\Hoang Phuc\Desktop\workspace\rtos_mock\FPT_Lab\rtos\user\main.c" ""</A7>
+        <Count>8</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+    <DebuggerSettings>
+        <DisableInterruptsWhenStepping>0</DisableInterruptsWhenStepping>
+        <LeaveTargetRunning>0</LeaveTargetRunning>
+    </DebuggerSettings>
+</settings>

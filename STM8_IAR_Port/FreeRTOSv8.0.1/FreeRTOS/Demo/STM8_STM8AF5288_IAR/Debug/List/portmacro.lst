@@ -1,0 +1,353 @@
+###############################################################################
+#
+# IAR Assembler V3.11.1.207 for STM8                      21/Jul/2019  23:10:23
+# Copyright 2010-2019 IAR Systems AB.
+#
+#    Source file  =  
+#        D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Source\portable\IAR\STM8AF5288\portmacro.s
+#    Command line =  
+#        -f C:\Users\khanh\AppData\Local\Temp\EW8EA0.tmp
+#        (D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Source\portable\IAR\STM8AF5288\portmacro.s
+#        --mnem_first --dir_first -M<> -r -lo
+#        D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Demo\STM8_STM8AF5288_IAR\Debug\List\
+#        -I
+#        D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Demo\STM8_STM8AF5288_IAR\
+#        -I
+#        D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Demo\STM8_STM8AF5288_IAR\STM8S_StdPeriph_Driver\inc\
+#        -I \..\..\..\..\Demo\STM8_STM8AF5288_IAR\STM8S_StdPeriph_Driver\inc\
+#        -I D:\Installation\stm8\INC\C\ -DSTM8S208 -DIAR_STM8S
+#        -DUSE_STM8_128_EVAL --code_model medium --data_model medium -o
+#        D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Demo\STM8_STM8AF5288_IAR\Debug\Obj)
+#    List file    =  
+#        D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Demo\STM8_STM8AF5288_IAR\Debug\List\portmacro.lst
+#    Object file  =  
+#        D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Demo\STM8_STM8AF5288_IAR\Debug\Obj\portmacro.o
+#
+###############################################################################
+
+##############################################################################
+# Module portmacro                                                           #
+##############################################################################
+
+D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Source\portable\IAR\STM8AF5288\portmacro.s
+      1                        ;/*
+      2                        ;    FreeRTOS V8.0.1 - Copyright (C) 2014 Real Time Engineers Ltd.
+      3                        ;    All rights reserved
+      4                        ;
+      5                        ;
+      6                        ;    ***************************************************************************
+      7                        ;     *                                                                       *
+      8                        ;     *    FreeRTOS tutorial books are available in pdf and paperback.        *
+      9                        ;     *    Complete, revised, and edited pdf reference manuals are also       *
+     10                        ;     *    available.                                                         *
+     11                        ;     *                                                                       *
+     12                        ;     *    Purchasing FreeRTOS documentation will not only help you, by       *
+     13                        ;     *    ensuring you get running as quickly as possible and with an        *
+     14                        ;     *    in-depth knowledge of how to use FreeRTOS, it will also help       *
+     15                        ;     *    the FreeRTOS project to continue with its mission of providing     *
+     16                        ;     *    professional grade, cross platform, de facto standard solutions    *
+     17                        ;     *    for microcontrollers - completely free of charge!                  *
+     18                        ;     *                                                                       *
+     19                        ;     *    >>> See http://www.FreeRTOS.org/Documentation for details. <<<     *
+     20                        ;     *                                                                       *
+     21                        ;     *    Thank you for using FreeRTOS, and thank you for your support!      *
+     22                        ;     *                                                                       *
+     23                        ;    ***************************************************************************
+     24                        ;
+     25                        ;
+     26                        ;    This file is part of the FreeRTOS distribution.
+     27                        ;
+     28                        ;    FreeRTOS is free software; you can redistribute it and/or modify it under
+     29                        ;    the terms of the GNU General Public License (version 2) as published by the
+     30                        ;    Free Software Foundation AND MODIFIED BY the FreeRTOS exception.
+     31                        ;    >>>NOTE<<< The modification to the GPL is included to allow you to
+     32                        ;    distribute a combined work that includes FreeRTOS without being obliged to
+     33                        ;    provide the source code for proprietary components outside of the FreeRTOS
+     34                        ;    kernel.  FreeRTOS is distributed in the hope that it will be useful, but
+     35                        ;    WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+     36                        ;    or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+     37                        ;    more details. You should have received a copy of the GNU General Public
+     38                        ;    License and the FreeRTOS license exception along with FreeRTOS; if not it
+     39                        ;    can be viewed here: http://www.freertos.org/a00114.html and also obtained
+     40                        ;    by writing to Richard Barry, contact details for whom are available on the
+     41                        ;    FreeRTOS WEB site.
+     42                        ;
+     43                        ;    1 tab == 4 spaces!
+     44                        ;
+     45                        ;    http://www.FreeRTOS.org - Documentation, latest information, license and
+     46                        ;    contact details.
+     47                        ;
+     48                        ;    http://www.SafeRTOS.com - A version that is certified for use in safety
+     49                        ;    critical systems.
+     50                        ;
+     51                        ;    http://www.OpenRTOS.com - Commercial support, development, porting,
+     52                        ;    licensing and training services.
+     53                        ;*/
+     54                        
+     55                        //#include "stm8s.h"
+     56                        ; Get definitions for virtual registers used by the compiler
+     57                        #include "vregs.inc"
+     58                        //#include "FreeRTOSConfig.h"
+     59                        
+     60                        ; Declare all extern symbols here - including any ISRs that are referenced in
+     61                        ; the vector table.
+     62                        
+     63                        ; ISR functions
+     64                        ; -------------
+     65    000000              EXTERN SIG_OUTPUT_COMPARE1A
+     66    000000              EXTERN SIG_UART_RECV
+     67    000000              EXTERN SIG_UART_DATA
+     68                        
+     69                        
+     70                        ; Functions used by scheduler
+     71                        ; ---------------------------
+     72    000000              EXTERN vTaskSwitchContext
+     73    000000              EXTERN pxCurrentTCB
+     74    000000              EXTERN xTaskIncrementTick
+     75    000000              EXTERN uxCriticalNesting
+     76                        
+     77                        ; Functions implemented in this file
+     78                        ; ----------------------------------
+     79    000000              PUBLIC vPortYield
+     80    000000              PUBLIC vPortYieldFromTick
+     81    000000              PUBLIC vPortStart
+     82                        
+     83                        
+     84                        ; Interrupt vector table.
+     85                        ; -----------------------
+     86                        ;
+     87                        ; For simplicity the RTOS tick interrupt routine uses the __task keyword.
+     88                        ; As the IAR compiler does not permit a function to be declared using both
+     89                        ; __task and __interrupt, the use of __task necessitates that the interrupt
+     90                        ; vector table be setup manually.
+     91                        ;
+     92                        ; To write an ISR, implement the ISR function using the __interrupt keyword
+     93                        ; but do not install the interrupt using the "#pragma vector=ABC" method.
+     94                        ; Instead manually place the name of the ISR in the vector table using an
+     95                        ; ORG and jmp instruction as demonstrated below.
+     96                        ; You will also have to add an EXTERN statement at the top of the file.
+     97                        
+     98    000000                  SECTION `.intvec`:CONST
+     99    000000                  PUBLIC  __intvec
+    100    000000                  EXTERN  __iar_program_start
+    101                        
+    102    000000              __intvec:
+    103    000000 82               DC8     0x82
+    104    000001 ......           DC24    __iar_program_start   ; RESET    0x8000
+    105    000004 82               DC8     0x82
+    106    000005 ......           DC24    vNoISR                ;0x8004
+    107    000008 82               DC8     0x82
+    108    000009 ......           DC24    vNoISR                ;0x8008
+    109    00000C 82               DC8     0x82
+    110    00000D ......           DC24    vNoISR                ;0x800C
+    111    000010 82               DC8     0x82
+    112    000011 ......           DC24    vNoISR                ;8010
+    113    000014 82               DC8     0x82
+    114    000015 ......           DC24    vNoISR                ;8014
+    115    000018 82               DC8     0x82
+    116    000019 ......           DC24    vNoISR                ;8018
+    117    00001C 82               DC8     0x82
+    118    00001D ......           DC24    vNoISR                ;801C
+    119    000020 82               DC8     0x82
+    120    000021 ......           DC24    vNoISR                ;8020
+    121    000024 82               DC8     0x82
+    122    000025 ......           DC24    vNoISR                ;8024
+    123    000028 82               DC8     0x82
+    124    000029 ......           DC24    vNoISR               ;8028
+    125    00002C 82               DC8     0x82
+    126    00002D ......           DC24    vNoISR               ;802C
+    127    000030 82               DC8     0x82
+    128    000031 ......           DC24    vNoISR               ;8030
+    129    000034 82               DC8     0x82
+    130    000035 ......           DC24    vPortYieldFromTick   ;8034
+    131    000038 82               DC8     0x82
+    132    000039 ......           DC24    vNoISR               ;8038
+    133    00003C 82               DC8     0x82
+    134    00003D ......           DC24    vNoISR               ;803C
+    135    000040 82               DC8     0x82
+    136    000041 ......           DC24    vNoISR               ;8040
+    137    000044 82               DC8     0x82
+    138    000045 ......           DC24    vNoISR               ;8044
+    139    000048 82               DC8     0x82
+    140    000049 ......           DC24    vNoISR               ;8048
+    141    00004C 82               DC8     0x82
+    142    00004D ......           DC24    SIG_UART_DATA               ;804C
+    143    000050 82               DC8     0x82
+    144    000051 ......           DC24    SIG_UART_RECV               ;8050
+    145    000054 82               DC8     0x82
+    146    000055 ......           DC24    vNoISR               ;8054
+    147    000058 82               DC8     0x82
+    148    000059 ......           DC24    vNoISR               ;8058
+    149    00005C 82               DC8     0x82
+    150    00005D ......           DC24    vNoISR               ;805C
+    151    000060 82               DC8     0x82
+    152    000061 ......           DC24    vNoISR               ;8060
+    153    000064 82               DC8     0x82
+    154    000065 ......           DC24    vNoISR               ;8064
+    155    000068 82               DC8     0x82
+    156    000069 ......           DC24    vNoISR               ;8068
+    157    00006C 82               DC8     0x82
+    158    00006D ......           DC24    vNoISR               ;806C
+    159    000070 82               DC8     0x82
+    160    000071 ......           DC24    vNoISR               ;8070
+    161    000074 82               DC8     0x82
+    162    000075 ......           DC24    vNoISR               ;8074
+    163    000078 82               DC8     0x82
+    164    000079 ......           DC24    vNoISR               ;8078
+    165    00007C 82               DC8     0x82
+    166    00007D ......           DC24    vNoISR               ;807C
+    167                        
+    168                        
+    169                        
+    170                        ; Saving and Restoring a Task Context and Task Switching
+    171                        ; ------------------------------------------------------
+    172                        ;
+    173                        ; The IAR compiler does not fully support inline assembler, so saving and
+    174                        ; restoring a task context has to be written in an asm file.
+    175                        ;
+    176                        ; Implemented both vPortYield() and vPortYieldFromTick() in this assembly file.  
+    177                        ; STM8 architecure has only 3 general purpose registers, X, Y and A. Upon 
+    178                        ; interrupt return address [24bit], Code Codition Register [cc] and x,y and a 
+    179                        ; registers are pushed on to the stack acuomatically by the controller
+    180                        ;  
+    181                        ; In addition to the physical registers in STM8 (A, X, Y, CC, and SP), the 
+    182                        ; compiler also uses virtual registers. A virtual register is a static memory 
+    183                        ; location in the fastest memory used for storing variables and temporary values.
+    184                        ; The runtime library defines 16 one-byte (8-bit) virtual registers called
+    185                        ; ?b0, ?b1, …, ?b15. They are placed in the .vregs section, which is / must be 
+    186                        ; allocated in RAM in the first 256 bytes of memory.
+    187                        ; For convenience portSAVE_CONTEXT and portRESTORE_CONTEXT are implemented as macros.
+    188                        
+    207                        
+    208                        ;-------------------------------------------------------------------------------
+    227                        
+    228                        
+    229                        ; vPortYield() and vPortYieldFromTick()
+    230                        ; -------------------------------------
+    231                        ;
+    232                        ; Manual and preemptive context switch functions respectively.
+    233                        ; The IAR compiler does not fully support inline assembler,
+    234                        ; so these are implemented here rather than the more usually
+    235                        ; place of within port.c.
+    236                        ;-------------------------------------------------------------------------------
+    237    000080              vPortYield:
+    238                        
+    239    000080 9089             pushw y
+    240    000082 89               pushw x
+    241    000083 88               push a
+    242    000084 8A               push cc
+    243                            
+    244    000085 9B               sim                         ;Disable interrupts
+    245                            
+    246    000086                  portSAVE_CONTEXT                    ; Save the context of the current task.
+    246.1  000086 3B ....          push ?b8            ; Now store the rest of the registers.  Dont store the ...
+    246.2  000089 3B ....          push ?b9            ; ... the stack pointer register here
+    246.3  00008C 3B ....          push ?b10           ; stack pointer and will get saved into the TCB.
+    246.4  00008F 3B ....          push ?b11           ; Note: These are not the actual registers of STM8 core
+    246.5  000092 3B ....          push ?b12           ;       These are vertual registers used by IAR compiler
+    246.6  000095 3B ....          push ?b13
+    246.7  000098 3B ....          push ?b14
+    246.8  00009B 3B ....          push ?b15
+    246.9  00009E C6 ....              ld a, uxCriticalNesting ; Store the critical nesting counter. You may have to use ldf
+    246.10 0000A1 88                   push a                                  
+    246.11 0000A2 CE ....          ldw x, pxCurrentTCB         ; Finally save the stack pointer register
+    246.12 0000A5 9096             ldw y, sp                   ; into the TCB.
+    246.13 0000A7 FF               ldw (x), y 
+    247    0000A8 8D ......            callf vTaskSwitchContext                ; Call the scheduler.
+    248    0000AC                      portRESTORE_CONTEXT                     ; Restore the context of whichever task the ...
+    248.1  0000AC CE ....          ldw x, pxCurrentTCB         ; Restore the software stack pointer from ...
+    248.2  0000AF FE               ldw x, (x)                  ; the TCB into the stack pointer register
+    248.3  0000B0 94               ldw sp, x
+    248.4  0000B1 84                   pop a   
+    248.5  0000B2 C7 ....              ld uxCriticalNesting, a     ; Store the critical nesting counter. 
+    248.6  0000B5 32 ....          pop ?b15
+    248.7  0000B8 32 ....          pop ?b14
+    248.8  0000BB 32 ....          pop ?b13
+    248.9  0000BE 32 ....          pop ?b12
+    248.10 0000C1 32 ....          pop ?b11
+    248.11 0000C4 32 ....          pop ?b10
+    248.12 0000C7 32 ....          pop ?b9
+    248.13 0000CA 32 ....          pop ?b8
+    248.14 0000CD 80                   iret                            ; ... scheduler decided should run.
+    249                        
+    250                        ;----------------------
+    251    0000CE              vPortYieldFromTick:
+    252                        
+    253    0000CE B6 01            LD        A, S:0x01         ; Clear the Timer 1 IT pending Bit
+    254    0000D0 43               CPL       A                 ; TIM1->SR1 = (uint8_t)(~(uint8_t)TIM1_IT);
+    255    0000D1 C7 5255          LD        L:0x5255, A
+    256                            
+    257    0000D4                  portSAVE_CONTEXT                    ; Save the context of the current task.
+    257.1  0000D4 3B ....          push ?b8            ; Now store the rest of the registers.  Dont store the ...
+    257.2  0000D7 3B ....          push ?b9            ; ... the stack pointer register here
+    257.3  0000DA 3B ....          push ?b10           ; stack pointer and will get saved into the TCB.
+    257.4  0000DD 3B ....          push ?b11           ; Note: These are not the actual registers of STM8 core
+    257.5  0000E0 3B ....          push ?b12           ;       These are vertual registers used by IAR compiler
+    257.6  0000E3 3B ....          push ?b13
+    257.7  0000E6 3B ....          push ?b14
+    257.8  0000E9 3B ....          push ?b15
+    257.9  0000EC C6 ....              ld a, uxCriticalNesting ; Store the critical nesting counter. You may have to use ldf
+    257.10 0000EF 88                   push a                                  
+    257.11 0000F0 CE ....          ldw x, pxCurrentTCB         ; Finally save the stack pointer register
+    257.12 0000F3 9096             ldw y, sp                   ; into the TCB.
+    257.13 0000F5 FF               ldw (x), y 
+    258                            
+    259    0000F6 8D ......            callf xTaskIncrementTick        ; Call the timer tick function.
+    260    0000FA 4D                   tnz a
+    261    0000FB 27 04                jreq SkipTaskSwitch
+    262    0000FD 8D ......            callf vTaskSwitchContext        ; Call the scheduler.
+    263    000101              SkipTaskSwitch:
+    264    000101                      portRESTORE_CONTEXT                     ; Restore the context of whichever task the ...
+    264.1  000101 CE ....          ldw x, pxCurrentTCB         ; Restore the software stack pointer from ...
+    264.2  000104 FE               ldw x, (x)                  ; the TCB into the stack pointer register
+    264.3  000105 94               ldw sp, x
+    264.4  000106 84                   pop a   
+    264.5  000107 C7 ....              ld uxCriticalNesting, a     ; Store the critical nesting counter. 
+    264.6  00010A 32 ....          pop ?b15
+    264.7  00010D 32 ....          pop ?b14
+    264.8  000110 32 ....          pop ?b13
+    264.9  000113 32 ....          pop ?b12
+    264.10 000116 32 ....          pop ?b11
+    264.11 000119 32 ....          pop ?b10
+    264.12 00011C 32 ....          pop ?b9
+    264.13 00011F 32 ....          pop ?b8
+    264.14 000122 80                   iret                            ; ... scheduler decided should run.
+    265                            
+    266                        ;-------------------------------------------------------------------------------
+    267                        ; vPortStart()
+    268                        ; ------------
+    269                        ;
+    270                        ; Again due to the lack of inline assembler, this is required
+    271                        ; to get access to the portRESTORE_CONTEXT macro.
+    272    000123              vPortStart:
+    273    000123                      portRESTORE_CONTEXT
+    273.1  000123 CE ....          ldw x, pxCurrentTCB         ; Restore the software stack pointer from ...
+    273.2  000126 FE               ldw x, (x)                  ; the TCB into the stack pointer register
+    273.3  000127 94               ldw sp, x
+    273.4  000128 84                   pop a   
+    273.5  000129 C7 ....              ld uxCriticalNesting, a     ; Store the critical nesting counter. 
+    273.6  00012C 32 ....          pop ?b15
+    273.7  00012F 32 ....          pop ?b14
+    273.8  000132 32 ....          pop ?b13
+    273.9  000135 32 ....          pop ?b12
+    273.10 000138 32 ....          pop ?b11
+    273.11 00013B 32 ....          pop ?b10
+    273.12 00013E 32 ....          pop ?b9
+    273.13 000141 32 ....          pop ?b8
+    273.14 000144 80                   iret                            ; ... scheduler decided should run.
+    274                        
+    275                        ;-------------------------------------------------------------------------------
+    276                        
+    277                        ;-------------------------------------------------------------------------------
+    278                        ; Just a filler for unused interrupt vectors.
+    279    000145              vNoISR:
+    280    000145 80                   iret
+    281                        ;-------------------------------------------------------------------------------
+    282    000146              END
+ 
+ 326 bytes in section .intvec  , module portmacro
+ 
+ 326 bytes of CONST memory  in module portmacro
+
+Errors: none
+Warnings: none

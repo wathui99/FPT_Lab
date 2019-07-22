@@ -1,0 +1,15 @@
+stm8s_tim1.pbi: \
+  D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Demo\STM8_STM8AF5288_IAR\STM8S_StdPeriph_Driver\src\stm8s_tim1.c \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\INC\C\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\INC\C\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\INC\C\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\INC\C\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8mmn.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\INC\C\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\INC\C\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\INC\C\DLib_Threads.h \
+  D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Demo\STM8_STM8AF5288_IAR\STM8S_StdPeriph_Driver\inc\stm8s_tim1.h \
+  D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Demo\STM8_STM8AF5288_IAR\STM8S_StdPeriph_Driver\inc/stm8s.h \
+  D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Demo\STM8_STM8AF5288_IAR\stm8s_conf.h \
+  D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Demo\STM8_STM8AF5288_IAR\STM8S_StdPeriph_Driver\inc\stm8s.h \
+  D:\WorkingZone\RTOS\FPT_Lab\STM8_IAR_Port\FreeRTOSv8.0.1\FreeRTOS\Demo\STM8_STM8AF5288_IAR\STM8S_StdPeriph_Driver\inc\stm8s_adc2.h
