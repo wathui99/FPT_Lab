@@ -120,7 +120,7 @@ static void button_thread (uint32_t param){
     while (1){
       if(!GPIO_read(Port_C,0x02)){
          atomSemGet(&semDelayTime, 0); //request right, no time out
-         delay_time = (delay_time%4) + 1;
+         delay_time = (delay_time%3) + 1;
          atomSemPut(&semDelayTime); //increase semaphore delay time
          atomSemPut(&semLCD); //increase semaphore control LCD
          Port_C->ODR ^= 0x80;
