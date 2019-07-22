@@ -33,100 +33,105 @@ bool gpio_init(GPIO_Type* Port_X, uint8_t GPIO_Pin, GPIO_Mode mode ){
 	/* input/output mode selection*/
 	/*----------------------------*/
 	if((uint8_t)(mode)&0x80){            // output
-		Port_X->DDR |=GPIO_Pin;
-		temp=Port_X->DDR;
-		#if temp!=GPIO_Pin
-			#error "DDR config for output is wrong!"
-		#endif
+		Port_X->DDR |= GPIO_Pin;
+		if ((Port_X->DDR & GPIO_Pin) != GPIO_Pin){
+                  printf( "DDR config for output is wrong!");
+                  exit(0);
+                }
 		//if(Port_X->ODR & GPIO_Pin !=0)
 		if((uint8_t)(mode) &0x10){        // high level
-			Port_X->ODR |=GPIO_Pin;
-			temp= Port_X->ODR;
-			#if temp!=GPIO_Pin
-				#error "ODR config for high level is wrong!"
-			#endif
+			Port_X->ODR |= GPIO_Pin;
+			if ((Port_X->ODR & GPIO_Pin) != GPIO_Pin){
+				printf ("ODR config for high level is wrong!");
+				exit(0);
+			}
+			
 		}
 		else{                       // low level
 			Port_X->ODR &=~GPIO_Pin;
-			temp= Port_X->ODR;
-			#if temp!=GPIO_Pin
-				#error "ODR config for low level is wrong!"
-			#endif
+			if ((Port_X->ODR & GPIO_Pin) != 0){
+				printf ("ODR config for low level is wrong!");
+				exit(0);
+			}
+			
 		}
 	}
 	else{ 						  // input
 		Port_X->DDR &=~GPIO_Pin;
-		temp=Port_X->DDR;
-		#if temp!=GPIO_Pin
-			#error "DDR config for input is wrong!"
-		#endif
+		if ((Port_X->DDR & GPIO_Pin) != 0){
+			printf ("DDR config for input is wrong!");
+			exit(0);
+		}
+		
 	}
 	/*------------------------------------------------------------------------*/
 	/*  Pull-Up/Float (Input) or Push-Pull/Open-Drain (Output) modes selection*/
 	/*------------------------------------------------------------------------*/
 	if((uint8_t)(mode)&0x40){            /* Pull-Up or Push-Pull */
 		Port_X->CR1 |=GPIO_Pin;
-		temp=Port_X->CR1;
-		#if temp!=GPIO_Pin
-			#error "CR1 config for Pull-Up or Push-Pull is wrong"
-		#endif
+		if ((Port_X->CR1 & GPIO_Pin) != GPIO_Pin){
+			printf ("CR1 config for Pull-Up or Push-Pull is wrong");
+			exit(0);
+		}
+		
 	}
 	else{                          /* Float or Open-Drain */
 		Port_X->CR1 &=~GPIO_Pin;
-		temp=Port_X->CR1;
-		#if temp!=GPIO_Pin
-			#error "CR1 config for  Float or Open-Drain is wrong"
-		#endif
+		if( (Port_X->CR1 & GPIO_Pin) != 0){
+			printf ("CR1 config for  Float or Open-Drain is wrong");
+			exit(0);
+		}
 	}
 	/*-----------------------------------------------------*/
 	/* Interrupt (Input) or Slope (Output) modes selection */
 	/*-----------------------------------------------------*/
 	if((uint8_t)(mode)&0x20){            /* enable Interrupt or output 10Mhz */
 		Port_X->CR2 |=GPIO_Pin;
-		temp=Port_X->CR2;
-		#if temp!=GPIO_Pin
-			#error "CR2 config for enable Interrupt or output 10Mhz is wrong"
-		#endif 
+		if ((Port_X->CR2 & GPIO_Pin) != GPIO_Pin){
+			printf ("CR2 config for enable Interrupt or output 10Mhz is wrong");
+			exit(0);
+		}
+		 
 	}
 	else {                         /* disable Interrupt or ouput 2Mhz */
 		Port_X->CR2 &=~GPIO_Pin;
-		temp=Port_X->CR2;
-		#if temp!=GPIO_Pin
-			#error "CR2 config for disable Interrupt or ouput 2Mhz is wrong"
-		#endif
+		if ((Port_X->CR2 & GPIO_Pin) !=0 ){
+			printf ("CR2 config for disable Interrupt or ouput 2Mhz is wrong");
+			exit(0);
+		}
 	}
 	return TRUE;
 }
 bool gpio_deinit(GPIO_Type* Port_X){
 	Port_X->DDR=0x00;
-	temp=Port_X->DDR;
-	#if temp!=0x00
-		#error "can't reset DDR"
-	#endif
+	if (Port_X->DDR!=0x00){
+		printf ("can't reset DDR");
+		exit(0);
+	}
 	Port_X->ODR=0x00;
-	temp=Port_X->ODR;
-	#if temp!=0x00
-		#error "can't reset ODR"
-	#endif
+	if (Port_X->ODR!=0x00){
+		printf ("can't reset ODR");
+		exit(0);
+	}
 	Port_X->CR1=0x00;
-	temp=Port_X->CR1;
-	#if temp!=0x00
-		#error "can't reset CR1"
-	#endif
+	if (Port_X->CR1!=0x00){
+		printf ("can't reset CR1");
+		exit(0);
+	}
 	Port_X->CR2=0x00;
-	temp=Port_X->CR2;
-	#if temp!=0x00
-		#error "can't reset CR2"
-	#endif
+	if (Port_X->CR2!=0x00){
+		printf ("can't reset CR2");
+		exit(0);
+	}
 	return TRUE;
 }
 //select pins and set or reset pins
-void GPIO_Write(GPIO_Type* GPIO_X, uint8_t Value){
-	GPIO_X->ODR = Value;
-	temp= GPIO_X->ODR;
-	#if temp!=Value
-		#error "input value is wrong!"
-	#endif
+void GPIO_Write(GPIO_Type* GPIO_X, uint8_t select_pins){
+	GPIO_X->ODR = select_pins;
+	if (GPIO_X->ODR!=select_pins){
+		printf ("input value is wrong!");
+		exit(0);
+	}
 }
 
 bool GPIO_read (GPIO_Type* GPIO_X,uint8_t GPIO_Pin){

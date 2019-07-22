@@ -1,5 +1,7 @@
 #ifndef GPIO
 #define GPIO
+#include <stdio.h>
+#include <stdlib.h>
 typedef enum {FALSE=0,TRUE=1}bool;
 #define uint8_t unsigned char 
 
@@ -43,7 +45,7 @@ typedef enum{
 
 bool gpio_init(GPIO_Type* Port_X, uint8_t GPIO_Pin, GPIO_Mode mode );
 bool gpio_deinit(GPIO_Type* Port_X);
-void GPIO_Write(GPIO_Type* GPIO_X, uint8_t Value);
+void GPIO_Write(GPIO_Type* GPIO_X, uint8_t select_pins);
 bool GPIO_read (GPIO_Type* GPIO_X,uint8_t GPIO_Pin);
 
 #endif
