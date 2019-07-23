@@ -1,7 +1,12 @@
 # Atom Threads porting on STM8L Discovery
 
-This our purpose is make a sample project that run 2 thread with Atom Threads RTOS on STM8L Discovery 
+This our purpose is make a sample project that run 2 thread with Atom Threads RTOS on STM8L Discovery  
 [![Build Status](https://travis-ci.org/wathui99/FPT_Lab.svg?branch=master)](https://travis-ci.org/wathui99/FPT_Lab)
+[![Documentation Status](https://readthedocs.org/projects/atomthreadsportingstm8ldiscovery/badge/?version=latest)](https://atomthreadsportingstm8ldiscovery.readthedocs.io/en/latest/?badge=latest)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Join the chat at https://gitter.im/FPT_Lab/community](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![HitCount](http://hits.dwyl.io/wathui99/FPT_Lab.svg)](http://hits.dwyl.io/wathui99/FPT_Lab)
 
 ## Getting Started
 
