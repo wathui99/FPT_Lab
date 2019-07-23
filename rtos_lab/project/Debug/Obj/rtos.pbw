@@ -17329,41 +17329,41 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@59@macro@DEBUG",
+    "ID": "c:main.c@76@macro@RELEASE",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "DEBUG",
+    "display": "RELEASE",
     "location": {
       "column": "9",
-      "line": "5",
+      "line": "6",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
-    "name": "DEBUG",
+    "name": "RELEASE",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@164@macro@DEBUG",
+    "ID": "c:main.c@113@macro@printf",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "DEBUG",
+    "display": "printf",
     "location": {
       "column": "9",
-      "line": "12",
+      "line": "10",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
-    "name": "DEBUG",
+    "name": "printf",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@189@macro@IDLE_STACK_SIZE_BYTES",
+    "ID": "c:main.c@166@macro@IDLE_STACK_SIZE_BYTES",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IDLE_STACK_SIZE_BYTES",
     "location": {
       "column": "9",
-      "line": "15",
+      "line": "16",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "IDLE_STACK_SIZE_BYTES",
@@ -17371,13 +17371,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@230@macro@MAIN_STACK_SIZE_BYTES",
+    "ID": "c:main.c@207@macro@MAIN_STACK_SIZE_BYTES",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "MAIN_STACK_SIZE_BYTES",
     "location": {
       "column": "9",
-      "line": "16",
+      "line": "17",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "MAIN_STACK_SIZE_BYTES",
@@ -17391,7 +17391,7 @@
     "display": "delay_time",
     "location": {
       "column": "9",
-      "line": "20",
+      "line": "21",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "delay_time",
@@ -17405,7 +17405,7 @@
     "display": "semLCD",
     "location": {
       "column": "10",
-      "line": "26",
+      "line": "27",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "semLCD",
@@ -17419,7 +17419,7 @@
     "display": "semDelayTime",
     "location": {
       "column": "10",
-      "line": "27",
+      "line": "28",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "semDelayTime",
@@ -17433,7 +17433,7 @@
     "display": "led_thread_tcb",
     "location": {
       "column": "17",
-      "line": "30",
+      "line": "31",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "led_thread_tcb",
@@ -17447,7 +17447,7 @@
     "display": "button_thread_tcb",
     "location": {
       "column": "17",
-      "line": "31",
+      "line": "32",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "button_thread_tcb",
@@ -17461,7 +17461,7 @@
     "display": "display_thread_tcb",
     "location": {
       "column": "17",
-      "line": "32",
+      "line": "33",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "display_thread_tcb",
@@ -17475,7 +17475,7 @@
     "display": "led_thread_stack",
     "location": {
       "column": "21",
-      "line": "35",
+      "line": "36",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "led_thread_stack",
@@ -17489,7 +17489,7 @@
     "display": "button_thread_stack",
     "location": {
       "column": "21",
-      "line": "37",
+      "line": "38",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "button_thread_stack",
@@ -17503,7 +17503,7 @@
     "display": "display_thread_stack",
     "location": {
       "column": "21",
-      "line": "39",
+      "line": "40",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "display_thread_stack",
@@ -17517,7 +17517,7 @@
     "display": "idle_thread_stack",
     "location": {
       "column": "21",
-      "line": "42",
+      "line": "43",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "idle_thread_stack",
@@ -17531,7 +17531,7 @@
     "display": "void led_thread(uint32_t)",
     "location": {
       "column": "13",
-      "line": "45",
+      "line": "46",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "led_thread",
@@ -17545,7 +17545,7 @@
     "display": "void button_thread(uint32_t)",
     "location": {
       "column": "13",
-      "line": "46",
+      "line": "47",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "button_thread",
@@ -17559,7 +17559,7 @@
     "display": "void display_thread(uint32_t)",
     "location": {
       "column": "13",
-      "line": "47",
+      "line": "48",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "display_thread",
@@ -17573,7 +17573,7 @@
     "display": "void main(void)",
     "location": {
       "column": "18",
-      "line": "49",
+      "line": "50",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "main",
@@ -17581,13 +17581,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1514@F@main@status_led",
+    "ID": "c:main.c@1491@F@main@status_led",
     "What": "Variable",
     "defdec": "Def",
     "display": "status_led",
     "location": {
       "column": "12",
-      "line": "53",
+      "line": "54",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "status_led",
@@ -17595,13 +17595,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1538@F@main@status_button",
+    "ID": "c:main.c@1515@F@main@status_button",
     "What": "Variable",
     "defdec": "Def",
     "display": "status_button",
     "location": {
       "column": "12",
-      "line": "54",
+      "line": "55",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "status_button",
@@ -17609,13 +17609,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1565@F@main@status_display",
+    "ID": "c:main.c@1542@F@main@status_display",
     "What": "Variable",
     "defdec": "Def",
     "display": "status_display",
     "location": {
       "column": "12",
-      "line": "55",
+      "line": "56",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "status_display",
@@ -17629,7 +17629,7 @@
     "display": "void led_thread(uint32_t)",
     "location": {
       "column": "13",
-      "line": "102",
+      "line": "103",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "led_thread",
@@ -17637,13 +17637,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3760@F@led_thread@local_delay_time",
+    "ID": "c:main.c@3737@F@led_thread@local_delay_time",
     "What": "Variable",
     "defdec": "Def",
     "display": "local_delay_time",
     "location": {
       "column": "14",
-      "line": "110",
+      "line": "111",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "local_delay_time",
@@ -17657,7 +17657,7 @@
     "display": "void button_thread(uint32_t)",
     "location": {
       "column": "13",
-      "line": "121",
+      "line": "122",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "button_thread",
@@ -17671,53 +17671,11 @@
     "display": "void display_thread(uint32_t)",
     "location": {
       "column": "13",
-      "line": "142",
+      "line": "143",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "display_thread",
     "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:atomtests.h@1642@macro@__ATOM_TESTS_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__ATOM_TESTS_H",
-    "location": {
-      "column": "9",
-      "line": "31",
-      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\tests\\atomtests.h"
-    },
-    "name": "__ATOM_TESTS_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:atomtests.h@1839@macro@TEST_THREAD_PRIO",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TEST_THREAD_PRIO",
-    "location": {
-      "column": "9",
-      "line": "41",
-      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\tests\\atomtests.h"
-    },
-    "name": "TEST_THREAD_PRIO",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@test_start",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint32_t test_start(void)",
-    "location": {
-      "column": "17",
-      "line": "44",
-      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\tests\\atomtests.h"
-    },
-    "name": "test_start",
-    "origin": "user_include",
     "scope": null
   },
   {
@@ -17801,6 +17759,76 @@
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.h"
     },
     "name": "gbi",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:atomport-tests.h@1647@macro@__ATOM_PORT_TESTS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__ATOM_PORT_TESTS_H",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\ports\\stm8\\atomport-tests.h"
+    },
+    "name": "__ATOM_PORT_TESTS_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:atomport-tests.h@1865@macro@ATOMLOG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ATOMLOG",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\ports\\stm8\\atomport-tests.h"
+    },
+    "name": "ATOMLOG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:atomport-tests.h@2030@macro@_STR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STR",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\ports\\stm8\\atomport-tests.h"
+    },
+    "name": "_STR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:atomport-tests.h@2090@macro@TEST_THREAD_STACK_SIZE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TEST_THREAD_STACK_SIZE",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\ports\\stm8\\atomport-tests.h"
+    },
+    "name": "TEST_THREAD_STACK_SIZE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:atomport-tests.h@2191@macro@TESTS_LOG_STACK_USAGE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TESTS_LOG_STACK_USAGE",
+    "location": {
+      "column": "9",
+      "line": "52",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\ports\\stm8\\atomport-tests.h"
+    },
+    "name": "TESTS_LOG_STACK_USAGE",
     "origin": "user_include",
     "scope": null
   },
@@ -17931,72 +17959,44 @@
     "scope": null
   },
   {
-    "ID": "c:atomport-tests.h@1647@macro@__ATOM_PORT_TESTS_H",
+    "ID": "c:atomtests.h@1642@macro@__ATOM_TESTS_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__ATOM_PORT_TESTS_H",
+    "display": "__ATOM_TESTS_H",
     "location": {
       "column": "9",
       "line": "31",
-      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\ports\\stm8\\atomport-tests.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\tests\\atomtests.h"
     },
-    "name": "__ATOM_PORT_TESTS_H",
+    "name": "__ATOM_TESTS_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:atomport-tests.h@1865@macro@ATOMLOG",
+    "ID": "c:atomtests.h@1839@macro@TEST_THREAD_PRIO",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "ATOMLOG",
+    "display": "TEST_THREAD_PRIO",
     "location": {
       "column": "9",
-      "line": "40",
-      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\ports\\stm8\\atomport-tests.h"
+      "line": "41",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\tests\\atomtests.h"
     },
-    "name": "ATOMLOG",
+    "name": "TEST_THREAD_PRIO",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:atomport-tests.h@2030@macro@_STR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STR",
+    "ID": "c:@F@test_start",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t test_start(void)",
     "location": {
-      "column": "9",
-      "line": "46",
-      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\ports\\stm8\\atomport-tests.h"
+      "column": "17",
+      "line": "44",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\tests\\atomtests.h"
     },
-    "name": "_STR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:atomport-tests.h@2090@macro@TEST_THREAD_STACK_SIZE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TEST_THREAD_STACK_SIZE",
-    "location": {
-      "column": "9",
-      "line": "49",
-      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\ports\\stm8\\atomport-tests.h"
-    },
-    "name": "TEST_THREAD_STACK_SIZE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:atomport-tests.h@2191@macro@TESTS_LOG_STACK_USAGE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TESTS_LOG_STACK_USAGE",
-    "location": {
-      "column": "9",
-      "line": "52",
-      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\ports\\stm8\\atomport-tests.h"
-    },
-    "name": "TESTS_LOG_STACK_USAGE",
+    "name": "test_start",
     "origin": "user_include",
     "scope": null
   }

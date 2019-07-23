@@ -2,12 +2,13 @@
 
 volatile uint32_t cnt = 0;
 
-#define DEBUG
-//#define RELEASE
+//#define DEBUG
+#define RELEASE
 
 #ifdef RELEASE
+
 #define printf(s)
-//#define LCD_printf(s,a)
+
 #else
 #define DEBUG
 #endif
