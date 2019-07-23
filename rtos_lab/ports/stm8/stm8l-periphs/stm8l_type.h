@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file stm8s_type.h
+  * @file stm8l_type.h
   * @brief This file contains all common data types.
   * @author STMicroelectronics - MCD Application Team
   * @version V1.1.1

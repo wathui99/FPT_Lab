@@ -1,3 +1,16 @@
+/**
+  ******************************************************************************
+  * @author  NguyenTranKha
+  * @date    June-2019
+  * @course  FGA-UIT training course
+  ******************************************************************************
+  * @attention
+  * I wrote this libary to use in course only.
+  * Any problem, please contact me at:
+  *        https://github.com/NguyenTranKha
+  ******************************************************************************
+  */ 
+
 #ifndef _STM8L152C6_CLK_H_
 #define _STM8L152C6_CLK_H_
 #include <stdint.h>
