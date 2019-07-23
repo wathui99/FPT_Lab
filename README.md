@@ -1,7 +1,7 @@
 # Atom Threads porting on STM8L Discovery
 
 This our purpose is make a sample project that run 2 thread with Atom Threads RTOS on STM8L Discovery 
-==========
+[![Build Status](https://travis-ci.org/wathui99/FPT_Lab.svg?branch=master)](https://travis-ci.org/wathui99/FPT_Lab)
 
 ## Getting Started
 
