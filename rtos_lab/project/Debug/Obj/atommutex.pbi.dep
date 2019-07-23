@@ -1,8 +1,8 @@
-atommutex.pbi: D:\ThucLT\project\FPT_Lab\rtos_lab\kernel\atommutex.c \
-  D:\ThucLT\project\FPT_Lab\rtos_lab\kernel/atom.h \
-  D:\ThucLT\project\FPT_Lab\rtos_lab\kernel/atomtimer.h \
-  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\ports\stm8\atomport.h \
-  D:\ThucLT\project\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_type.h \
+atommutex.pbi: D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\kernel\atommutex.c \
+  D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\kernel/atom.h \
+  D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\kernel/atomtimer.h \
+  D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\project\..\ports\stm8\atomport.h \
+  D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_type.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stddef.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
@@ -14,4 +14,4 @@ atommutex.pbi: D:\ThucLT\project\FPT_Lab\rtos_lab\kernel\atommutex.c \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
-  D:\ThucLT\project\FPT_Lab\rtos_lab\kernel/atommutex.h
+  D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\kernel/atommutex.h

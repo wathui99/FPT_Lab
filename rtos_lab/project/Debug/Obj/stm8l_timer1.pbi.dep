@@ -1,6 +1,6 @@
 stm8l_timer1.pbi: \
-  D:\ThucLT\project\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs\stm8l_timer1.c \
-  D:\ThucLT\project\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs/stm8l_timer1.h \
+  D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs\stm8l_timer1.c \
+  D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs/stm8l_timer1.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
