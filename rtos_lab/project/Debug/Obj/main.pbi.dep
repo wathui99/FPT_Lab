@@ -2,30 +2,30 @@ main.pbi: \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdarg.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_lcd.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_timer1.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_gpio.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l152c6_clk.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l152c6_clock.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8s_conf.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\tests\atomtests.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_lcd.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_timer1.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_gpio.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l152c6_clk.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l152c6_clock.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8s_conf.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\tests\atomtests.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdio.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\atomport-tests.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\atomport-private.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\kernel\atomsem.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\atomport-tests.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\atomport-private.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\kernel\atomsem.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stddef.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_type.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\atomport.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\kernel\atomtimer.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\kernel\atom.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_type.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\atomport.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\kernel\atomtimer.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\kernel\atom.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ystdio.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\user\main.h \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\user\main.c
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\user\main.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\user\main.c

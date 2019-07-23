@@ -44,6 +44,23 @@ static void display_thread (uint32_t param);
 NO_REG_SAVE void main ( void ){
 
   InitClock_Source(CLK_SYSCLKSource_HSI, CLK_SYSCLKDiv_1); 
+  
+  switch(CLK_GetSYSCLKSource())
+  {
+  case CLK_SYSCLKSource_HSI:
+    printf ("CLK_SYSCLKSource_HSI\n");
+  break;
+  case CLK_SYSCLKSource_HSE:
+    printf ("CLK_SYSCLKSource_HSE\n");
+  break;
+  case CLK_SYSCLKSource_LSI:
+    printf ("CLK_SYSCLKSource_LSI\n");
+  break;
+  case CLK_SYSCLKSource_LSE:
+    printf ("CLK_SYSCLKSource_LSE\n");
+  break;
+  };
+  
   InitClock_Timer();
     int8_t status_led;
     int8_t status_button;

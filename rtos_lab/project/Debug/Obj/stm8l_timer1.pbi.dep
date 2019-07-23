@@ -1,6 +1,6 @@
 stm8l_timer1.pbi: \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs\stm8l_timer1.c \
-  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs/stm8l_timer1.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs\stm8l_timer1.c \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs/stm8l_timer1.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \

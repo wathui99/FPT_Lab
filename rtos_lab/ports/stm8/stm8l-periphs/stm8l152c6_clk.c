@@ -23,7 +23,10 @@ void CLK_SYSCLKDivConfig(CLK_SYSCLKDiv_TypeDef CLK_SYSCLKDiv)
   CLK->CLK_DIVR = (uint8_t)(CLK_SYSCLKDiv);
 };
 void CLK_SYSCLKSourceSwitchCmd(FunctionalState NewState);
-CLK_SYSCLKSource_TypeDef CLK_GetSYSCLKSource(void);
+CLK_SYSCLKSource_TypeDef CLK_GetSYSCLKSource(void)
+{
+  return CLK->CLK_SCSR;
+};
 uint32_t CLK_GetClockFreq(void);
 void CLK_RTCClockConfig(CLK_RTCCLKSource_TypeDef CLK_RTCCLKSource, CLK_RTCCLKDiv_TypeDef CLK_RTCCLKDiv)
 {
