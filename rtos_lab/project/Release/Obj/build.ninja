@@ -1,0 +1,42 @@
+#Generating source browse information for project rtos
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build atomkernel.pbi : index atomkernel.xcl
+build atommutex.pbi : index atommutex.xcl
+build atomqueue.pbi : index atomqueue.xcl
+build atomsem.pbi : index atomsem.xcl
+build atomtimer.pbi : index atomtimer.xcl
+build atomport.pbi : index atomport.xcl
+build stm8l152c6_clk.pbi : index stm8l152c6_clk.xcl
+build stm8l152c6_clock.pbi : index stm8l152c6_clock.xcl
+build stm8l_gpio.pbi : index stm8l_gpio.xcl
+build stm8l_lcd.pbi : index stm8l_lcd.xcl
+build stm8l_timer1.pbi : index stm8l_timer1.xcl
+build main.pbi : index main.xcl
+build rtos_part0.pbi : link atomkernel.pbi atommutex.pbi atomqueue.pbi
+build rtos_part1.pbi : link atomsem.pbi atomtimer.pbi atomport.pbi
+build rtos_part2.pbi : link stm8l152c6_clk.pbi stm8l152c6_clock.pbi stm8l_gpio.pbi
+build rtos_part3.pbi : link stm8l_lcd.pbi stm8l_timer1.pbi main.pbi
+build rtos.pbd : link rtos_part0.pbi rtos_part1.pbi rtos_part2.pbi rtos_part3.pbi
+build rtos.pbw : browsedata rtos.pbd
+
+

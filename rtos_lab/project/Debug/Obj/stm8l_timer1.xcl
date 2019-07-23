@@ -1,42 +1,42 @@
-"D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs\stm8l_timer1.c"
+"C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs\stm8l_timer1.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\project\Debug\Obj\stm8l_timer1.pbi.dep
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\Debug\Obj\stm8l_timer1.pbi.dep
 -o
 stm8l_timer1.pbi
 -I
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs
 -I
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs
 -I
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\project\..\inc
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\inc
 -I
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\project\..\kernel
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\kernel
 -I
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\project\..\ports
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports
 -I
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\project\..\ports\stm8
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8
 -I
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\project\..\tests
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\tests
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 -I
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs
 -I
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\inc
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\inc
 -I
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\kernel
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\kernel
 -I
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\ports
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports
 -I
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\ports\stm8
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8
 -I
-D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\tests
+C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\tests
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -274,6 +274,7 @@ D:\WorkingZone\RTOS\FPT_Lab\rtos_lab\tests
 -D__EDG_ANSIC=1
 -D__EDG_CPP11_IL_EXTENSIONS_SUPPORTED=1
 -DATOM_STACK_CHECKING=1
+-Ddebug=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\LIB\dlstm8smn.h"
 -D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\LIB\\dlstm8smn.h"
 -D__VERSION__="IAR C/C++ Compiler V3.11.1.207 for STM8"

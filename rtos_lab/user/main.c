@@ -2,6 +2,16 @@
 
 volatile uint32_t cnt = 0;
 
+//#define DEBUG
+#define RELEASE
+
+#ifdef RELEASE
+#define printf(s)
+#define LCD_printf(s,a)
+#else
+#define DEBUG
+#endif
+
 #define IDLE_STACK_SIZE_BYTES       128
 #define MAIN_STACK_SIZE_BYTES       384
 
@@ -114,7 +124,7 @@ static void button_thread (uint32_t param){
     /* Init PC7 as output pin */
     gpio_init(Port_C, 0x80, Out_PP_High_Fast );
     /* Init PC1 as input pin without interrupt */
-    gpio_init(Port_C, 0x01, In_Fl_No_IT );
+    gpio_init(Port_C, 0x02, In_Fl_No_IT );
     /* Put a message out on the UART or terminal */
     printf ("button_thread has been created\n");
     while (1){
@@ -132,13 +142,17 @@ static void button_thread (uint32_t param){
 static void display_thread (uint32_t param){
     /* Compiler warnings */
     param = param;
+    #ifdef DEBUG
     /* Enable LCD & RTC clock */
     InitClock_LCD_RTC();
     /* Init LCD */
     config_LCDvsRTC();
     /* Put a message out on the UART or terminal */
+    #endif
     printf ("display_thread has been created\n");
+
     LCD_printf("time %d",delay_time);
+    
     while (1){
        atomSemGet(&semLCD, 0); //request right to print lcd, no time out
        LCD_printf("time %d",delay_time);
