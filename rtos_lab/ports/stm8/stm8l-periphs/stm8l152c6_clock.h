@@ -1,3 +1,16 @@
+/**
+  ******************************************************************************
+  * @author  NguyenTranKha
+  * @date    June-2019
+  * @course  FGA-UIT training course
+  ******************************************************************************
+  * @attention
+  * I wrote this libary to use in course only.
+  * Any problem, please contact me at:
+  *        https://github.com/NguyenTranKha
+  ******************************************************************************
+  */ 
+
 #ifndef __STM8L15x_CLOCK_H
 #define __STM8L15x_CLOCK_H
 

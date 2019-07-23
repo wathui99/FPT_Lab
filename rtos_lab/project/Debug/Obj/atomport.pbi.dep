@@ -1,9 +1,9 @@
 atomport.pbi: \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\atomport.c \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\kernel\atom.h \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\kernel/atomtimer.h \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\atomport.h \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_type.h \
+  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\ports\stm8\atomport.c \
+  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\kernel\atom.h \
+  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\kernel/atomtimer.h \
+  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\ports\stm8\atomport.h \
+  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_type.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stddef.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
@@ -15,5 +15,5 @@ atomport.pbi: \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8/atomport-private.h \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_timer1.h
+  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\ports\stm8/atomport-private.h \
+  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_timer1.h

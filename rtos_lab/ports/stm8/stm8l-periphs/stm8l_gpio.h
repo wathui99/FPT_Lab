@@ -1,3 +1,16 @@
+/**
+  ******************************************************************************
+  * @author  TranQuangDieu
+  * @date    June-2019
+  * @course  FGA-UIT training course
+  ******************************************************************************
+  * @attention
+  * I wrote this libary to use in course only.
+  * Any problem, please contact me at:
+  *        https://github.com/dieutran677
+  ******************************************************************************
+  */ 
+
 #ifndef GPIO
 #define GPIO
 #include "stm8l_type.h"

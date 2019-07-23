@@ -2,22 +2,16 @@
 
 volatile uint32_t cnt = 0;
 
-//#define DEBUG
-#define RELEASE
-
-#ifdef RELEASE
-
-#define printf(s)
-
-#else
 #define DEBUG
+
+#ifndef DEBUG
+  #define printf(s)
 #endif
 
 #define IDLE_STACK_SIZE_BYTES       128
 #define MAIN_STACK_SIZE_BYTES       384
 
 /* Local data */
-
 uint8_t delay_time = 1;
 
 /* Semaphore 
@@ -143,19 +137,16 @@ static void button_thread (uint32_t param){
 static void display_thread (uint32_t param){
     /* Compiler warnings */
     param = param;
-
     /* Enable LCD & RTC clock */
     InitClock_LCD_RTC();
     /* Init LCD */
     config_LCDvsRTC();
     /* Put a message out on the UART or terminal */
-
     printf ("display_thread has been created\n");
-
-    LCD_printf("time %d",delay_time);
-    
+    LCD_printf("time %d",delay_time);    
     while (1){
        atomSemGet(&semLCD, 0); //request right to print lcd, no time out
+       printf ("D\n");
        LCD_printf("time %d",delay_time);
     }
 }

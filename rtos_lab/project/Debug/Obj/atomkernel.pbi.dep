@@ -1,9 +1,9 @@
 atomkernel.pbi: \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\kernel\atomkernel.c \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\kernel/atom.h \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\kernel/atomtimer.h \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\atomport.h \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_type.h \
+  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\kernel\atomkernel.c \
+  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\kernel/atom.h \
+  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\kernel/atomtimer.h \
+  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\atomport.h \
+  C:\Users\hera.fgatraining\Desktop\workspace\FPT_Lab\rtos_lab\project\..\ports\stm8\stm8l-periphs\stm8l_type.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stddef.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \

@@ -1,3 +1,16 @@
+/**
+  ******************************************************************************
+  * @author  LeHoangPhuc
+  * @date    June-2019
+  * @course  FGA-UIT training course
+  ******************************************************************************
+  * @attention
+  * I wrote this libary to use in course only.
+  * Any problem, please contact me at:
+  *        https://github.com/hoangphuc-fn
+  ******************************************************************************
+  */ 
+
 #ifndef _stm8l_lcd_h_
 #define _stm8l_lcd_h_
 
