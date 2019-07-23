@@ -2,12 +2,12 @@
 
 volatile uint32_t cnt = 0;
 
-//#define DEBUG
-#define RELEASE
+#define DEBUG
+//#define RELEASE
 
 #ifdef RELEASE
 #define printf(s)
-#define LCD_printf(s,a)
+//#define LCD_printf(s,a)
 #else
 #define DEBUG
 #endif
@@ -142,13 +142,13 @@ static void button_thread (uint32_t param){
 static void display_thread (uint32_t param){
     /* Compiler warnings */
     param = param;
-    #ifdef DEBUG
+
     /* Enable LCD & RTC clock */
     InitClock_LCD_RTC();
     /* Init LCD */
     config_LCDvsRTC();
     /* Put a message out on the UART or terminal */
-    #endif
+
     printf ("display_thread has been created\n");
 
     LCD_printf("time %d",delay_time);

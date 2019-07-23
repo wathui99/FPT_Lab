@@ -16025,20 +16025,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@Quantumn_time_RoundRobin_10ms",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Quantumn_time_RoundRobin_10ms(void)",
-    "location": {
-      "column": "6",
-      "line": "3",
-      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\ports\\stm8\\stm8l-periphs\\stm8l_timer1.c"
-    },
-    "name": "Quantumn_time_RoundRobin_10ms",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:stm8l.h@1147@macro@__STM8S_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -17343,49 +17329,35 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@76@macro@RELEASE",
+    "ID": "c:main.c@59@macro@DEBUG",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "RELEASE",
+    "display": "DEBUG",
     "location": {
       "column": "9",
-      "line": "6",
+      "line": "5",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
-    "name": "RELEASE",
+    "name": "DEBUG",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@111@macro@printf",
+    "ID": "c:main.c@164@macro@DEBUG",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "printf",
+    "display": "DEBUG",
     "location": {
       "column": "9",
-      "line": "9",
+      "line": "12",
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
-    "name": "printf",
+    "name": "DEBUG",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@130@macro@LCD_printf",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LCD_printf",
-    "location": {
-      "column": "9",
-      "line": "10",
-      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
-    },
-    "name": "LCD_printf",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@187@macro@IDLE_STACK_SIZE_BYTES",
+    "ID": "c:main.c@189@macro@IDLE_STACK_SIZE_BYTES",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IDLE_STACK_SIZE_BYTES",
@@ -17399,7 +17371,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@228@macro@MAIN_STACK_SIZE_BYTES",
+    "ID": "c:main.c@230@macro@MAIN_STACK_SIZE_BYTES",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "MAIN_STACK_SIZE_BYTES",
@@ -17609,7 +17581,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1512@F@main@status_led",
+    "ID": "c:main.c@1514@F@main@status_led",
     "What": "Variable",
     "defdec": "Def",
     "display": "status_led",
@@ -17623,7 +17595,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1536@F@main@status_button",
+    "ID": "c:main.c@1538@F@main@status_button",
     "What": "Variable",
     "defdec": "Def",
     "display": "status_button",
@@ -17637,7 +17609,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1563@F@main@status_display",
+    "ID": "c:main.c@1565@F@main@status_display",
     "What": "Variable",
     "defdec": "Def",
     "display": "status_display",
@@ -17665,7 +17637,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3758@F@led_thread@local_delay_time",
+    "ID": "c:main.c@3760@F@led_thread@local_delay_time",
     "What": "Variable",
     "defdec": "Def",
     "display": "local_delay_time",
@@ -17703,6 +17675,62 @@
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\user\\main.c"
     },
     "name": "display_thread",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:atomtests.h@1642@macro@__ATOM_TESTS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__ATOM_TESTS_H",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\tests\\atomtests.h"
+    },
+    "name": "__ATOM_TESTS_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:atomtests.h@1839@macro@TEST_THREAD_PRIO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TEST_THREAD_PRIO",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\tests\\atomtests.h"
+    },
+    "name": "TEST_THREAD_PRIO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@test_start",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t test_start(void)",
+    "location": {
+      "column": "17",
+      "line": "44",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\tests\\atomtests.h"
+    },
+    "name": "test_start",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Quantumn_time_RoundRobin_10ms",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Quantumn_time_RoundRobin_10ms(void)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\ports\\stm8\\stm8l-periphs\\stm8l_timer1.c"
+    },
+    "name": "Quantumn_time_RoundRobin_10ms",
     "origin": "project_file",
     "scope": null
   },
@@ -17774,48 +17802,6 @@
     },
     "name": "gbi",
     "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ystdio.h@100@macro@_YSTDIO",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_YSTDIO",
-    "location": {
-      "column": "9",
-      "line": "4",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-    },
-    "name": "_YSTDIO",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@remove",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int remove(const char *)",
-    "location": {
-      "column": "18",
-      "line": "62",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-    },
-    "name": "remove",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@rename",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int rename(const char *, const char *)",
-    "location": {
-      "column": "18",
-      "line": "63",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-    },
-    "name": "rename",
-    "origin": "system_include",
     "scope": null
   },
   {
@@ -17903,6 +17889,48 @@
     "scope": null
   },
   {
+    "ID": "c:ystdio.h@100@macro@_YSTDIO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YSTDIO",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+    },
+    "name": "_YSTDIO",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@remove",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int remove(const char *)",
+    "location": {
+      "column": "18",
+      "line": "62",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+    },
+    "name": "remove",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@rename",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int rename(const char *, const char *)",
+    "location": {
+      "column": "18",
+      "line": "63",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+    },
+    "name": "rename",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:atomport-tests.h@1647@macro@__ATOM_PORT_TESTS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -17969,48 +17997,6 @@
       "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\ports\\stm8\\atomport-tests.h"
     },
     "name": "TESTS_LOG_STACK_USAGE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:atomtests.h@1642@macro@__ATOM_TESTS_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__ATOM_TESTS_H",
-    "location": {
-      "column": "9",
-      "line": "31",
-      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\tests\\atomtests.h"
-    },
-    "name": "__ATOM_TESTS_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:atomtests.h@1839@macro@TEST_THREAD_PRIO",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TEST_THREAD_PRIO",
-    "location": {
-      "column": "9",
-      "line": "41",
-      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\tests\\atomtests.h"
-    },
-    "name": "TEST_THREAD_PRIO",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@test_start",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint32_t test_start(void)",
-    "location": {
-      "column": "17",
-      "line": "44",
-      "path": "C:\\Users\\hera.fgatraining\\Desktop\\Workplace\\FPT_Lab\\rtos_lab\\tests\\atomtests.h"
-    },
-    "name": "test_start",
     "origin": "user_include",
     "scope": null
   }

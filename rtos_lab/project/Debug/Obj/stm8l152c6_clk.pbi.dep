@@ -1,11 +1,12 @@
 stm8l152c6_clk.pbi: \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs\stm8l_type.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs\stm8l152c6_clk.c \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs/stm8l152c6_clk.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs\stm8l152c6_clk.h \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs\stm8l152c6_clk.c
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8smn.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs/stm8l_type.h
