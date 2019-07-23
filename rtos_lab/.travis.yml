@@ -2,13 +2,14 @@ sudo: required
 
 language: c
 
-services:
-  - docker
+#services:
+ # - docker
 
-before_install:
-- docker pull kelvinlawson/atomthreads
-- docker pull kelvinlawson/atomthreads-cortex-m
+#before_install:
+#- docker pull kelvinlawson/atomthreads
+#- docker pull kelvinlawson/atomthreads-cortex-m
 
 script:
-    - docker run --rm -v $TRAVIS_BUILD_DIR/:/data -t kelvinlawson/atomthreads /data/tests/commit-tests-arm.sh
-    - docker run --rm -v $TRAVIS_BUILD_DIR/:/data -t kelvinlawson/atomthreads /data/tests/commit-tests-avr.sh
+    #- docker run --rm -v $TRAVIS_BUILD_DIR/:/data -t kelvinlawson/atomthreads /data/tests/commit-tests-arm.sh
+    #- docker run --rm -v $TRAVIS_BUILD_DIR/:/data -t kelvinlawson/atomthreads /data/tests/commit-tests-avr.sh
+    - make user/main.c
