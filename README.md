@@ -99,7 +99,7 @@ By using RELEASE mode, all functions use LCD, Uart,... to debug will be disable,
 * **Trần Quang Diệu** - *Work on GPIO STM8L* - [Contact](https://github.com/PurpleBooth)
 * **Nguyễn Trần Kha** - *Work on clock general* - [Contact](https://github.com/PurpleBooth)
 * **Nguyễn Lương Duy Khánh** *Làm màu nhất nhóm* - [Contact](https://github.com/NguyenLuongDuyKhanh)
-* **Lê Hoàng Phúc** - *Work on Atom Threads* - [Contact](https://github.com/PurpleBooth)
+* **Lê Hoàng Phúc** - *Work on Atom Threads* - [Contact](https://github.com/hoangphuc-fn)
 * **Lê Trọng Thức** - *Work on Atom Threads* - [Contact](https://github.com/wathui99)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
