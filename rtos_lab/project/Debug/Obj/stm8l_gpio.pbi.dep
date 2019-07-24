@@ -1,4 +1,4 @@
 stm8l_gpio.pbi: \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs\stm8l_gpio.c \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs/stm8l_gpio.h \
-  C:\Users\hera.fgatraining\Desktop\Workplace\FPT_Lab\rtos_lab\ports\stm8\stm8l-periphs/stm8l_type.h
+  C:\Users\hera.fgatraining\Desktop\rtos_fix\ports\stm8\stm8l-periphs\stm8l_gpio.c \
+  C:\Users\hera.fgatraining\Desktop\rtos_fix\ports\stm8\stm8l-periphs/stm8l_gpio.h \
+  C:\Users\hera.fgatraining\Desktop\rtos_fix\ports\stm8\stm8l-periphs/stm8l_type.h

@@ -3,6 +3,8 @@
 volatile uint32_t cnt = 0;
 
 #define DEBUG
+//#define EXTI_MODE
+
 
 #ifndef DEBUG
   #define printf(s)
@@ -130,26 +132,62 @@ static void led_thread (uint32_t param){
     }
 }
 
-static void button_thread (uint32_t param){
-    /* Compiler warnings */
-    param = param;
-    /* Init PC7 as output pin */
-    gpio_init(Port_C, 0x80, Out_PP_High_Fast );
-    /* Init PC1 as input pin without interrupt */
-    gpio_init(Port_C, 0x02, In_Fl_No_IT );
-    /* Put a message out on the UART or terminal */
-    printf ("button_thread has been created\n");
-    while (1){
-      if(!GPIO_read(Port_C,0x02)){
-         atomSemGet(&semDelayTime, 0); //request right, no time out
-         delay_time = (delay_time%3) + 1;
-         atomSemPut(&semDelayTime); //increase semaphore delay time
-         atomSemPut(&semLCD); //increase semaphore control LCD
-         Port_C->ODR ^= 0x80;
-         while(!GPIO_read(Port_C,0x02));
+#ifndef EXTI_MODE // pooling mode
+  static void button_thread (uint32_t param){
+      /* Compiler warnings */
+      param = param;
+      /* Init PC7 as output pin */
+      gpio_init(Port_C, 0x80, Out_PP_High_Fast );
+      /* Init PC1 as input pin without interrupt */
+      gpio_init(Port_C, 0x02, In_Fl_No_IT );
+      /* Put a message out on the UART or terminal */
+      printf ("button_thread (no interrupt) has been created\n");
+      while (1){
+        if(!GPIO_read(Port_C,0x02)){
+           atomSemGet(&semDelayTime, 0); //request right, no time out
+           delay_time = (delay_time%3) + 1;
+           atomSemPut(&semDelayTime); //increase semaphore delay time
+           atomSemPut(&semLCD); //increase semaphore control LCD
+           Port_C->ODR ^= 0x80;
+           while(!GPIO_read(Port_C,0x02));
+        }
       }
-    }
-}
+  }
+#else // interrupt mode
+  static void button_thread (uint32_t param){
+      /* Compiler warnings */
+      param = param;
+      /* Init PC7 as output pin */
+      gpio_init(Port_C, 0x80, Out_PP_High_Fast );
+      /* Init PC1 as input pin - interrupt */
+      gpio_init(Port_C, 0x02, In_Fl_IT );
+      /* Falling edge interrupt */
+      EXTI->CR1 |= (1<<3);    
+      __enable_interrupt();
+      /* Put a message out on the UART or terminal */
+      printf ("button_thread (interrupt) has been created\n");
+      while (1){
+        if(!GPIO_read(Port_C,0x02)){
+           atomSemGet(&semDelayTime, 0); //request right, no time out
+           delay_time = (delay_time%3) + 1;
+           atomSemPut(&semDelayTime); //increase semaphore delay time
+           atomSemPut(&semLCD); //increase semaphore control LCD
+           Port_C->ODR ^= 0x80;
+           while(!GPIO_read(Port_C,0x02));
+        }
+      }
+  }
+  #pragma vector=2+9
+  __interrupt void EXTI_Line_1(void){
+    if(gbi(Port_C->IDR,1)){
+       printf ("i\n");
+       delay_time++;
+       if(delay_time>3) delay_time = 1;  
+       atomSemPut(&semLCD); //increase semaphore control LCD
+       sbi(EXTI->SR1,1);
+    } 
+  }
+#endif
 
 static void display_thread (uint32_t param){
     /* Compiler warnings */
@@ -167,3 +205,4 @@ static void display_thread (uint32_t param){
        LCD_printf("time %d",delay_time);
     }
 }
+ 

@@ -1,4 +1,4 @@
-#Generating source browse information for project rtos
+#Generating source browse information for project rtos_fix
 
 
 #Abbreviations
@@ -32,11 +32,11 @@ build stm8l_gpio.pbi : index stm8l_gpio.xcl
 build stm8l_lcd.pbi : index stm8l_lcd.xcl
 build stm8l_timer1.pbi : index stm8l_timer1.xcl
 build main.pbi : index main.xcl
-build rtos_part0.pbi : link atomkernel.pbi atommutex.pbi atomqueue.pbi
-build rtos_part1.pbi : link atomsem.pbi atomtimer.pbi atomport.pbi
-build rtos_part2.pbi : link stm8l152c6_clk.pbi stm8l152c6_clock.pbi stm8l_gpio.pbi
-build rtos_part3.pbi : link stm8l_lcd.pbi stm8l_timer1.pbi main.pbi
-build rtos.pbd : link rtos_part0.pbi rtos_part1.pbi rtos_part2.pbi rtos_part3.pbi
-build rtos.pbw : browsedata rtos.pbd
+build rtos_fix_part0.pbi : link atomkernel.pbi atommutex.pbi atomqueue.pbi
+build rtos_fix_part1.pbi : link atomsem.pbi atomtimer.pbi atomport.pbi
+build rtos_fix_part2.pbi : link stm8l152c6_clk.pbi stm8l152c6_clock.pbi stm8l_gpio.pbi
+build rtos_fix_part3.pbi : link stm8l_lcd.pbi stm8l_timer1.pbi main.pbi
+build rtos_fix.pbd : link rtos_fix_part0.pbi rtos_fix_part1.pbi rtos_fix_part2.pbi rtos_fix_part3.pbi
+build rtos_fix.pbw : browsedata rtos_fix.pbd
 
 
