@@ -24,12 +24,12 @@ Indices and tables
 This our purpose is make a sample project that run 2 thread with Atom Threads RTOS on STM8L Discovery 
 [![Build Status](https://travis-ci.org/wathui99/FPT_Lab.svg?branch=master)](https://travis-ci.org/wathui99/FPT_Lab)
 
-## Getting Started
-
+Getting Started
+==================
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
+Prerequisites
+==================
 What things you need to install the software and how to install them
 1. STM8L Discovery Board
   Ofcourse, we can't run our code in the air, if you're in VietNam, this board is sold at [hshop][Buy STM8L Discovery]
@@ -47,8 +47,8 @@ These are not really nescessary but they make it easier:
 Give examples
 ```
 
-### Installing (must be clean but chưa có gì để viết)
-
+Installing (must be clean but chưa có gì để viết)
+==================
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
@@ -65,19 +65,20 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests (merge còn chưa xong chạy con mẹ gì)
-
+Running the tests (merge còn chưa xong chạy con mẹ gì)
+==================
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
-
+Break down into end to end tests
+==================
 Explain what these tests test and why
 
 ```
 Give an example
 ```
 
-### And coding style tests
+And coding style tests
+==================
 
 This sample follow [Linux kernel convention](https://www.kernel.org/doc/html/v4.10/process/coding-style.html) 
 You can see the following at the top of each header file, that the way we sign.
@@ -96,21 +97,21 @@ You can see the following at the top of each header file, that the way we sign.
   ******************************************************************************
   */ 
 ```
-
-## Deployment
+Deployment
+==================
 
 It has 2 mode: DEBUG and RELEASE, the way to switch is define or undefine macro '''Tụi bây chưa đưa tao cái Macro này''' at the '''test-main.c'''
 By using RELEASE mode, all functions use LCD, Uart,... to debug will be disable, it make CPU recovery resource to perform.
 
-## Built With
-
+Built With
+==================
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
  
 
-## Authors
-
+Authors
+==================
 * **Billie Thompson** - *Initial work* - [Contact](https://github.com/PurpleBooth)
 * **Trần Quang Diệu** - *Work on GPIO STM8L* - [Contact](https://github.com/PurpleBooth)
 * **Nguyễn Trần Kha** - *Work on clock general* - [Contact](https://github.com/PurpleBooth)
@@ -120,12 +121,12 @@ By using RELEASE mode, all functions use LCD, Uart,... to debug will be disable,
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
-
+License
+==================
 This project is licensed under the BSD License (cause the AtomThreads project has it) - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
+Acknowledgments
+==================
 * The honest thanks to Kelvin Lawson with his Atom Threads RTOS, we've learning a lot of news about how an operating system work. We pleasure to become Atom's contributors with this sample porting.
 * Thank our trainers at FPT Golbal Automotive - UIT LAB. Thank to Mr.KietDD, Mr.DanhDC1, Mr.VuCH1, Mr.NguyenTD3, Mr.TraHT, Ms.HueVTT and special, Mr.KhoaHVD with his RTOS lession.
 * Thank to Ngô Lan Hương with [Ngô Lan Hương Offical](https://www.youtube.com/channel/UC6wjclMOHQJwOHrvqVRi5Jw), Hương's channel help us to relax affter work-day.
