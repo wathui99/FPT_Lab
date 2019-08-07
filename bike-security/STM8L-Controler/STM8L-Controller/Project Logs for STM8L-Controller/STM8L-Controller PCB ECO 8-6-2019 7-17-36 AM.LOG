@@ -1,0 +1,13 @@
+Change Component Designator: OldDesignator=Q? NewDesignator=Q7
+Change Component Designator: OldDesignator=Q? NewDesignator=Q8
+Change Net Name : Old Net Name=NetQ?_2 New Net Name=NetQ8_2
+Change Net Name : Old Net Name=NetQ?_3 New Net Name=NetQ7_3
+Added Pin To Net: NetName=NetQ7_2 Pin=Q7-2
+Added Pin To Net: NetName=NetQ7_2 Pin=R14-2
+Added Net: Name=NetQ7_2
+Added Pin To Net: NetName=NetQ8_3 Pin=Q8-3
+Added Pin To Net: NetName=NetQ8_3 Pin=R16-2
+Added Net: Name=NetQ8_3
+Added Member To Class: ClassName=STM8L-Controller Member=Component LED? LED
+Added Member To Class: ClassName=STM8L-Controller Member=Component Q7 2N222
+Added Room: Name=STM8L-Controller

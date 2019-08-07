@@ -1,0 +1,39 @@
+Refer:
+1. CAN SWS Spec and CAN SRS Spec (Version 4.3.0)
+2. CAN HW UM of STM32
+
+Investigation:
+1. Initialization process for STM32 HW
+   - Opertion mode
+   - Supported buffer types
+   - Filter list
+   - Interrupt
+   - Proposal for Can_Init() APIs
+
+2. Trasmission Data frame
+   - Transmit Can_Wite
+   - What is differences between buffer type
+   - Follow chart for Seting bufffer data for transmit base On requirement SWS
+
+3. Reception Data frame
+   - POLLING or INTERRUPT
+   - BUFFER TYPEs
+   - Proposal for Can_MainFunction_Read() if polling
+   - Or Proposal for Interrupt handling
+   
+4. Sleep and Wake-up (if HW supports)
+   - If HW supports
+   - Proposal for Can_MainFunction_Wakeup()
+   - Or Interrupt SWS
+   
+WPs:
+1. Proposal by Word document .doc
+   - Describing Functionalities of HW
+   - Follow chart for proposal API
+2. Driver source code
+   - Can.c
+   - Can.h
+3. Proposal SamepleApp for Transmiting CAN data frame (if any)
+   - Sequence of API need be called?
+   - E.g: Can_Init()
+   
